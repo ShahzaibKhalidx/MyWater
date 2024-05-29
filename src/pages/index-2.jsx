@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
@@ -6,38 +7,48 @@ import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 import { getSortedTeamData } from "@library/team";
 
-import Services2Section from "@components/sections/Services2"
-import PricingSection from "@components/sections/Pricing"
-import Team2Section from "@components/sections/Team2"
-import CallToAction2Section from "@components/sections/CallToAction2"
+import { circleText } from "@common/utilits";
+
+//import HeroSection from "@components/sections/Hero";
+import ServicesSection from "@components/sections/Services";
+import AboutSection from "@components/sections/About";
+import ShowcaseSection from "@components/sections/Showcase";
+import TeamSection from "@components/sections/Team";
+import VideoSection from "@components/sections/Video";
+import CountersSection from "@components/sections/Counters";
+import CallToActionSection from "@components/sections/CallToAction";
+import LatestPostsSection from "@components/sections/LatestPosts";
 import PartnersSection from "@components/sections/Partners"
 
-const Hero2Slider = dynamic( () => import("@components/sliders/Hero2"), { ssr: false } );
-const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
-const Testimonial2Slider = dynamic( () => import("@components/sliders/Testimonial2"), { ssr: false } );
-const LatestPostsSlider = dynamic( () => import("@components/sliders/LatestPosts"), { ssr: false } );
+const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
+const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
+const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 
-const ProjectsSection = dynamic( () => import("@components/sections/Projects"), { ssr: false } );
+const Home1 = (props) => {
+  useEffect(() => {
+    circleText();
+  }, []);
 
-const Home2 = (props) => {
   return (
-    <Layouts header={2} footer={2}>
+    <Layouts>
       <>
-        <Hero2Slider />
-        <Services2Section />
-        <HistorySlider />
-        <ProjectsSection projects={props.projects} />
-        <PricingSection bg={"bg"} />
-        <Team2Section team={props.team} />
-        <Testimonial2Slider />
-        <LatestPostsSlider posts={props.posts} />
-        <CallToAction2Section />
+        <HeroSection />
+        <ServicesSection />
+        <AboutSection />
+        <TickerSlider />
+        <ShowcaseSection projects={props.projects} />
+        <TeamSection team={props.team} />
+        <TestimonialSlider />
+        <VideoSection />
+        <CountersSection />
+        <CallToActionSection />
+        <LatestPostsSection posts={props.posts} />
         <PartnersSection />
       </>
     </Layouts>
   );
 };
-export default Home2;
+export default Home1;
 
 export async function getStaticProps() {
   const allPosts = getSortedPostsData();
