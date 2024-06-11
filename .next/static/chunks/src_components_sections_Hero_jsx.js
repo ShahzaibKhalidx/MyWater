@@ -89,7 +89,7 @@ eval(__webpack_require__.ts("(function (global, factory) {\n\t true ? module.exp
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"video":"/video/stvideo2.mp4","title":{"text":"MyWater <br/>Drink Smart","icon":"/images/title_icon.svg"},"subtitle":"Creative studio at the <br/> intersection of art, design <br/> and technology."}');
+module.exports = JSON.parse('{"video":"/video/svideo.mp4","title":{"text":"Think Smart <br/>Drink Smart","icon":"/images/title_icon.svg"},"subtitle":"Turn your tap water <br/> into purified, mineralized, <br/> still or sparkling water."}');
 
 /***/ })
 

@@ -19,6 +19,16 @@ Version: 1.0
 	-webkit-box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'Nourd';
+	src: url('../../../public/fonts/nourd_regular.ttf');
+}
+
+@font-face {
+	font-family: 'Nourd_Bold';
+	src: url('../../../public/fonts/nourd_bold.ttf');
+}
+
 ::-webkit-input-placeholder {
 	color: rgba(0, 0, 0, 0.5);
 }
@@ -43,7 +53,7 @@ body {
 	height: auto !important;
 	font-size: 18px;
 	color: #1B252E;
-	font-family: "Epilogue", sans-serif;
+	font-family: "Nourd", sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
 	-webkit-font-smoothing: antialiased;
@@ -86,7 +96,7 @@ img {
 input,
 textarea,
 button {
-	font-family: "Epilogue";
+	font-family: "Nourd";
 }
 
 label {
@@ -376,7 +386,7 @@ h4,
 h5,
 h6 {
 	font-weight: 600;
-	font-family: "Epilogue";
+	font-family: "Nourd_Bold";
 	margin: 0;
 	margin-bottom: 15px;
 	color: #000;
@@ -684,7 +694,7 @@ label,
 legend {
 	display: block;
 	padding-bottom: 20px;
-	font-family: "Epilogue";
+	font-family: "Nourd";
 }
 
 fieldset {
