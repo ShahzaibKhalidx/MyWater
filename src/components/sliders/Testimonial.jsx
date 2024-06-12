@@ -7,7 +7,7 @@ const TestimonialSlider = () => {
   return (
     <>
         {/* Onovo Reviews */}
-        <section className="onovo-section gap-bottom-140">
+        <section className="onovo-section gap-bottom-140 gap-top-140">
             <div className="container">
 
                 {/* Reviews */}

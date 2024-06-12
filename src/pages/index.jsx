@@ -39,15 +39,15 @@ const Home1 = (props) => {
         <AboutSection />
         <TickerSlider />
         <ShowcaseSection projects={props.projects} />
-        <TeamSection team={props.team} />
+        {/* <TeamSection team={props.team} /> */}
         <TestimonialSlider />
         <VideoSection />
         <CountersSection />
         <HistorySlider />
         <CallToActionSection />
-        <CallToAction2Section />
+        {/* <CallToAction2Section /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}
-        <PartnersSection />
+        <PartnersSection paddingTop={2}/>
       </>
     </Layouts>
   );

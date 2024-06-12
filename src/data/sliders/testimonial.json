@@ -1,24 +1,24 @@
 {
     "title":  "Testimonials",
     "rating": {
-        "value": "4.0",
+        "value": "4.9",
         "label": "Rating from all Client's"
     },
     "items": [
         {
-            "name": "Thomas Smith",
-            "role": "Customer Support",
-            "text": "Their high level of customer service <br />complemented their technical expertise. <br />They were responsive, supportive, and <br />communicative. Their dedication to <br />the project was impressive."
+            "name": "Umer Hussain",
+            "role": "Facebook",
+            "text": "What a wonderful product and excellent service.. so relaxed by this hassle free product..keep growing!"
         },
         {
-            "name": "Mike Cameron",
-            "role": "Code Quality",
-            "text": "Their high level of customer service <br />complemented their technical expertise. <br />They were responsive, supportive, and <br />communicative. Their dedication to <br />the project was impressive."
+            "name": "Shahroze Ali",
+            "role": "Facebook",
+            "text": "Highly recommended , The best drinking water option available right now is mywater. As a way to rid from plastic water bottles."
         },
         {
-            "name": "Jessica Brown",
-            "role": "Design Quality",
-            "text": "Their high level of customer service <br />complemented their technical expertise. <br />They were responsive, supportive, and <br />communicative. Their dedication to <br />the project was impressive."
+            "name": "Fida Ali",
+            "role": "Facebook",
+            "text": "Highly recommend #mywater gives a better alternate of plastic bottles"
         }
     ]
 }
