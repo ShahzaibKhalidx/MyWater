@@ -74,7 +74,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 						<div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
 
 							{/* Logo */}
-							<div className="onovo-logo-image" style={{"maxWidth": "70px"}}>
+							<div className="onovo-logo-image" style={{"maxWidth": "140px"}}>
 								<Link href="/">
 									<img src={appData.header.logo.image} alt={appData.header.logo.alt} />
                     				<img className="logo--white" src={appData.header.logo.image_white} alt={appData.header.logo.alt} />
@@ -82,14 +82,14 @@ const Header2 = ({ darkHeader, cartButton }) => {
 							</div>
 
 						</div>
-						<div className="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-6 align-self-center align-center m-align-right">
+						<div className="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-9 align-self-center align-center m-align-center">
 
 							{/* Menu Horizontal */}
 							<div className="onovo-menu-horizontal">
 								<ul className="onovo-menu-nav">
 									{navItems.map((item, key) => (
 									<li key={`header-nav-item-${key}`} className={item.classes}>
-										<Link className={item.children ? "onovo-lnk lnk--active onovo-dropdown-toggle" : "onovo-lnk lnk--active"} onClick={item.children != 0 ? (e) => clickedMobileMenuItemParent(e) : ""} href={item.link}>{item.label}</Link>
+										<Link className={item.children ? "onovo-lnk lnk--active onovo-dropdown-toggle text-uppercase" : "onovo-lnk lnk--active text-uppercase"} onClick={item.children != 0 ? (e) => clickedMobileMenuItemParent(e) : ""} href={item.link}>{item.label}</Link>
 										{item.children != 0 &&
 										<i className="icon fas fa-chevron-down" />
 										}
@@ -140,14 +140,13 @@ const Header2 = ({ darkHeader, cartButton }) => {
 							</div>
 
 						</div>
-						<div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right hide-on-mobile-extra">
+						{/* <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right hide-on-mobile-extra">
 
-							{/* Button */}
 							<Link className="onovo-btn onovo-hover-btn btn--active" href={appData.header.button2.link}>
 								<span>{appData.header.button2.label}</span>
 							</Link>
 
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

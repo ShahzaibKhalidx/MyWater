@@ -48,7 +48,7 @@ const HeroSection = () => {
 					<div className="ovrl" style={{"opacity": "0.25"}} />
 				</div>
 				<div className="container">
-					<h1 className="title onovo-text-white">
+					<h1 className="title onovo-text-white text-uppercase">
 						<span data-splitting data-onovo-scroll>
                             <span dangerouslySetInnerHTML={{__html: Data.title.text}} />
                             <span className="onovo-sep word">

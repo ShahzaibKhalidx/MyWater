@@ -5,7 +5,7 @@ const AboutSection = () => {
     return (
       <>
         {/* Onovo About */}
-        <section className="onovo-section gap-bottom-140">
+        <section className="onovo-section gap-bottom-120 gap-top-120" style={{backgroundColor:'#214D9E'}}>
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
@@ -15,10 +15,10 @@ const AboutSection = () => {
 
                     {/* Heading */}
                     <div className="onovo-heading gap-bottom-40">
-                      <div className="onovo-subtitle-1">
+                      <div className="onovo-subtitle-1 text-white">
                         <span>{Data.subtitle}</span>
                       </div>
-                      <h2 className="onovo-title-2">
+                      <h2 className="onovo-title-2 text-white">
                         <span dangerouslySetInnerHTML={{__html: Data.title}} />
                       </h2>
                     </div>
@@ -31,7 +31,7 @@ const AboutSection = () => {
                       <div className="num onovo-text-white">
                         <span>{Data.number.value}</span>
                       </div>
-                      <div className="label onovo-text-black onovo-circle-text-label">
+                      <div className="label onovo-text-white onovo-circle-text-label text-white">
                         {Data.number.label}
                       </div>
                     </div>
@@ -43,10 +43,10 @@ const AboutSection = () => {
                 <div className="row">
                   {Data.items.map((item, key) => (
                   <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h5 className="text-uppercase">{item.title}</h5>
-                    <p dangerouslySetInnerHTML={{__html: item.text}} />
+                    <h5 className="text-uppercase text-white">{item.title}</h5>
+                    <p className="text-white" dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&
-                    <Link className="onovo-btn onovo-hover-btn" href={item.button.link}>
+                    <Link className="onovo-btn onovo-hover-btn" style={{backgroundColor:'#00F6FF'}} href={item.button.link}>
                       <i className="arrow"><span /></i>
                       <span>{item.button.label}</span>
                     </Link>
@@ -63,7 +63,7 @@ const AboutSection = () => {
                   <div className="num onovo-text-white">
                     <span>{Data.number.value}</span>
                   </div>
-                  <div className="label onovo-text-black onovo-circle-text-label">
+                  <div className="label onovo-text-white onovo-circle-text-label">
                     {Data.number.label}
                   </div>
                 </div>
