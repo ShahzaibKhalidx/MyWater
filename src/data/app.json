@@ -167,11 +167,11 @@
             }
         ],
         "button": {
-            "label": "Showcase",
+            "label": "Monthly Rental",
             "link": "/projects"
         },
         "button2": {
-            "label": "Start a Project",
+            "label": "Monthly Rental",
             "link": "/contact"
         }
     },
@@ -212,21 +212,21 @@
                 "alt": "image"
             }
         ],
-        "copy": "© 2024 MYWATER by <a href='' target='blank' class='onovo-lnk lnk--white'>bslthemes Team</a>. All rights reserved."
+        "copy": "© 2024 MYWATER<a href='' target='blank' class='onovo-lnk lnk--white'></a>. All rights reserved."
     },
     "social": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/mywaterpk",
             "icon": "fab fa-facebook",
             "title": "Facebook"
         },
         {
-            "link": "https://twitter.com",
-            "icon": "fab fa-twitter",
-            "title": "Twitter"
+            "link": "https://www.instagram.com/mywaterpk",
+            "icon": "fab fa-instagram",
+            "title": "Instagram"
         },
         {
-            "link": "https://linkedin.com",
+            "link": "https://www.linkedin.com/company/mywaterpk/",
             "icon": "fab fa-linkedin",
             "title": "Linkedin"
         }

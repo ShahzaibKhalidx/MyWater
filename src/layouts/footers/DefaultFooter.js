@@ -15,23 +15,23 @@ const DefaultFooter = () => {
         <footer className="onovo-footer footer--dark">
             <div className="footer--default">
                 <div className="container">
-
+                    {/* ROW Starts */}
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
-                                <h5>Information</h5>
+                                <h5>MYWATER</h5>
                                 <p style={{"opacity": "0.6"}}>From the moment our company was founded, we have helped our clients find exceptional solutions <strong>for their businesses</strong>. </p>
                             </div>
 
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
-                                <h5>Get in Touch</h5>
-                                <p style={{"opacity": "0.6"}}>Baird House, 15-17 St Cross St <br />London EC1N 8UW </p>
+                                <h5>Karachi</h5>
+                                <p style={{"opacity": "0.6"}}>1-D-28, Sector 30, Korangi <br />Industrial Area, Karachi </p>
                                 <p style={{"opacity": "0.6"}}>
                                     <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430 2973</a><br />
                                     <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a>
@@ -39,7 +39,33 @@ const DefaultFooter = () => {
                             </div>
 
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 ">
+
+                            {/* Description */}
+                            <div className="onovo-text onovo-text-white">
+                                <h5>Islamabad</h5>
+                                <p style={{"opacity": "0.6"}}>60-A, F-6, Jinnah Avenue <br />Blue Area, Islamabad </p>
+                                <p style={{"opacity": "0.6"}}>
+                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430 2973</a><br />
+                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 ">
+
+                            {/* Description */}
+                            <div className="onovo-text onovo-text-white">
+                                <h5>Lahore</h5>
+                                <p style={{"opacity": "0.6"}}>344-5, Quaid-e-Azam Industrial Estate, <br />Kot Lakhpat, Lahore 54000 </p>
+                                <p style={{"opacity": "0.6"}}>
+                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430 2973</a><br />
+                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
                             
                             <div className="row">
@@ -54,8 +80,9 @@ const DefaultFooter = () => {
                                 ))}
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
+                    {/* row ends */}
 
                     <div className="separator"></div>
 

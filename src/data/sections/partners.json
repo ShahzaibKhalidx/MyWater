@@ -1,46 +1,46 @@
 {
-    "subtitle": "Fantastic and Premium Clients",
-    "title": "We Have Had the Pleasure of <br/>Working with Some Clients",
+    "subtitle": "MyWater systems have been lab tested from all major labs in Pakistan & aborad.",
+    "title": "Our Devices are Lab Tested<br/> and Certified",
     "items": [
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand1.png"
+            "image": "/images/tested/1.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand2.png"
+            "image": "/images/tested/2.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand3.png"
+            "image": "/images/tested/3.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand4.png"
+            "image": "/images/tested/4.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand5.png"
+            "image": "/images/tested/5.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand6.png"
+            "image": "/images/tested/6.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand7.png"
+            "image": "/images/tested/7.png"
         },
         {
             "link": "https://google.com",
             "label": "Visit Website",
-            "image": "/images/brand2.png"
+            "image": "/images/tested/8.png"
         }
     ]
 }
