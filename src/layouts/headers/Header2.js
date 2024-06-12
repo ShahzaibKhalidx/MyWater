@@ -71,10 +71,10 @@ const Header2 = ({ darkHeader, cartButton }) => {
 			<div className="header--builder">
 				<div className="container">
 					<div className="row">
-						<div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
+						<div className="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-6 align-self-center">
 
 							{/* Logo */}
-							<div className="onovo-logo-image" style={{"maxWidth": "140px"}}>
+							<div className="onovo-logo-image" style={{"maxWidth": "180px"}}>
 								<Link href="/">
 									<img src={appData.header.logo.image} alt={appData.header.logo.alt} />
                     				<img className="logo--white" src={appData.header.logo.image_white} alt={appData.header.logo.alt} />
@@ -82,7 +82,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 							</div>
 
 						</div>
-						<div className="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-9 align-self-center align-center m-align-center">
+						<div className="col-6 col-xs-8 col-sm-8 col-md-4 col-lg-6 align-self-center align-center m-align-center">
 
 							{/* Menu Horizontal */}
 							<div className="onovo-menu-horizontal">
@@ -108,7 +108,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 							</div>
 
 							{/* Menu Hamburger */}
-							<a href="#" className="onovo-menu-btn" style={{"display": "none"}}><span></span></a>
+							<a href="#" onClick={clickedDesktopMenu} className="onovo-menu-btn" style={{"display": "none"}}><span></span></a>
 							<div className="onovo-menu-popup align-left">
 								<div className="onovo-menu-overlay"></div>
 								<div className="onovo-menu-overlay-after"></div>

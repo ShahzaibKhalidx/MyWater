@@ -1,16 +1,16 @@
 {
-    "subtitle": "Our History",
-    "title": "Brands Through Innovation in <br>Digital Transformation.",
+    "subtitle": "Explore Our Water Dispensors",
+    "title": "Discover the Future <br>of Hydration.",
     "button": {
-        "label": "Learn More",
+        "label": "All Products",
         "link": "/about"
     },
     "items": [
         {
-            "image": "/images/post1-1000x667.jpg",
-            "title": "With a Passion for Creation Brands",
-            "subtitle": "1998",
-            "text": "The creative agency studio was founded in 1998 by a group of graphic designers with a passion for creating bold, innovative designs that push boundaries."
+            "image": "/images/products/22.jpeg",
+            "title": "MS-02",
+            "subtitle": "TERRA",
+            "text": "Advanced All-in-One Smart. Perfect for Homes and Small Offices"
         },
         {
             "image": "/images/post1-1000x667.jpg",

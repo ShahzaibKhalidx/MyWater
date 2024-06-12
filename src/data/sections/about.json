@@ -1,18 +1,18 @@
 {
-    "title": "A Design Agency <br/>Delivering Success by <br/>Winning Hearts",
-    "subtitle": "Welcome to MyWater",
+    "title": "Our Vision for a Healthier, Sustainable Future MyWater.",
+    "subtitle": "THE FUTURE OF HYDRATION",
     "number": {
-        "value": "14",
-        "label": "Years of Digital Solutions Experience"
+        "value": "08",
+        "label": "Stages of Advanced Water Purification."
     },
     "items": [
         {
-            "title": "24/7 Monitoring",
-            "text": "We monitor health of each filter in real time using our proprietary sensors and AI software and conduct services promptly to provide world's first predictive maintenance."
+            "title": "Our Vision",
+            "text": "At MyWater®, we're dedicated to redefining your drinking experience. Our mission is clear: deliver the purest form of mineral drinking water through innovative technology and sleek, modern design. But we don't stop at exceptional quality. We go beyond by integrating sustainable practices that contribute to a healthier lifestyle and a cleaner planet."
         },
         {
             "title": "Our Goal",
-            "text": "Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech, entertainment.",
+            "text": "Joining MyWater® means more than enjoying clean water—it means becoming part of a movement. We are dedicated to improving health, protecting the environment, and simplifying hydration with our reliable, user-friendly solutions",
             "button": {
                 "label": "More About Us",
                 "link": "/about"

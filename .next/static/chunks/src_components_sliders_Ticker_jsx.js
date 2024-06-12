@@ -133,7 +133,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"items":[{"label":"- My Water Offers","link":"/services/service-4"},{"label":"- Summer Promo","link":"/services/service-1"},{"label":"- Two Months","link":"/services/service-2"},{"label":"- Free Service","link":"/services/service-3"}]}');
+module.exports = JSON.parse('{"items":[{"label":"- POWERFUL","link":"/services/service-4"},{"label":"- NATURAL","link":"/services/service-1"},{"label":"- PURIFICATION","link":"/services/service-2"},{"label":"- PROCESS","link":"/services/service-3"},{"label":"- POWERFUL","link":"/services/service-4"},{"label":"- NATURAL","link":"/services/service-1"},{"label":"- PURIFICATION","link":"/services/service-2"},{"label":"- PROCESS","link":"/services/service-3"}]}');
 
 /***/ })
 

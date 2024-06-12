@@ -2480,10 +2480,10 @@ a.onovo-head-btn,
 
 @media (min-width: 1025px) {
 	.onovo-menu-horizontal {
-		display: block;
+		display: block !important;
 	}
 	.onovo-menu-horizontal + .onovo-menu-btn {
-		display: none;
+		display: none !important;
 	}
 }
 
@@ -2664,9 +2664,9 @@ a.onovo-menu-btn,
 }
 
 .onovo-menu-popup.menu--visible {
-	opacity: 1;
-	visibility: visible;
-	z-index: 0;
+	opacity: 1 !important;
+	visibility: visible !important;
+	z-index: 0 !important;
 }
 
 .onovo-menu-overlay,
@@ -6303,7 +6303,7 @@ body .onovo-subscribe-form .submit-container {
 	font-size: 90px;
 	font-weight: 700;
 	line-height: 1;
-	text-shadow: 3px 3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, -3px -3px 0 #000;
+	text-shadow: 3px 3px 0 #0A195D, -3px 3px 0 #0A195D, 3px -3px 0 #0A195D, -3px -3px 0 #0A195D;
 }
 
 .onovo-history-item .title {

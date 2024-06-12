@@ -1,5 +1,5 @@
 import Data from "@data/sections/showcase.json";
-import Link from "next/link";
+import Link from "next/link"; 
 import { useEffect } from "react";
 
 import { showcaseHover } from "@common/utilits";

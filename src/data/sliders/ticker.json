@@ -1,19 +1,35 @@
 {
     "items": [
         {
-            "label": "- My Water Offers",
+            "label": "- POWERFUL",
             "link": "/services/service-4"
         },
         {
-            "label": "- Summer Promo",
+            "label": "- NATURAL",
             "link": "/services/service-1"
         },
         {
-            "label": "- Two Months",
+            "label": "- PURIFICATION",
             "link": "/services/service-2"
         },
         {
-            "label": "- Free Service",
+            "label": "- PROCESS",
+            "link": "/services/service-3"
+        },
+        {
+            "label": "- POWERFUL",
+            "link": "/services/service-4"
+        },
+        {
+            "label": "- NATURAL",
+            "link": "/services/service-1"
+        },
+        {
+            "label": "- PURIFICATION",
+            "link": "/services/service-2"
+        },
+        {
+            "label": "- PROCESS",
             "link": "/services/service-3"
         }
     ]
