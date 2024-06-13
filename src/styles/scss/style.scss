@@ -1688,13 +1688,13 @@ button > span,
 	display: flex;
 	width: 70px;
 	height: 70px;
-	border: 1px solid #3E3E3E;
+	border: 1px solid #EDEFF0;
 	border-radius: 70px;
 	align-items: center;
 	justify-content: center;
 	font-size: 22px;
 	font-weight: 700;
-	color: #666;
+	color: #fff;
 	transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 }
@@ -3042,7 +3042,7 @@ a.onovo-menu-btn,
 }
 
 .onovo-footer.footer--dark {
-	background: #0A195D;
+	background: #214D9E;
 }
 
 .onovo-footer.footer--white {

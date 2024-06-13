@@ -9,31 +9,41 @@ const Pointers = () => {
 
     // Static Data
     const data = {
-        title: "Discover Our Featured Projects",
-        subtitle: "Showcase",
-        numOfItems: 3,
+        title: "The Mineral Water of Your Choice",
+        subtitle: "Your daily drinking Water",
+        numOfItems: 4,
         projects: [
             {
                 id: "project-1",
-                title: "Modern Water Dispensers",
-                category: "Products",
-                image: "/path/to/image1.jpg"
+                title: "Regular Mineral Water",
+				description: "Medium pH, High TDS",
+                category: "1.",
+                image: "/images/services/a.jpg"
             },
             {
                 id: "project-2",
-                title: "Sustainable Water Solutions",
-                category: "Innovations",
-                image: "/path/to/image2.jpg"
+                title: "Ultra Pure Water",
+				description: "Low pH, Low TDS",
+                category: "2.",
+                image: "/images/services/b.jpg"
             },
             {
                 id: "project-3",
-                title: "Advanced Filtration Systems",
-                category: "Technology",
-                image: "/path/to/image3.jpg"
+                title: "Alkaline Water",
+				description: "High pH, Low TDS",
+                category: "3.",
+                image: "/images/services/c.jpg"
+            },
+			{
+                id: "project-4",
+                title: "Spring Water",
+				description: "Medium pH, Medium TDS",
+                category: "4.",
+                image: "/images/services/d.jpg"
             }
         ],
         button: {
-            label: "View All Projects",
+            label: "Read More",
             link: "/projects"
         }
     };
@@ -50,7 +60,7 @@ const Pointers = () => {
 							<span>{data.subtitle}</span>
 						</div>
 						<h2 className="onovo-title-2">
-							<span>{data.title}</span>
+							The Mineral Water<br/>of Your Choice
 						</h2>
 					</div>
 

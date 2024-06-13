@@ -45,7 +45,7 @@ const HeroSection = () => {
 					<video autoPlay muted={!mute} loop playsInline id="heroVideo">
 						<source src={Data.video} type="video/mp4" />
 					</video>
-					<div className="ovrl" style={{"opacity": "0.25"}} />
+					<div className="ovrl" style={{"opacity": "0.15"}} />
 				</div>
 				<div className="container">
 					<h1 className="title onovo-text-white text-uppercase">

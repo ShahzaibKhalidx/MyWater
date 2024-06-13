@@ -7,34 +7,34 @@
     },
     "items": [
         {
-            "image": "/images/products/22.jpeg",
-            "title": "MS-02",
+            "image": "/images/products/3.png",
             "subtitle": "TERRA",
-            "text": "Advanced All-in-One Smart. Perfect for Homes and Small Offices"
+            "title": "MS-02",
+            "text": "Advanced All-in-One Smart | Perfect for Homes and Small Offices"
         },
         {
-            "image": "/images/post1-1000x667.jpg",
-            "subtitle": "2004",
-            "title": "Small Startups to Large Corporations",
-            "text": "Over the years, the studio has worked with a diverse range of clients, from small startups to large multinational corporations, always striving to deliver unique and impactful design solutions."
+            "image": "/images/products/4.png",
+            "subtitle": "TERRA",
+            "title": "MS-03",
+            "text": "Innovative Intuitive Expansive | Perfect for offices and Work Spaces."
         },
         {
-            "image": "/images/post1-1000x667.jpg",
-            "subtitle": "2011",
-            "title": "Branding for a Diverse of Clients",
-            "text": "Over the years, the studio has grown and expanded, moving to a larger space and adding new team members with expertise in web development, social media, and digital marketing."
+            "image": "/images/products/5.png",
+            "subtitle": "NEO",
+            "title": "02",
+            "text": "Compact Versatile Smart | Perfect For Kitchens."
         },
         {
-            "image": "/images/post1-1000x667.jpg",
-            "subtitle": "2015",
-            "title": "Most Trusted &amp; Respected Digital Agency",
-            "text": "Along the way, the team has won numerous awards and accolades for their work, cementing their reputation as one of the most trusted and respected creative agencies in the industry."
+            "image": "/images/products/6.png",
+            "subtitle": "SOLACE",
+            "title": "02",
+            "text": "Universal Versatile Smart | Perfect for Corporates and Institutes."
         },
         {
-            "image": "/images/post1-1000x667.jpg",
-            "subtitle": "Present",
-            "title": "Continues to Push Boundaries &amp; Inspire",
-            "text": "Today, the studio continues to push boundaries and inspire clients with its creative vision and dedication to excellence."
+            "image": "/images/products/7.png",
+            "subtitle": "NEO",
+            "title": "02",
+            "text": "Compact Versatile Smart | Perfect For Kitchens."
         }
     ]
 }

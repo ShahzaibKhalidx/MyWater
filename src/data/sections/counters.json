@@ -1,19 +1,19 @@
 {
     "items": [
         {
-            "value": "23",
-            "label": "Team members",
-            "after": ""
+            "value": "100",
+            "label": "Litres of Water",
+            "after": "K"
         },
         {
-            "value": "99",
-            "label": "Completed projects",
-            "after": "+"
-        },
-        {
-            "value": "12",
-            "label": "Lines of code",
+            "value": "73",
+            "label": "Bottles Saved",
             "after": "M"
+        },
+        {
+            "value": "5",
+            "label": "Happy Customers",
+            "after": "K"
         }
     ]
 }
