@@ -30,7 +30,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 255, 0.1); // Semi-transparent overlay
+        background: #0a195d2e; // Semi-transparent overlay
         z-index: 2;
     }
 
@@ -41,7 +41,7 @@
         padding: 20px;
         
         .title {
-            font-size: 3rem;
+            // font-size: 3rem;
             margin-bottom: 20px;
             color:#EDEFF0;
             text-transform: uppercase;
@@ -56,11 +56,12 @@
         .subtitle {
             font-size: 1.3rem;
             margin-bottom: 30px;
-            max-width: 55%;
             margin: 0px auto 30px auto;
 
             @media (min-width: 768px) {
                 font-size: 1.3rem;
+                max-width: 55%;
+                
             }
         }
     }
