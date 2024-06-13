@@ -21,6 +21,7 @@ import CallToAction2Section from "@components/sections/CallToAction2";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import PartnersSection from "@components/sections/Partners"
 import Pointers from "../components/sections/Pointers";
+import CTASection from "../components/sections/CTASection";
 
 const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
 const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
@@ -46,6 +47,7 @@ const Home1 = (props) => {
         <VideoSection />
         <CountersSection />
         <HistorySlider />
+        <CTASection/>
         {/* <CallToActionSesction /> */}
         {/* <CallToAction2Section /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}
