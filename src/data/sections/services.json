@@ -4,19 +4,19 @@
             "image": "/images/serv-icon1.png",
             "title": "Purification",
             "text": "Experience Freshness on Demand: My Water transforms tap water into refreshing mineral water in moments—not days. Say goodbye to the risks of pre-stored, plastic-bottled water.",
-            "link": "/services/service-1"
+            "link": ""
         },
         {
             "image": "/images/serv-icon2.png",
             "title": "No Bottles",
             "text": "Unbottle Your Hydration: Enjoy endless mineral water with our hassle-free monthly subscription. We handle everything from filter replacements to system maintenance, so you can sip without worry.",
-            "link": "/services/service-2"
+            "link": ""
         },
         {
             "image": "/images/serv-icon3.png",
             "title": "Cost Saving",
             "text": "Quench More, Spend Less: Cut your monthly expenses on bottled water by up to 70%. Invest in sustainability and savings with our smart purification technology",
-            "link": "/services/service-3"
+            "link": ""
         }
     ]
 }

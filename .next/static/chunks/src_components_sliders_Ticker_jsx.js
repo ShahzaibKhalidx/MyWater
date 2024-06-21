@@ -133,7 +133,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"items":[{"label":"- POWERFUL","link":"/services/service-4"},{"label":"- NATURAL","link":"/services/service-1"},{"label":"- PURIFICATION","link":"/services/service-2"},{"label":"- PROCESS","link":"/services/service-3"},{"label":"- POWERFUL","link":"/services/service-4"},{"label":"- NATURAL","link":"/services/service-1"},{"label":"- PURIFICATION","link":"/services/service-2"},{"label":"- PROCESS","link":"/services/service-3"}]}');
+module.exports = JSON.parse('{"items":[{"label":"- MAKES","link":"/services/service-4"},{"label":"- LIFE","link":"/services/service-1"},{"label":"- EASY","link":"/services/service-2"},{"label":"- ZINDAGI","link":"/services/service-3"},{"label":"- ASAAN","link":"/services/service-4"},{"label":"- BANAO","link":"/services/service-1"},{"label":"- PURE","link":"/services/service-2"},{"label":"- HYDRATION","link":"/services/service-3"}]}');
 
 /***/ })
 

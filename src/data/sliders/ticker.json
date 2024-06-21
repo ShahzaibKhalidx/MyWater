@@ -1,35 +1,35 @@
 {
     "items": [
         {
-            "label": "- POWERFUL",
+            "label": "- MAKES",
             "link": "/services/service-4"
         },
         {
-            "label": "- NATURAL",
+            "label": "- LIFE",
             "link": "/services/service-1"
         },
         {
-            "label": "- PURIFICATION",
+            "label": "- EASY",
             "link": "/services/service-2"
         },
         {
-            "label": "- PROCESS",
+            "label": "- ZINDAGI",
             "link": "/services/service-3"
         },
         {
-            "label": "- POWERFUL",
+            "label": "- ASAAN",
             "link": "/services/service-4"
         },
         {
-            "label": "- NATURAL",
+            "label": "- BANAO",
             "link": "/services/service-1"
         },
         {
-            "label": "- PURIFICATION",
+            "label": "- PURE",
             "link": "/services/service-2"
         },
         {
-            "label": "- PROCESS",
+            "label": "- HYDRATION",
             "link": "/services/service-3"
         }
     ]

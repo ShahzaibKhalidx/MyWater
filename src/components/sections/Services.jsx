@@ -26,7 +26,7 @@ const ServicesSection = () => {
                                 </Link>
                             </div>
                             <h5 className="onovo-title-3">
-                                <a href={item.link}>
+                                <a >
                                     <span>{item.title}</span>
                                 </a>
                             </h5>

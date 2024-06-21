@@ -39,14 +39,14 @@ const Home1 = (props) => {
         <HeroSection />
         <ServicesSection />
         <AboutSection />
+        <HistorySlider />
         <TickerSlider />
         {/* <ShowcaseSection projects={props.projects} /> */}
-        <Pointers/>
+        {/* <Pointers/> */}
         {/* <TeamSection team={props.team} /> */}
         <TestimonialSlider />
         <VideoSection />
         <CountersSection />
-        <HistorySlider />
         <CTASection/>
         {/* <CallToActionSesction /> */}
         {/* <CallToAction2Section /> */}
