@@ -15,6 +15,7 @@ import AboutSection from "@components/sections/About";
 import ShowcaseSection from "@components/sections/Showcase";
 import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
+import VideoSection2 from "@components/sections/Video2";
 import CountersSection from "@components/sections/Counters";
 import CallToActionSection from "@components/sections/CallToAction";
 import CallToAction2Section from "@components/sections/CallToAction2";
@@ -39,6 +40,7 @@ const Home1 = (props) => {
         <HeroSection />
         <ServicesSection />
         <AboutSection />
+        <VideoSection2 />
         <HistorySlider />
         <TickerSlider />
         {/* <ShowcaseSection projects={props.projects} /> */}
