@@ -23,6 +23,7 @@ import LatestPostsSection from "@components/sections/LatestPosts";
 import PartnersSection from "@components/sections/Partners"
 import Pointers from "../components/sections/Pointers";
 import CTASection from "../components/sections/CTASection";
+import MobileApp from "../components/sections/Mobileapp";
 
 const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
 const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
@@ -42,6 +43,7 @@ const Home1 = (props) => {
         <AboutSection />
         <VideoSection2 />
         <HistorySlider />
+        <MobileApp/>
         <TickerSlider />
         {/* <ShowcaseSection projects={props.projects} /> */}
         {/* <Pointers/> */}

@@ -31,7 +31,7 @@
         position: relative;
         z-index: 2;
         padding: 20px;
-        
+
         .heading {
             font-size: 2rem;
             margin-bottom: 20px;
@@ -48,6 +48,177 @@
 
             @media (min-width: 768px) {
                 font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+
+// components/ParallaxSection.module.scss
+
+.mobileSection {
+    color: #EDEFF0;
+    background-color: #ffffff;
+    // padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        padding: 80px 40px;
+    }
+
+    .contentWrapper {
+        // max-width: 1200px;
+        padding: 0px 10%;
+        border-radius: 30px;
+        background-color: #214D9E;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            text-align: left;
+        }
+        @media (max-width: 768px) {
+            border-radius: 0px;
+            padding: 60px 10%;
+        }
+    }
+
+    .textContent {
+        flex: 1;
+        margin-bottom: 40px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+            padding-right: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #EDEFF0;
+            text-transform: uppercase;
+
+            @media (min-width: 768px) {
+                font-size: 2.5rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+
+            @media (min-width: 768px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        .pointers {
+            margin-bottom: 20px;
+
+            .pointerItem {
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                i {
+                    margin-right: 10px;
+                    color: #EDEFF0; // Icon color
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .storeLinks {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+
+            a {
+                display: block;
+                transition: transform 0.3s;
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
+            }
+
+            @media (min-width: 768px) {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .imageWrapper {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        @media (min-width: 768px) {
+            justify-content: flex-end;
+        }
+
+        .phoneImage {
+            width: auto; // Automatically adjust the width based on the height provided in <Image>
+            height: auto;
+            margin: 0 0px;
+            transition: transform 0.3s;
+            transform: rotate(-20deg);
+            z-index: 2;
+            filter: drop-shadow(5px 5px 5px #222); 
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+
+            @media (min-width: 768px) {
+                width: auto; // Automatically adjust the width based on the height provided in <Image>
+                height: auto;
+            }
+            @media (max-width: 768px) {
+                width: 200px;
+            }
+        }
+        .phoneImage2 {
+            width: auto; // Automatically adjust the width based on the height provided in <Image>
+            height: auto;
+            margin: 0 0px;
+            transition: transform 0.3s;
+            transform: translateY(30px);
+            filter: drop-shadow(5px 5px 5px #222); 
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+
+            @media (min-width: 768px) {
+                width: auto; // Automatically adjust the width based on the height provided in <Image>
+                height: auto;
+            }
+            @media (max-width: 768px) {
+                width: 200px;
             }
         }
     }

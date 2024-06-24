@@ -19,7 +19,7 @@ const VideoSection2 = () => {
   return (
     <>
       	{/* Onovo Video */}
-		<section style={{backgroundColor:"#214D93"}} className="onovo-section gap-bottom-120">
+		<section style={{backgroundColor:"#214D9E"}} className="onovo-section gap-bottom-120">
 			<div className="container">
 
 				{/* video */}
