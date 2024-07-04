@@ -31,7 +31,7 @@ const ServicesSection = () => {
                                 </a>
                             </h5>
                             <div className="onovo-text">
-                                <div>
+                                <div style={{lineHeight:"1.2rem"}}>
                                     <p>{item.text}</p>
                                 </div>
                             </div>

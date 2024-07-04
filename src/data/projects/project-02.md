@@ -1,9 +1,9 @@
 ---
 #preview
-title: Market Economy Graphics
-image: /images/project-2-2-1200x982.jpg
-category: Marketing
-category_slug: marketing
+title: TERRA MS-03
+image: /images/products/5.png
+category: Offices
+category_slug: office
 type: UI/UX Design, Mobile Apps, Interactive Design
 team: Alexander Bravo
 date: 2021-2023

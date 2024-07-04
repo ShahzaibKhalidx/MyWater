@@ -1,1 +1,14 @@
-{}
+{
+  "..\\layouts\\Layouts.js -> @components/SplitScrollAnimation": {
+    "id": "..\\layouts\\Layouts.js -> @components/SplitScrollAnimation",
+    "files": [
+      "static/chunks/src_components_SplitScrollAnimation_jsx.js"
+    ]
+  },
+  "products.jsx -> @components/ProjectsGrid": {
+    "id": "products.jsx -> @components/ProjectsGrid",
+    "files": [
+      "static/chunks/src_components_ProjectsGrid_jsx.js"
+    ]
+  }
+}

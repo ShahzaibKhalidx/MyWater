@@ -1,10 +1,10 @@
 ---
 #preview
-title: Museums Art Concept
-image: /images/project-n01-3-1200x900.jpg
-category: Branding
-category_slug: branding
-type: Art Direction, Branding, Interactive Design
+title: TERRA MS-02
+image: /images/products/4.png
+category: Home
+category_slug: home
+type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
 team: Thomas Jackki
 date: 2021-2023
 
@@ -63,7 +63,8 @@ additional:
 
 ### Description
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Air sides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+Complimentary 90-days disinfection and filter replacement Storage capacity of 6L
+Multiple colors to choose from Water quality monitoring app
 
 Global demand for a Circular Economy solution is already high, with global concrete manufacturers engaging with us to **develop specific testing programms**.
 

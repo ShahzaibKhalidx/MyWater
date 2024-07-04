@@ -1,9 +1,9 @@
 ---
 #preview
-title: Headphones 3D Rendering
-image: /images/project-2-1200x988.jpg
-category: Design
-category_slug: design
+title: SOLACE-02
+image: /images/products/6.png
+category: Corporate
+category_slug: corporate
 type: UI/UX Design, Branding, Logo Design
 team: Steven Morrison
 date: 2021-2023

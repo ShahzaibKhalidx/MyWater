@@ -6,20 +6,20 @@
         "portfolio": {
             "categories": [
                 {
-                    "label": "Marketing",
-                    "slug": "marketing"
+                    "label": "Home",
+                    "slug": "home"
                 },
                 {
-                    "label": "Interactive",
-                    "slug": "interactive"
+                    "label": "Offices",
+                    "slug": "office"
                 },
                 {
-                    "label": "Design",
-                    "slug": "design"
+                    "label": "Corporate",
+                    "slug": "corporate"
                 },
                 {
-                    "label": "Branding",
-                    "slug": "branding"
+                    "label": "Institutes",
+                    "slug": "institute"
                 }
             ]
         }
@@ -79,7 +79,7 @@
             },
             {
                 "label": "Products",
-                "link": "/projects",
+                "link": "/products",
                 "children": [
                     {
                         "label": "Projects Grid",

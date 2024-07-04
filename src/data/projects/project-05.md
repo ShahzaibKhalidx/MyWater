@@ -1,9 +1,9 @@
 ---
 #preview
-title: Flower Store Mobile App
-image: /images/project-3-1200x750.jpg
-category: Interactive
-category_slug: interactive
+title: Limited Edition Series
+image: /images/products/7.png
+category: Institutes
+category_slug: institute
 type: Marketing, Rendering, 3D Design
 team: Lina Watson
 date: 2022-2023

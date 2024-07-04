@@ -1,9 +1,9 @@
 ---
 #preview
-title: Business Card Logo
-image: /images/project-4.jpg
-category: Design
-category_slug: design
+title: NEO-02
+image: /images/products/3.png
+category: Home
+category_slug: home
 type: Marketing, Rendering, 3D Design
 team: Lina Watson
 date: 2021-2023
