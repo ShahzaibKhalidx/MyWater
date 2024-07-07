@@ -692,7 +692,7 @@ body .onovo-text-black a {
 p {
 	padding: 0;
 	margin: 20px 0;
-	// line-height: 1.5rem;
+	line-height: 1.5rem;
 }
 
 strong {
@@ -3133,7 +3133,7 @@ a.onovo-menu-btn,
 }
 
 .onovo-footer.footer--dark {
-	background: #214D9E;
+	background: #0A195D;
 }
 
 .onovo-footer.footer--white {
@@ -3142,6 +3142,11 @@ a.onovo-menu-btn,
 
 .onovo-footer .footer--default {
 	padding: 90px 0 30px 0;
+}
+
+.onovo-footer .footer--default h5{
+	font-family: "Nourd";
+	font-weight: 500;
 }
 
 .onovo-footer .copyright {
@@ -5397,6 +5402,7 @@ ul.onovo-footer-menu li {
 
 .onovo-reviews-summary {
 	margin-top: 30px;
+	line-height: 7;
 }
 
 .onovo-reviews-summary .label {

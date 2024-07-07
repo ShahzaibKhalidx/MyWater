@@ -165,10 +165,10 @@ const ProjectDetail = (props) => {
           } */}
         </div>
       </section>
-      <LogoSlider />
+      {/* <LogoSlider /> */}
       <ComparisonChart />
-      <LogoSlider2 />
       <FAQs title="Frequently Asked Questions" items={faqContent.items} />
+      <LogoSlider2 />
       {/* Onovo Navs */}
       <section className="onovo-section">
         <div className="container">

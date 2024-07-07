@@ -8,7 +8,7 @@ const MobileApp = () => {
     const appData = {
         title: "Experience the Pinnacle of Pure Water", // Replace with the desired link
         imageUrl: "/images/services/app2.png",
-        imageUrl2: "/images/services/app2.png" // Replace with actual path to image
+        imageUrl2: "/images/services/app6.png" // Replace with actual path to image
     };
     return (
         <section className={styles.mobileSection}>
