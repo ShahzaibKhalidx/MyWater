@@ -123,13 +123,13 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                             {layout == "grid" &&    
                                 <div className="onovo-portfolio-item">
                                     <div className={masonry ? "image" : "image image-square"} data-onovo-overlay data-onovo-scroll>
-                                        <Link href={galleryMode ? item.image : `/projects/${item.id}`} className="onovo-hover-3">
+                                        <Link href={galleryMode ? item.image : `/products/${item.id}`} className="onovo-hover-3">
                                             <img src={item.image} alt={item.title} />
                                         </Link>
                                     </div>
                                     <div className="desc">
                                         <h5 className="title">
-                                            <Link className="onovo-lnk" href={galleryMode ? item.image : `/projects/${item.id}`}>
+                                            <Link className="onovo-lnk" href={galleryMode ? item.image : `/products/${item.id}`}>
                                                 <span data-splitting data-onovo-scroll>{item.title}</span>
                                             </Link>
                                         </h5>
@@ -155,7 +155,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                                         </div>
                                       </div>
                                       <h5 className="title">
-                                        <Link className="onovo-lnk" href={`/projects/${item.id}`}>
+                                        <Link className="onovo-lnk" href={`/products/${item.id}`}>
                                           <span data-splitting data-onovo-scroll>{item.title}</span>
                                         </Link>
                                       </h5>

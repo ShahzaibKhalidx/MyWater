@@ -177,7 +177,7 @@
         position: relative;
 
         @media (min-width: 768px) {
-            justify-content: flex-end;
+            // justify-content: flex-end;
         }
         
 
@@ -188,7 +188,7 @@
             transition: transform 0.3s;
             transform: rotate(-20deg);
             z-index: 2;
-            filter: drop-shadow(5px 5px 5px #222); 
+            filter: drop-shadow(5px 5px 5px #2222221a); 
 
             &:hover {
                 transform: translateY(-10px);
@@ -208,7 +208,7 @@
             margin: 0 0px;
             transition: transform 0.3s;
             transform: translateY(30px);
-            filter: drop-shadow(5px 5px 5px #222); 
+            filter: drop-shadow(5px 5px 5px #22222221); 
 
             &:hover {
                 transform: translateY(-10px);

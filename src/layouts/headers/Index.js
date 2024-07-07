@@ -1,5 +1,6 @@
 import DefaultHeader from "./DefaultHeader";
 import Header2 from "./Header2";
+import Header3 from "./Header3";
 
 const Header = ({ header, darkHeader, cartButton }) => {
   switch (header) {
@@ -14,6 +15,14 @@ const Header = ({ header, darkHeader, cartButton }) => {
     case 2:
       return (
         <Header2
+          darkHeader={darkHeader}
+          cartButton={cartButton}
+        />
+      );
+
+    case 3:
+      return (
+        <Header3 
           darkHeader={darkHeader}
           cartButton={cartButton}
         />

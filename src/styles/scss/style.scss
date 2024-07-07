@@ -111,7 +111,8 @@ form p {
 	margin: 0 0 15px 0;
 }
 
-b, strong {
+b,
+strong {
 	font-weight: 700;
 }
 
@@ -159,7 +160,7 @@ b, strong {
 	align-items: center;
 }
 
-.onovo-section-full > div {
+.onovo-section-full>div {
 	position: relative;
 }
 
@@ -191,7 +192,7 @@ b, strong {
 	margin-top: -30px;
 }
 
-.row.gap-row > div {
+.row.gap-row>div {
 	margin-top: 30px;
 }
 
@@ -305,69 +306,91 @@ b, strong {
 	.gap-140 {
 		padding: 80px 50px;
 	}
+
 	.gap-top-140 {
 		padding-top: 80px;
 	}
+
 	.gap-top-130 {
 		padding-top: 65px;
 	}
+
 	.gap-top-120 {
 		padding-top: 60px;
 	}
+
 	.gap-top-110 {
 		padding-top: 55px;
 	}
+
 	.gap-top-100 {
 		padding-top: 50px;
 	}
+
 	.gap-top-90 {
 		padding-top: 45px;
 	}
+
 	.gap-top-80 {
 		padding-top: 40px;
 	}
+
 	.gap-top-70 {
 		padding-top: 35px;
 	}
+
 	.gap-top-60 {
 		padding-top: 30px;
 	}
+
 	.gap-top-50 {
 		padding-top: 30px;
 	}
+
 	.gap-top-40 {
 		padding-top: 30px;
 	}
+
 	.gap-bottom-140 {
 		padding-bottom: 80px;
 	}
+
 	.gap-bottom-130 {
 		padding-bottom: 65px;
 	}
+
 	.gap-bottom-120 {
 		padding-bottom: 60px;
 	}
+
 	.gap-bottom-110 {
 		padding-bottom: 55px;
 	}
+
 	.gap-bottom-100 {
 		padding-bottom: 50px;
 	}
+
 	.gap-bottom-90 {
 		padding-bottom: 45px;
 	}
+
 	.gap-bottom-80 {
 		padding-bottom: 40px;
 	}
+
 	.gap-bottom-70 {
 		padding-bottom: 35px;
 	}
+
 	.gap-bottom-60 {
 		padding-bottom: 30px;
 	}
+
 	.gap-bottom-50 {
 		padding-bottom: 30px;
 	}
+
 	.gap-bottom-40 {
 		padding-bottom: 30px;
 	}
@@ -495,21 +518,27 @@ h6.onovo-title-3,
 	h1 {
 		font-size: 60px;
 	}
+
 	h2 {
 		font-size: 50px;
 	}
+
 	h3 {
 		font-size: 40px;
 	}
+
 	h4 {
 		font-size: 30px;
 	}
+
 	h5 {
 		font-size: 20px;
 	}
+
 	h6 {
 		font-size: 18px;
 	}
+
 	h1.onovo-title-1,
 	h2.onovo-title-1,
 	h3.onovo-title-1,
@@ -520,6 +549,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 60px;
 	}
+
 	h1.onovo-title-2,
 	h2.onovo-title-2,
 	h3.onovo-title-2,
@@ -530,6 +560,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 50px;
 	}
+
 	h1.onovo-title-3,
 	h2.onovo-title-3,
 	h3.onovo-title-3,
@@ -540,6 +571,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 40px;
 	}
+
 	h1.onovo-title-1 br,
 	h2.onovo-title-1 br,
 	h3.onovo-title-1 br,
@@ -549,6 +581,7 @@ h6.onovo-title-3,
 	.onovo-title-1 br {
 		display: none;
 	}
+
 	h1.onovo-title-2 br,
 	h2.onovo-title-2 br,
 	h3.onovo-title-2 br,
@@ -558,6 +591,7 @@ h6.onovo-title-3,
 	.onovo-title-2 br {
 		display: none;
 	}
+
 	h1.onovo-title-3 br,
 	h2.onovo-title-3 br,
 	h3.onovo-title-3 br,
@@ -573,21 +607,27 @@ h6.onovo-title-3,
 	h1 {
 		font-size: 42px;
 	}
+
 	h2 {
 		font-size: 38px;
 	}
+
 	h3 {
 		font-size: 32px;
 	}
+
 	h4 {
 		font-size: 26px;
 	}
+
 	h5 {
 		font-size: 20px;
 	}
+
 	h6 {
 		font-size: 18px;
 	}
+
 	h1.onovo-title-1,
 	h2.onovo-title-1,
 	h3.onovo-title-1,
@@ -598,6 +638,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 42px;
 	}
+
 	h1.onovo-title-2,
 	h2.onovo-title-2,
 	h3.onovo-title-2,
@@ -608,6 +649,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 38px;
 	}
+
 	h1.onovo-title-3,
 	h2.onovo-title-3,
 	h3.onovo-title-3,
@@ -618,6 +660,7 @@ h6.onovo-title-3,
 		margin: 0;
 		font-size: 32px;
 	}
+
 	html,
 	body {
 		font-size: 16px;
@@ -649,7 +692,7 @@ body .onovo-text-black a {
 p {
 	padding: 0;
 	margin: 20px 0;
-	line-height: 1.5rem;
+	// line-height: 1.5rem;
 }
 
 strong {
@@ -683,7 +726,7 @@ textarea {
 }
 
 textarea {
-	height: 125px!important;
+	height: 125px !important;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	resize: none;
@@ -894,19 +937,19 @@ hr {
 	pointer-events: none;
 }
 
-.onovo-contact-info > ul {
+.onovo-contact-info>ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.onovo-contact-info > ul > li {
+.onovo-contact-info>ul>li {
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 	border-bottom: 2px solid #3E3E3E;
 }
 
-.onovo-contact-info > ul > li:last-child {
+.onovo-contact-info>ul>li:last-child {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	border-bottom: none;
@@ -1032,12 +1075,14 @@ hr {
 		float: none;
 		max-width: 100%;
 	}
+
 	.alignleft {
 		margin-right: 0px;
 		margin-bottom: 30px;
 		float: none;
 		max-width: 100%;
 	}
+
 	.wp-block-image .alignright,
 	.wp-block-image .alignleft {
 		max-width: 50%;
@@ -1048,9 +1093,11 @@ hr {
 	.m-align-left {
 		text-align: left !important;
 	}
+
 	.m-align-center {
 		text-align: center !important;
 	}
+
 	.m-align-right {
 		text-align: right !important;
 	}
@@ -1060,19 +1107,24 @@ hr {
 .onovo-circle-move {
 	animation: onovo-circle-move 6s infinite ease-in-out;
 }
+
 @keyframes onovo-circle-move {
 	0% {
 		transform: translate(0px, 0px);
 	}
+
 	25% {
 		transform: translate(4px, 4px);
 	}
+
 	50% {
 		transform: translate(0px, 4px);
 	}
+
 	75% {
 		transform: translate(-4px, 0px);
 	}
+
 	100% {
 		transform: translate(0px, 0px);
 	}
@@ -1180,11 +1232,11 @@ hr {
 }
 
 .onovo-hover-black-30::before {
-	background: rgba(0,0,0,0.3) !important;
+	background: rgba(0, 0, 0, 0.3) !important;
 }
 
-.onovo-hover-btn > .arrow::after,
-.onovo-hover-btn > i::after {
+.onovo-hover-btn>.arrow::after,
+.onovo-hover-btn>i::after {
 	margin: 0;
 	content: '';
 	position: absolute;
@@ -1237,8 +1289,8 @@ hr {
 	transform-origin: top center;
 }
 
-.onovo-hover-btn:hover > .arrow::after,
-.onovo-hover-btn:hover > i::after {
+.onovo-hover-btn:hover>.arrow::after,
+.onovo-hover-btn:hover>i::after {
 	transform: scale(1);
 	-webkit-transform: scale(1);
 }
@@ -1351,10 +1403,10 @@ a.onovo-btn-circle,
 	height: 66px;
 	line-height: 66px;
 	text-decoration: none;
-	outline: none!important;
+	outline: none !important;
 	cursor: pointer;
 	border: none;
-	box-shadow: none!important;
+	box-shadow: none !important;
 	text-align: center;
 	background: transparent;
 	border-radius: 66px;
@@ -1658,8 +1710,8 @@ a.onovo-btn.btn--border.btn--color:hover,
 	background: #fff;
 }
 
-.onovo-btn > span,
-button > span,
+.onovo-btn>span,
+button>span,
 .onovo-head-btn span {
 	position: relative;
 	display: inline-block;
@@ -1713,7 +1765,7 @@ button > span,
 }
 
 .onovo--social--dark .onovo-social-1 ul li a::before {
-    background: #282828;
+	background: #282828;
 }
 
 .onovo-social-1 ul li a i,
@@ -1728,7 +1780,7 @@ button > span,
 }
 
 .onovo--social--dark .onovo-social-1 ul li a:hover {
-    border-color: #282828;
+	border-color: #282828;
 }
 
 .onovo-social-2 ul {
@@ -1744,7 +1796,7 @@ button > span,
 	vertical-align: top;
 }
 
-.onovo-social-2 ul li a, 
+.onovo-social-2 ul li a,
 .onovo-social-2 ul li button {
 	position: relative;
 	display: flex;
@@ -1813,7 +1865,7 @@ button > span,
 /* Parallax */
 
 #pp-nav {
-	position: absolute!important;
+	position: absolute !important;
 	right: 50px !important;
 	width: 32px;
 	z-index: 18;
@@ -1841,8 +1893,8 @@ button > span,
 	top: 0;
 	width: 100%;
 	height: 32px;
-	background: transparent!important;
-	border: none!important;
+	background: transparent !important;
+	border: none !important;
 	opacity: 1;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -2057,7 +2109,7 @@ button > span,
 .pager .current,
 .page-links .current {
 	color: #000;
-    background-color: #D8FF36;
+	background-color: #D8FF36;
 }
 
 .onovo-prev,
@@ -2085,7 +2137,7 @@ button > span,
 
 .onovo-prev.nav--white,
 .onovo-next.nav--white {
-	border-color: rgba(255,255,255,0.35);
+	border-color: rgba(255, 255, 255, 0.35);
 }
 
 .onovo-prev i,
@@ -2220,10 +2272,12 @@ button > span,
 		transform: scaleY(1);
 		-webkit-transform: scaleY(1);
 	}
+
 	50% {
 		transform: scaleY(1);
 		-webkit-transform: scaleY(1);
 	}
+
 	100% {
 		transform: scaleY(0);
 		-webkit-transform: scaleY(0);
@@ -2256,10 +2310,12 @@ button > span,
 }
 
 @keyframes bounce {
+
 	0%,
 	100% {
 		transform: scale(0);
 	}
+
 	50% {
 		transform: scale(1);
 	}
@@ -2270,6 +2326,7 @@ button > span,
 }
 
 @media (max-width: 767px) {
+
 	.onovo-prev,
 	.onovo-next,
 	.pager .onovo-prev,
@@ -2278,12 +2335,15 @@ button > span,
 		height: 57px;
 		border-radius: 57px;
 	}
+
 	.pager .onovo-next {
 		margin-left: 15px;
 	}
+
 	.pager .onovo-prev {
 		margin-right: 15px;
 	}
+
 	a.onovo-btn.btn--large,
 	.onovo-btn.btn--large {
 		font-size: 16px;
@@ -2315,14 +2375,14 @@ button > span,
 .onovo-header.sticky {
 	position: fixed;
 	background-color: #fff;
-	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .header--white.onovo-header.sticky {
 	background-color: #214D9E;
 }
 
-.onovo-header .row > div:first-child {
+.onovo-header .row>div:first-child {
 	z-index: 2;
 }
 
@@ -2342,7 +2402,7 @@ button > span,
 }
 
 .slideUp,
-.slideDown{
+.slideDown {
 	transition: all .5s ease-out;
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
@@ -2468,9 +2528,9 @@ a.onovo-head-btn,
 }
 
 .onovo-menu-horizontal ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 @media (max-width: 1024px) {
@@ -2483,7 +2543,8 @@ a.onovo-head-btn,
 	.onovo-menu-horizontal {
 		display: block !important;
 	}
-	.onovo-menu-horizontal + .onovo-menu-btn {
+
+	.onovo-menu-horizontal+.onovo-menu-btn {
 		display: none !important;
 	}
 }
@@ -2496,7 +2557,8 @@ a.onovo-head-btn,
 	position: relative;
 }
 
-.header--white .onovo-menu-horizontal ul li, .header--white .onovo-menu-horizontal ul li a {
+.header--white .onovo-menu-horizontal ul li,
+.header--white .onovo-menu-horizontal ul li a {
 	color: #fff;
 }
 
@@ -2512,7 +2574,7 @@ a.onovo-head-btn,
 }
 
 .onovo-menu-horizontal ul li ul li:hover i {
-    transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
 .onovo-menu-horizontal ul ul {
@@ -2533,11 +2595,11 @@ a.onovo-head-btn,
 }
 
 .onovo-menu-horizontal ul ul ul {
-    left: 100%;
-    margin-left: 0;
+	left: 100%;
+	margin-left: 0;
 }
 
-.onovo-menu-horizontal ul li:hover > ul {
+.onovo-menu-horizontal ul li:hover>ul {
 	transform: translate(0, 40px);
 	-webkit-transform: translate(0, 40px);
 	opacity: 1;
@@ -2545,9 +2607,9 @@ a.onovo-head-btn,
 	pointer-events: auto;
 }
 
-.onovo-menu-horizontal ul li:hover > ul ul {
-    transform: translate(0, 0);
-    -webkit-transform: translate(0, -35px);
+.onovo-menu-horizontal ul li:hover>ul ul {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, -35px);
 }
 
 .onovo-menu-horizontal ul ul:before {
@@ -2561,7 +2623,7 @@ a.onovo-head-btn,
 }
 
 .onovo-menu-horizontal ul ul ul:before {
-    left: 0;
+	left: 0;
 }
 
 .onovo-menu-horizontal ul ul li {
@@ -2725,10 +2787,12 @@ a.onovo-menu-btn,
 		transform: scaleY(1);
 		-webkit-transform: scaleY(1);
 	}
+
 	50% {
 		transform: scaleY(1);
 		-webkit-transform: scaleY(1);
 	}
+
 	100% {
 		transform: scaleY(0);
 		-webkit-transform: scaleY(0);
@@ -2740,6 +2804,7 @@ a.onovo-menu-btn,
 		transform: scaleY(0);
 		-webkit-transform: scaleY(0);
 	}
+
 	100% {
 		transform: scaleY(1);
 		-webkit-transform: scaleY(1);
@@ -2751,10 +2816,12 @@ a.onovo-menu-btn,
 		transform: scale(1);
 		-webkit-transform: scale(1);
 	}
+
 	50% {
 		transform: scale(1);
 		-webkit-transform: scale(1);
 	}
+
 	100% {
 		transform: scale(0);
 		-webkit-transform: scale(0);
@@ -2766,6 +2833,7 @@ a.onovo-menu-btn,
 		transform: scale(0);
 		-webkit-transform: scale(0);
 	}
+
 	100% {
 		transform: scale(1);
 		-webkit-transform: scale(1);
@@ -2809,7 +2877,7 @@ a.onovo-menu-btn,
 	-webkit-transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.onovo-menu .opened > ul.sub-menu {
+.onovo-menu .opened>ul.sub-menu {
 	max-height: 1000px;
 	transition: all 1.2s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all 1.2s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2931,7 +2999,7 @@ a.onovo-menu-btn,
 	-webkit-transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.onovo-menu ul li.opened > .icon {
+.onovo-menu ul li.opened>.icon {
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
@@ -2940,7 +3008,7 @@ a.onovo-menu-btn,
 	text-align: left;
 }
 
-.onovo-menu ul li.current-menu-item > a:after {
+.onovo-menu ul li.current-menu-item>a:after {
 	transform: scaleX(1);
 	-webkit-transform: scaleX(1);
 	transform-origin: bottom left;
@@ -2950,76 +3018,98 @@ a.onovo-menu-btn,
 	.onovo-header-default .onovo-menu ul li {
 		font-size: 48px;
 	}
+
 	.onovo-header-default .onovo-menu ul ul li {
 		font-size: 30px;
 	}
+
 	.onovo-header-default .onovo-menu ul ul ul li {
 		font-size: 22px;
 	}
+
 	.onovo-header-default .onovo-menu ul li .icon {
 		margin-top: 8px;
 		top: 0;
 	}
-	.onovo-header-default .onovo-menu ul li li .icon, .onovo-menu ul li li .icon {
+
+	.onovo-header-default .onovo-menu ul li li .icon,
+	.onovo-menu ul li li .icon {
 		font-size: 20px;
 		margin-top: -2px;
 	}
+
 	.onovo-menu ul.sub-menu ul.sub-menu {
-		background: rgba(255,255,255,0.1);
+		background: rgba(255, 255, 255, 0.1);
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
 	.onovo-menu ul.sub-menu .opened ul.sub-menu {
 		margin-top: 15px;
 	}
 }
 
 @media (max-width: 767px) {
-	.header--builder a.onovo-head-btn, .header--builder .onovo-head-btn {
+
+	.header--builder a.onovo-head-btn,
+	.header--builder .onovo-head-btn {
 		font-size: 0;
 	}
+
 	.onovo-menu {
 		padding-left: 40px;
 	}
+
 	.onovo-menu ul li {
 		margin: 20px 0;
 		font-size: 38px;
 	}
+
 	.onovo-menu ul li a::before {
 		left: -40px;
 		top: 10px;
 		font-size: 12px;
 	}
+
 	.onovo-menu ul li .icon {
-    	margin-left: 8px;
-    	margin-top: 4px;
-    	top: 0;
+		margin-left: 8px;
+		margin-top: 4px;
+		top: 0;
 	}
+
 	.onovo-header-default .onovo-menu ul li {
 		font-size: 28px;
 	}
+
 	.onovo-header-default .onovo-menu ul ul li {
 		font-size: 18px;
 	}
+
 	.onovo-header-default .onovo-menu ul ul ul li {
 		font-size: 16px;
 	}
+
 	.onovo-header-default .onovo-menu ul li .icon {
 		margin-top: -2px;
 	}
-	.onovo-header-default .onovo-menu ul li li .icon, .onovo-menu ul li li .icon {
+
+	.onovo-header-default .onovo-menu ul li li .icon,
+	.onovo-menu ul li li .icon {
 		font-size: 14px;
 		margin-top: -2px;
 		height: 20px;
 		line-height: 20px;
 	}
-	.onovo-header-default > .container > .row > * {
+
+	.onovo-header-default>.container>.row>* {
 		max-width: 50%;
 		width: 50%;
 	}
-	.onovo-menu > ul > li > a {
+
+	.onovo-menu>ul>li>a {
 		color: #fff;
 	}
+
 	.onovo-menu ul.sub-menu .opened ul.sub-menu {
 		margin-top: 5px;
 	}
@@ -3084,9 +3174,11 @@ ul.onovo-footer-menu li {
 @media (max-width: 1024px) {
 	.footer--fixed .wrapper {
 		padding-bottom: 80px;
-		margin-bottom: 0!important;
+		margin-bottom: 0 !important;
 	}
-	.footer--fixed .onovo-footer, .footer--sticky .onovo-footer {
+
+	.footer--fixed .onovo-footer,
+	.footer--sticky .onovo-footer {
 		position: relative;
 	}
 }
@@ -3095,12 +3187,15 @@ ul.onovo-footer-menu li {
 	.onovo-footer .copyright {
 		font-size: 16px;
 	}
+
 	.onovo-footer ul.onovo-footer-menu li {
 		font-size: 16px;
 	}
+
 	.onovo-footer .footer--default {
 		padding: 60px 0 30px 0;
 	}
+
 	.onovo-footer-lnk {
 		font-size: 24px;
 	}
@@ -3252,6 +3347,7 @@ ul.onovo-footer-menu li {
 		bottom: -10px;
 		opacity: 0.31;
 	}
+
 	50% {
 		left: -20px;
 		top: -20px;
@@ -3259,6 +3355,7 @@ ul.onovo-footer-menu li {
 		bottom: -20px;
 		opacity: 0;
 	}
+
 	51% {
 		left: -10px;
 		top: -10px;
@@ -3266,6 +3363,7 @@ ul.onovo-footer-menu li {
 		bottom: -10px;
 		opacity: 0;
 	}
+
 	100% {
 		left: -10px;
 		top: -10px;
@@ -3338,6 +3436,7 @@ ul.onovo-footer-menu li {
 	0% {
 		height: 17px;
 	}
+
 	100% {
 		height: 2px;
 	}
@@ -3347,6 +3446,7 @@ ul.onovo-footer-menu li {
 	0% {
 		height: 14px;
 	}
+
 	100% {
 		height: 2px;
 	}
@@ -3356,6 +3456,7 @@ ul.onovo-footer-menu li {
 	0% {
 		height: 10px;
 	}
+
 	100% {
 		height: 2px;
 	}
@@ -3365,6 +3466,7 @@ ul.onovo-footer-menu li {
 	0% {
 		height: 12px;
 	}
+
 	100% {
 		height: 2px;
 	}
@@ -3390,7 +3492,7 @@ ul.onovo-footer-menu li {
 
 .onovo-hero.hero--two .image .ovrl,
 .onovo-hero.hero--two .video .ovrl {
-	background: linear-gradient(270deg,rgba(4,25,29,.1) 0%,rgba(4,25,29,.7) 80%);
+	background: linear-gradient(270deg, rgba(4, 25, 29, .1) 0%, rgba(4, 25, 29, .7) 80%);
 }
 
 .onovo-hero.hero--two .title {
@@ -3476,6 +3578,7 @@ ul.onovo-footer-menu li {
 .onovo-hero-carousel .swiper-slide {
 	width: auto;
 }
+
 .onovo-hero-carousel .swiper-slide.swiper-slide-active {
 	//width: 328px;
 }
@@ -3757,17 +3860,17 @@ ul.onovo-footer-menu li {
 
 .onovo-paginations-container.onovo-paginations-container-vertical {
 	position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    z-index: 2;
+	right: 0;
+	top: 0;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	z-index: 2;
 	opacity: 0;
 	transition-duration: 0.5s;
 	transition-delay: 0.5s;
-	
+
 	.onovo-paginations {
 		transform: none;
 	}
@@ -3777,15 +3880,19 @@ ul.onovo-footer-menu li {
 	.onovo-hero .subtitle {
 		margin-left: 0;
 	}
+
 	.js-hero-carousel-navs {
 		left: 10px;
 		right: 10px;
 		bottom: -10px;
 	}
+
 	.onovo-hero-parallax .title {
 		max-width: 650px;
 	}
-	.onovo-hero-parallax .image:after, .onovo-hero-parallax .image video:after {
+
+	.onovo-hero-parallax .image:after,
+	.onovo-hero-parallax .image video:after {
 		content: '';
 		position: absolute;
 		left: 0;
@@ -3796,7 +3903,9 @@ ul.onovo-footer-menu li {
 		opacity: 0.2;
 		transition: 0.3s ease 0s;
 	}
-	.parallax--dark .onovo-hero-parallax .image:after, .parallax--dark .onovo-hero-parallax .image video:after {
+
+	.parallax--dark .onovo-hero-parallax .image:after,
+	.parallax--dark .onovo-hero-parallax .image video:after {
 		background: #fff;
 	}
 }
@@ -3805,40 +3914,51 @@ ul.onovo-footer-menu li {
 	.onovo-hero .title {
 		font-size: 60px;
 	}
+
 	.onovo-sep {
 		width: 24px;
 	}
+
 	.onovo-hero .subtitle {
 		margin-top: 30px;
 		margin-bottom: 30px;
 		max-width: 100%;
 		font-size: 18px;
 	}
+
 	.onovo-hero .subtitle br {
 		display: none;
 	}
+
 	.onovo-hero .container {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+
 	.onovo-hero.hero--two .title {
 		font-size: 40px;
 	}
+
 	.onovo-hero.hero--two .subtitle {
 		font-size: 18px;
 	}
+
 	.onovo-hero-carousel {
 		padding-top: 160px;
 	}
+
 	.js-hero-carousel-navs {
 		bottom: 30px;
 	}
+
 	.onovo-hero-carousel .swiper-slide:nth-child(2n) .onovo-hero-carousel-item .slide {
 		top: 0;
 	}
+
 	.onovo-hero-carousel .swiper-slide:nth-child(1n) .onovo-hero-carousel-item .slide {
 		top: 0;
 	}
+
 	.onovo-hero-carousel-item .titles {
 		margin-left: -150px;
 		margin-top: 30px;
@@ -3847,26 +3967,34 @@ ul.onovo-footer-menu li {
 		top: 100%;
 		width: 300px;
 	}
+
 	.onovo-hero-carousel-item .title {
 		margin: 0;
 		font-size: 26px;
 		height: auto;
 	}
+
 	.onovo-hero-carousel-item .text-line-inner {
 		white-space: normal;
 	}
+
 	.onovo-hero-parallax .title {
 		font-size: 40px;
 	}
-	.onovo-hero-parallax .image:after, .onovo-hero-parallax .image video:after {
+
+	.onovo-hero-parallax .image:after,
+	.onovo-hero-parallax .image video:after {
 		opacity: 0.4;
 	}
+
 	.onovo-hero-parallax .title .sep {
 		display: none;
 	}
+
 	#pp-nav {
 		right: 10px !important;
 	}
+
 	.onovo-navs.js-hero-parallax-navs {
 		bottom: 20px;
 	}
@@ -4058,9 +4186,26 @@ ul.onovo-footer-menu li {
 }
 
 @keyframes bubbleOne {
-	0% { bottom: -20%; right: -10%; opacity: 0; transform: scale(0.3); }
-	50% { bottom: 0; right: 0; opacity: 1; transform: scale(1.05); }
-	100% { bottom: 0; right: 0; opacity: 1; transform: scale(1); }
+	0% {
+		bottom: -20%;
+		right: -10%;
+		opacity: 0;
+		transform: scale(0.3);
+	}
+
+	50% {
+		bottom: 0;
+		right: 0;
+		opacity: 1;
+		transform: scale(1.05);
+	}
+
+	100% {
+		bottom: 0;
+		right: 0;
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .onovo-bubble .bubble-1 {
@@ -4082,9 +4227,26 @@ ul.onovo-footer-menu li {
 }
 
 @keyframes bubbleTwo {
-	0% { bottom: 0%; left: -40%; opacity: 0; transform: scale(0.25); }
-	50% { bottom: 30%; left: 0%; opacity: 1; transform: scale(1); }
-	100% { bottom: 30%; left: 0%; opacity: 1; transform: scale(1); }
+	0% {
+		bottom: 0%;
+		left: -40%;
+		opacity: 0;
+		transform: scale(0.25);
+	}
+
+	50% {
+		bottom: 30%;
+		left: 0%;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		bottom: 30%;
+		left: 0%;
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .onovo-bubble .bubble-2 {
@@ -4106,9 +4268,26 @@ ul.onovo-footer-menu li {
 }
 
 @keyframes bubbleThree {
-	0% { bottom: 30%; left: 30%; opacity: 0; transform: scale(0.35); }
-	50% { bottom: 63%; left: 57%; opacity: 1; transform: scale(1); }
-	100% { bottom: 63%; left: 57%; opacity: 1; transform: scale(1); }
+	0% {
+		bottom: 30%;
+		left: 30%;
+		opacity: 0;
+		transform: scale(0.35);
+	}
+
+	50% {
+		bottom: 63%;
+		left: 57%;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		bottom: 63%;
+		left: 57%;
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .onovo-bubble .bubble-3 {
@@ -4319,19 +4498,24 @@ ul.onovo-footer-menu li {
 		max-width: 400px;
 		min-height: 400px;
 	}
+
 	.onovo-service-item-inner {
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+
 	.onovo-services-showcase .items {
 		margin: 30px 0;
 	}
+
 	.onovo-services-showcase .items .img-circle {
 		display: none;
 	}
+
 	.onovo-services-showcase .items ul li {
 		margin-bottom: 30px;
 	}
+
 	.onovo-services-showcase .items .image {
 		position: relative;
 		left: 0;
@@ -4340,12 +4524,15 @@ ul.onovo-footer-menu li {
 		height: 420px;
 		pointer-events: auto;
 	}
+
 	.onovo-services-showcase .items .image .img {
 		clip-path: none;
 	}
+
 	.onovo-services-showcase .items .name {
 		color: #000;
 	}
+
 	.onovo-service-item {
 		max-width: 100%;
 	}
@@ -4357,21 +4544,27 @@ ul.onovo-footer-menu li {
 		max-width: 340px;
 		min-height: 340px;
 	}
+
 	.onovo-service-item-inner .title {
 		font-size: 26px;
 	}
+
 	.onovo-service-item-inner .list ul li {
 		margin: 10px 0 0 0;
 	}
+
 	.onovo-services-showcase .items ul li {
 		margin-bottom: 20px;
 	}
+
 	.onovo-services-showcase .items .image {
 		height: 280px;
 	}
+
 	.onovo-service-item-list-inner {
 		padding: 0;
 	}
+
 	.onovo-service-item-list .image {
 		position: relative;
 		margin-bottom: 20px;
@@ -4379,6 +4572,7 @@ ul.onovo-footer-menu li {
 		left: 0;
 		right: auto;
 	}
+
 	.onovo-service-item-list .num {
 		margin-right: 5px;
 		position: relative;
@@ -4388,6 +4582,7 @@ ul.onovo-footer-menu li {
 		display: inline-block;
 		vertical-align: top;
 	}
+
 	.onovo-service-item-list .title {
 		margin: 0;
 		display: inline-block;
@@ -4459,6 +4654,7 @@ ul.onovo-footer-menu li {
 	0% {
 		transform: rotate(360deg);
 	}
+
 	100% {
 		transform: rotate(0deg);
 	}
@@ -4493,6 +4689,7 @@ ul.onovo-footer-menu li {
 }
 
 @media (max-width: 1024px) {
+
 	.onovo-ticker-slider .title,
 	.onovo-ticker-slider .title a {
 		font-size: 70px;
@@ -4500,6 +4697,7 @@ ul.onovo-footer-menu li {
 }
 
 @media (max-width: 767px) {
+
 	.onovo-ticker-slider .title,
 	.onovo-ticker-slider .title a {
 		font-size: 50px;
@@ -4621,7 +4819,7 @@ ul.onovo-footer-menu li {
 	margin: 0 -30px;
 }
 
-.onovo-portfolio-items > .col-xs-12 {
+.onovo-portfolio-items>.col-xs-12 {
 	padding: 0 30px;
 }
 
@@ -4719,9 +4917,9 @@ ul.onovo-footer-menu li {
 
 .onovo-portfolio-item-list {
 	position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .onovo-portfolio-item-list .image {
@@ -4745,18 +4943,18 @@ ul.onovo-footer-menu li {
 	font-size: 44px;
 }
 
-.onovo-portfolio-item-list .onovo-text > div > ul {
+.onovo-portfolio-item-list .onovo-text>div>ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.onovo-portfolio-item-list .onovo-text > div > ul li {
+.onovo-portfolio-item-list .onovo-text>div>ul li {
 	margin: 0 0 15px 0;
 	color: #555;
 }
 
-.onovo-portfolio-item-list .onovo-text > div > ul li strong {
+.onovo-portfolio-item-list .onovo-text>div>ul li strong {
 	text-transform: uppercase;
 }
 
@@ -4888,25 +5086,25 @@ ul.onovo-footer-menu li {
 	pointer-events: none;
 }
 
-.onovo-project-info > ul {
+.onovo-project-info>ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.onovo-project-info > ul > li {
+.onovo-project-info>ul>li {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 	border-bottom: 2px solid #3E3E3E;
 }
 
-.onovo-project-info > ul > li:last-child {
+.onovo-project-info>ul>li:last-child {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	border-bottom: none;
 }
 
-.onovo-project-info > ul > li strong {
+.onovo-project-info>ul>li strong {
 	color: #00F6FF;
 }
 
@@ -4920,34 +5118,42 @@ ul.onovo-footer-menu li {
 	.onovo-showcase .img-circle {
 		display: none;
 	}
+
 	.onovo-showcase-items {
 		max-width: 100%;
 	}
+
 	.onovo-showcase-item {
 		flex-wrap: wrap;
 		padding-bottom: 30px;
 		padding-top: 30px;
 	}
+
 	.onovo-showcase-item:first-child {
 		padding-top: 0;
 	}
+
 	.onovo-showcase-item .category {
 		padding: 0 0 10px 0;
 		width: 100%;
 		order: 2;
 	}
+
 	.onovo-showcase-item .category a {
 		color: #999;
 	}
+
 	.onovo-showcase-item .title {
 		margin: 0;
 		width: 100%;
 		order: 2;
 	}
+
 	.onovo-showcase-item .title a {
 		padding: 0;
 		color: #000;
 	}
+
 	.onovo-showcase-item .image {
 		margin-bottom: 30px;
 		position: relative;
@@ -4962,54 +5168,68 @@ ul.onovo-footer-menu li {
 		-webkit-transform: none;
 		pointer-events: auto;
 	}
+
 	.onovo-showcase-item.hover .image {
 		opacity: 1;
 		transform: none;
 		-webkit-transform: none;
 	}
+
 	.onovo-showcase-item .image .img {
 		filter: none;
 	}
+
 	.onovo-showcase-item.hover .image .img {
 		filter: none;
 	}
+
 	.onovo-filter-container {
 		margin-bottom: 30px;
 		text-align: left;
 	}
+
 	.onovo-filter {
 		position: relative;
 		overflow: auto;
 	}
+
 	.onovo-filter ul {
 		white-space: nowrap;
 	}
+
 	.onovo-filter ul li {
 		margin: 0 30px 15px 0;
 		display: inline-block;
 		vertical-align: top;
 	}
+
 	.onovo-filter.filter--default {
 		margin-bottom: 0;
 	}
+
 	.onovo-filter.filter--default::before,
 	.onovo-filter.filter--default .onovo-filter-nav-active {
 		display: none;
 	}
+
 	.onovo-filter.filter--default ul li button {
 		border-radius: 85px;
 		-webkit-border-radius: 85px;
 	}
+
 	.onovo-filter.filter--default ul li button.item--active {
 		background: #00F6FF;
 	}
+
 	.onovo-portfolio-item-list {
 		display: block;
 	}
+
 	.onovo-portfolio-item-list .image {
 		margin-bottom: 0;
 		width: 100%;
 	}
+
 	.onovo-portfolio-item-list .desc {
 		padding-bottom: 0;
 		width: 100%;
@@ -5020,16 +5240,20 @@ ul.onovo-footer-menu li {
 	.onovo-showcase-item .image {
 		height: 280px;
 	}
+
 	.onovo-portfolio-item {
 		margin-bottom: 40px;
 	}
-	.onovo-portfolio-item-list .onovo-text > div > ul li {
+
+	.onovo-portfolio-item-list .onovo-text>div>ul li {
 		font-size: 16px;
 	}
+
 	.onovo-portfolio-item-list .title {
 		margin: 0 0 20px 0;
 		font-size: 26px;
 	}
+
 	.onovo-portfolio .onovo-loadmore {
 		margin: 15px 0 0 0;
 	}
@@ -5056,7 +5280,7 @@ ul.onovo-footer-menu li {
 	pointer-events: none;
 }
 
-.onovo-team-detail > .row > div {
+.onovo-team-detail>.row>div {
 	padding: 0 30px;
 }
 
@@ -5137,6 +5361,7 @@ ul.onovo-footer-menu li {
 	.onovo-team-item .desc {
 		padding: 30px 10px 30px 30px;
 	}
+
 	.onovo-team-item .image img {
 		max-height: 460px;
 	}
@@ -5146,13 +5371,16 @@ ul.onovo-footer-menu li {
 	.onovo-team-item .title {
 		font-size: 26px;
 	}
+
 	.onovo-team-item .desc {
 		padding: 38px;
 	}
+
 	.onovo-team-info ul li {
 		display: block;
 		word-break: break-word;
 	}
+
 	.onovo-team-info ul li br {
 		display: none;
 	}
@@ -5164,7 +5392,7 @@ ul.onovo-footer-menu li {
 ---*/
 
 .onovo-reviews {
-    position: relative;
+	position: relative;
 }
 
 .onovo-reviews-summary {
@@ -5270,16 +5498,20 @@ ul.onovo-footer-menu li {
 	.onovo-reviews-carousel {
 		margin: 55px 0 0 0;
 	}
+
 	.onovo-reviews-carousel.reviews--full {
 		margin: 0;
 	}
+
 	.onovo-reviews-item .text br {
 		display: none;
 	}
+
 	.js-reviews-carousel-navs {
 		margin-top: 30px;
 		position: relative;
 	}
+
 	.onovo-reviews-carousel.reviews--full .js-reviews-carousel-navs {
 		margin-top: -33px;
 		position: absolute;
@@ -5290,31 +5522,39 @@ ul.onovo-footer-menu li {
 	.onovo-reviews-summary {
 		margin-top: 10px;
 	}
+
 	.onovo-reviews-summary .label {
 		font-size: 18px;
 	}
+
 	.onovo-stars {
 		margin: 0 5px;
 		padding: 0 10px;
 		font-size: 10px;
 	}
+
 	.onovo-reviews-carousel {
 		margin: 30px 0 0 0;
 		padding-left: 30px;
 	}
+
 	.onovo-reviews-item .text {
 		font-size: 18px;
 	}
+
 	.onovo-reviews-item .subtitle {
 		display: block;
 	}
+
 	.onovo-reviews-item .onovo-stars.stars--small {
 		margin: 10px 0 0 0;
 	}
+
 	.onovo-reviews-carousel.reviews--full .onovo-reviews-item .text {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 	.onovo-reviews-carousel.reviews--full .js-reviews-carousel-navs {
 		margin-top: 0;
 		position: relative;
@@ -5428,6 +5668,7 @@ ul.onovo-footer-menu li {
 	.onovo-video {
 		height: 280px;
 	}
+
 	.onovo-video .play {
 		transform: scale(0.5);
 	}
@@ -5465,21 +5706,28 @@ ul.onovo-footer-menu li {
 }
 
 @media (max-width: 1024px) {
-	.onovo-counter .num, .onovo-counter .num-after {
+
+	.onovo-counter .num,
+	.onovo-counter .num-after {
 		font-size: 100px;
 	}
+
 	.onovo-counter .num-after {
 		font-size: 60px;
 	}
 }
 
 @media (max-width: 767px) {
-	.onovo-counter .num, .onovo-counter .num-after {
+
+	.onovo-counter .num,
+	.onovo-counter .num-after {
 		font-size: 80px;
 	}
+
 	.onovo-counter .num-after {
 		font-size: 40px;
 	}
+
 	.onovo-counter .label {
 		margin: 10px 0 20px 0;
 		font-size: 18px;
@@ -5592,9 +5840,11 @@ ul.onovo-footer-menu li {
 	0% {
 		transform: scale(1);
 	}
+
 	50% {
 		transform: scale(0.85);
 	}
+
 	100% {
 		transform: scale(1);
 	}
@@ -5604,9 +5854,11 @@ ul.onovo-footer-menu li {
 	0% {
 		transform: scale(1);
 	}
+
 	50% {
 		transform: scale(0.75);
 	}
+
 	100% {
 		transform: scale(1);
 	}
@@ -5616,9 +5868,11 @@ ul.onovo-footer-menu li {
 	0% {
 		transform: scale(1);
 	}
+
 	50% {
 		transform: scale(0.65);
 	}
+
 	100% {
 		transform: scale(1);
 	}
@@ -5663,37 +5917,48 @@ ul.onovo-footer-menu li {
 		margin-bottom: 0;
 		padding: 0;
 	}
+
 	.onovo-cta-social .image {
 		display: none;
 	}
+
 	.onovo-cta-social .desc ul li {
 		margin: 5px;
 	}
+
 	.onovo-cta-social .desc ul li a {
 		min-width: 330px;
 	}
-	a.onovo-btn.btn--large, .onovo-btn.btn--large {
+
+	a.onovo-btn.btn--large,
+	.onovo-btn.btn--large {
 		padding: 0 25px;
 		height: 70px;
 		line-height: 70px;
 		border-radius: 70px;
 		-webkit-border-radius: 70px;
 	}
+
 	.onovo-btn.btn--large.btn--icon i {
 		margin: 0 5px 0 -20px;
 	}
+
 	.onovo-cta-text {
 		font-size: 16px;
 	}
+
 	.onovo-cta-text a {
 		font-size: 24px;
 	}
+
 	.onovo-cta-2-text a {
 		font-size: 24px;
 	}
+
 	.onovo-cta-info .email {
 		font-size: 24px;
 	}
+
 	.onovo-cta-info .adr {
 		margin-top: 20px;
 		font-size: 16px;
@@ -5745,7 +6010,7 @@ ul.onovo-footer-menu li {
 }
 
 .onovo-blog-item .desc .info .date,
-.onovo-blog-item .desc .info > span,
+.onovo-blog-item .desc .info>span,
 .wp-block-latest-posts__post-date,
 .onovo-post-date .date {
 	display: inline-block;
@@ -5804,7 +6069,7 @@ ul.onovo-footer-menu li {
 }
 
 .onovo-blog-carousel .swiper-slide.swiper-slide-active,
-.onovo-blog-carousel .swiper-slide.swiper-slide-active + .swiper-slide {
+.onovo-blog-carousel .swiper-slide.swiper-slide-active+.swiper-slide {
 	opacity: 1;
 	transform: translateY(0);
 }
@@ -5881,12 +6146,12 @@ ul.onovo-footer-menu li {
 }
 
 .animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active .splitting span .word,
-.animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active + .swiper-slide .splitting span .word {
+.animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active+.swiper-slide .splitting span .word {
 	transform: translate(0, 0%);
 }
 
 .animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active .onovo-overlay,
-.animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active + .swiper-slide .onovo-overlay {
+.animated--active .onovo-blog-carousel .swiper-slide.swiper-slide-active+.swiper-slide .onovo-overlay {
 	transform: scaleX(0);
 }
 
@@ -5898,6 +6163,7 @@ ul.onovo-footer-menu li {
 	.onovo-blog-slide-item .desc {
 		max-width: calc(100% - 300px);
 	}
+
 	.onovo-navs {
 		margin-top: 20px;
 	}
@@ -5912,9 +6178,11 @@ ul.onovo-footer-menu li {
 		width: 100%;
 		height: 280px;
 	}
+
 	.onovo-blog-slide-item .desc {
 		max-width: 100%;
 	}
+
 	.onovo-blog-item.archive-item .image img {
 		height: 280px;
 	}
@@ -6147,7 +6415,7 @@ ul.onovo-footer-menu li {
 	border-top: none;
 }
 
-.onovo-pricing-item .list ul li > i {
+.onovo-pricing-item .list ul li>i {
 	margin-top: -10px;
 	content: '';
 	position: absolute;
@@ -6247,10 +6515,10 @@ body .onovo-subscribe-form ::placeholder {
 }
 
 body .onovo-subscribe-form .submit-container {
-    padding: 12px;
-    position: absolute;
-    top: 0;
-    right: 0;
+	padding: 12px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 
@@ -6399,10 +6667,12 @@ body .onovo-subscribe-form .submit-container {
 	.onovo-history-item {
 		display: block;
 	}
+
 	.onovo-history-item .image {
 		width: 100%;
 		height: 440px;
 	}
+
 	.onovo-history-item .desc {
 		padding-left: 0;
 		padding-top: 30px;
@@ -6414,23 +6684,30 @@ body .onovo-subscribe-form .submit-container {
 	.onovo-history-slider .swiper-container {
 		padding-top: 90px;
 	}
-	.onovo-navs.js-history-navs .onovo-paginations-container, .onovo-navs.js-history-navs .js-history-pagination {
+
+	.onovo-navs.js-history-navs .onovo-paginations-container,
+	.onovo-navs.js-history-navs .js-history-pagination {
 		left: 0;
 		right: 0;
 	}
+
 	.onovo-navs.js-history-navs .onovo-paginations-container {
 		margin: 0 67px;
 	}
+
 	.onovo-navs.js-history-navs .js-history-pagination .swiper-pagination-bullet span {
 		display: none;
 	}
+
 	.onovo-history-item .image {
 		height: 280px;
 	}
+
 	.onovo-history-item .subtitle {
 		font-size: 60px;
 		line-height: 1.3;
 	}
+
 	.onovo-history-item .title {
 		font-size: 26px;
 	}
@@ -6445,28 +6722,40 @@ body .onovo-subscribe-form .submit-container {
 		width: 100%;
 		height: 280px;
 	}
+
 	.onovo-blog-slide-item .desc {
 		max-width: 100%;
 	}
-	.onovo-prev i::before, .onovo-next i::before {
+
+	.onovo-prev i::before,
+	.onovo-next i::before {
 		width: 30px;
 	}
+
 	.onovo-paginations-container {
 		margin: 0 5px;
 	}
-	.onovo-prev, .onovo-next, .pager .onovo-prev, .pager .onovo-next {
+
+	.onovo-prev,
+	.onovo-next,
+	.pager .onovo-prev,
+	.pager .onovo-next {
 		width: 57px;
 		height: 57px;
 	}
+
 	.onovo-navs.js-history-navs::before {
 		top: 27.5px;
 	}
+
 	.onovo-navs.js-history-navs .onovo-paginations-container {
 		top: 13px;
 	}
+
 	.onovo-hero .onovo-navs .onovo-prev {
 		top: -14px;
 	}
+
 	.onovo-hero .onovo-navs .onovo-next {
 		top: -14px;
 	}
@@ -6479,7 +6768,7 @@ body .onovo-subscribe-form .submit-container {
 
 .onovo-intro {
 	padding-top: 200px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	background: transparent;
 }
 
@@ -6539,6 +6828,7 @@ body .onovo-subscribe-form .submit-container {
 	.onovo-intro {
 		padding-top: 160px;
 	}
+
 	.onovo-breadcrums ul li {
 		font-size: 14px;
 	}
@@ -6563,13 +6853,15 @@ body .onovo-subscribe-form .submit-container {
 			display: none;
 		}
 
-		& > div {
+		&>div {
 			width: 100%;
 		}
 	}
+
 	.accordion-collapse {
 		border: none;
 	}
+
 	.accordion-body {
 		padding: 0;
 	}
@@ -6653,7 +6945,7 @@ body .onovo-subscribe-form .submit-container {
 	transform: rotate(180deg);
 }
 
-.onovo-faq-item .onovo-collapse-btn > span {
+.onovo-faq-item .onovo-collapse-btn>span {
 	position: relative;
 	z-index: 2;
 }
@@ -6662,7 +6954,7 @@ body .onovo-subscribe-form .submit-container {
 	padding: 30px 60px;
 }
 
-.onovo-faq-item .onovo-text > *:first-child {
+.onovo-faq-item .onovo-text>*:first-child {
 	margin-top: 0;
 }
 
@@ -6671,6 +6963,7 @@ body .onovo-subscribe-form .submit-container {
 		padding: 20px 90px 20px 30px;
 		font-size: 18px;
 	}
+
 	.onovo-faq-item .onovo-text {
 		padding: 0 30px 10px 30px;
 	}
@@ -6681,15 +6974,15 @@ body .onovo-subscribe-form .submit-container {
   23. Portfolio Single
 ---*/
 
-.onovo-custom-gallery .col-md-6:nth-child(1), 
-.onovo-custom-gallery .col-md-6:nth-child(4), 
-.onovo-custom-gallery .col-md-6:nth-child(5), 
-.onovo-custom-gallery .col-md-6:nth-child(8), 
+.onovo-custom-gallery .col-md-6:nth-child(1),
+.onovo-custom-gallery .col-md-6:nth-child(4),
+.onovo-custom-gallery .col-md-6:nth-child(5),
+.onovo-custom-gallery .col-md-6:nth-child(8),
 .onovo-custom-gallery .col-md-6:nth-child(10) {
 	transform: scale(0.8);
 }
 
-.onovo-share .social-share > span {
+.onovo-share .social-share>span {
 	display: none;
 }
 
@@ -6803,7 +7096,7 @@ body .onovo-subscribe-form .submit-container {
 	margin: 30px 0;
 }
 
-.post-content ul li, 
+.post-content ul li,
 .post-content ol li {
 	margin: 10px 0;
 }
@@ -6815,7 +7108,7 @@ body .onovo-subscribe-form .submit-container {
 	margin: 15px 0;
 }
 
-.post-content > *:first-child {
+.post-content>*:first-child {
 	margin-top: 0;
 }
 
@@ -6832,7 +7125,9 @@ body .onovo-subscribe-form .submit-container {
 	border: 1px solid #fff;
 }
 
-.onovo-post-categories, .onovo-post-tags, .onovo-post-socials {
+.onovo-post-categories,
+.onovo-post-tags,
+.onovo-post-socials {
 	margin: 0 0 10px 0;
 	display: block;
 	color: #BBBBBB;
@@ -6840,7 +7135,9 @@ body .onovo-subscribe-form .submit-container {
 	line-height: 56px;
 }
 
-.onovo-post-categories span, .onovo-post-tags span, .onovo-post-socials span {
+.onovo-post-categories span,
+.onovo-post-tags span,
+.onovo-post-socials span {
 	margin-right: 10px;
 	display: inline-block;
 	vertical-align: top;
@@ -6894,17 +7191,17 @@ body .onovo-subscribe-form .submit-container {
 	list-style: none;
 }
 
-.comment.comment-item > .comment {
-    position: relative;
-    border: 1px solid #B2B2B2;
-    min-height: 180px;
+.comment.comment-item>.comment {
+	position: relative;
+	border: 1px solid #B2B2B2;
+	min-height: 180px;
 }
 
 .comment .comment-item+.comment-item {
 	margin-top: 20px;
 }
 
-.comment.comment-item ul.children > li {
+.comment.comment-item ul.children>li {
 	margin-top: 20px;
 }
 
@@ -6984,9 +7281,10 @@ body .onovo-subscribe-form .submit-container {
 }
 
 @media (min-width: 992px) {
-	.comment .comment-item__reply a:hover, 
-	.comment .comment-item__reply a:focus, 
-	.comment .comment-item__reply a:hover::before, 
+
+	.comment .comment-item__reply a:hover,
+	.comment .comment-item__reply a:focus,
+	.comment .comment-item__reply a:hover::before,
 	.comment .comment-item__reply a:focus::before {
 		outline: none;
 		color: #000;
@@ -7102,8 +7400,8 @@ body .onovo-subscribe-form .submit-container {
 	position: relative;
 }
 
-.content-sidebar li > a::after,
-.post-content .wp-block-archives li > a::after {
+.content-sidebar li>a::after,
+.post-content .wp-block-archives li>a::after {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -7251,7 +7549,7 @@ body .onovo-subscribe-form .submit-container {
 	vertical-align: top;
 	background: #00F6FF;
 	border: none;
-	font-size: 15px!important;
+	font-size: 15px !important;
 	line-height: 1.7;
 	color: #000;
 	font-weight: 700;
@@ -7389,7 +7687,7 @@ body .onovo-subscribe-form .submit-container {
 }
 
 .wp-block-latest-comments__comment-excerpt p {
-	margin-top: 0!important;
+	margin-top: 0 !important;
 	font-size: 1.05rem;
 	line-height: 1.5;
 }
@@ -7417,40 +7715,50 @@ h6,
 	.content-sidebar {
 		padding-left: 0;
 	}
+
 	.col-sidebar {
 		margin-top: 3rem;
 	}
+
 	.onovo-post-wrapper,
 	.onovo-post-comments {
 		padding: 0;
 	}
+
 	blockquote {
 		padding: 130px 30px 30px 30px;
 		font-size: 18px;
 		line-height: 1.7;
 	}
+
 	blockquote p {
 		font-size: 18px;
 		line-height: 1.7;
 	}
+
 	blockquote::before {
 		top: 30px;
 		left: 30px;
 	}
+
 	.onovo-post-pic img {
 		height: 480px;
 	}
+
 	.onovo-post,
 	.onovo-archive-post {
 		padding: 80px 0 0 0;
 	}
+
 	.onovo-contact-info {
 		margin-top: 40px;
 	}
-	.onovo-team-detail > .row {
+
+	.onovo-team-detail>.row {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+
 	.onovo-team-detail .team-detail-img {
 		margin-bottom: 30px;
 	}
@@ -7460,110 +7768,271 @@ h6,
 	.onovo-breadcrums {
 		margin-top: 30px;
 	}
+
 	.onovo-post-pic img {
 		height: 280px;
 	}
+
 	.onovo-post-bottom-content {
 		padding: 24px;
 	}
-	.onovo-post-categories span, .onovo-post-tags span, .onovo-post-socials span {
+
+	.onovo-post-categories span,
+	.onovo-post-tags span,
+	.onovo-post-socials span {
 		margin-right: 0;
 		margin-bottom: 5px;
 		display: block;
 	}
-	.onovo-post-categories, .onovo-post-tags, .onovo-post-socials {
+
+	.onovo-post-categories,
+	.onovo-post-tags,
+	.onovo-post-socials {
 		line-height: 1.7;
 	}
+
 	.onovo-post-tags:last-child {
 		margin-bottom: -5px;
 	}
+
 	.comment-item__photo {
 		margin: 0;
 		padding: 20px;
 		border: none;
 	}
+
 	.comment .comment-item__photo img {
 		max-width: 64px;
 		width: 64px;
 		height: 64px;
 	}
+
 	.comment .comment-item__content {
 		padding-top: 20px;
 		padding-right: 20px;
 		padding-bottom: 20px;
 		margin-left: 100px;
 	}
+
 	.comment .comment-item__name {
 		font-size: 18px;
 		display: block;
 	}
+
 	.comment .comment-item__sent {
 		margin: 5px 0 0 0;
 	}
+
 	.comment__title small {
 		margin-left: 0;
 		font-size: 16px;
 	}
+
 	.onovo-social-2 ul li a {
 		width: 48px;
 		height: 48px;
 	}
-	.onovo-custom-gallery .col-md-6:nth-child(1), 
-	.onovo-custom-gallery .col-md-6:nth-child(4), 
-	.onovo-custom-gallery .col-md-6:nth-child(5), 
-	.onovo-custom-gallery .col-md-6:nth-child(8), 
+
+	.onovo-custom-gallery .col-md-6:nth-child(1),
+	.onovo-custom-gallery .col-md-6:nth-child(4),
+	.onovo-custom-gallery .col-md-6:nth-child(5),
+	.onovo-custom-gallery .col-md-6:nth-child(8),
 	.onovo-custom-gallery .col-md-6:nth-child(10) {
 		transform: none;
 	}
+
 	.onovo-page-navigation {
 		margin: 40px 0 0 0;
 	}
+
 	.onovo-post,
 	.onovo-archive-post {
 		padding: 70px 0 0 0;
 	}
+
 	.content-sidebar .widget {
 		padding: 30px;
 	}
-	.tags-links a, .col-sidebar .tagcloud a, .wp-block-tag-cloud a, .sidebar__tag-item, .onovo-post-tags a {
+
+	.tags-links a,
+	.col-sidebar .tagcloud a,
+	.wp-block-tag-cloud a,
+	.sidebar__tag-item,
+	.onovo-post-tags a {
 		padding: 10px 15px;
-		font-size: 14px!important;
+		font-size: 14px !important;
 	}
-	.pager span, .pager a, .page-links .post-page-numbers {
+
+	.pager span,
+	.pager a,
+	.page-links .post-page-numbers {
 		width: 50px;
 		height: 50px;
 		line-height: 50px;
 	}
+
 	.onovo-blog-item.archive-item {
 		margin-bottom: 50px;
 		padding-bottom: 30px;
 	}
+
 	.onovo-blog-item.archive-item .title {
 		font-size: 26px;
 	}
-	.post-content table td, .post-content table th {
+
+	.post-content table td,
+	.post-content table th {
 		padding: 10px;
 	}
-	.post-content tbody, .post-content td, .post-content tfoot, .post-content th, .post-content thead, .post-content tr {
+
+	.post-content tbody,
+	.post-content td,
+	.post-content tfoot,
+	.post-content th,
+	.post-content thead,
+	.post-content tr {
 		display: block;
 		margin: -1px;
 	}
+
 	.post-content th {
 		display: none;
 	}
+
 	.comment__title {
 		margin-bottom: 15px;
 	}
+
 	.post-content .gallery.gallery-columns-2 .gallery-item,
 	.post-content .gallery.gallery-columns-3 .gallery-item,
 	.post-content .gallery.gallery-columns-4 .gallery-item {
 		width: 50%;
 	}
+
 	.onovo-form-box {
 		padding: 40px;
 	}
-	.onovo-team-detail > .row > div {
+
+	.onovo-team-detail>.row>div {
 		padding: 0;
+	}
+}
+
+// ProjectDetail.module.scss
+
+.projectDetailSection {
+	.buttonGroup {
+		display: flex;
+		// justify-content: center;
+		gap: 1rem;
+		margin-top: 10px;
+	}
+	.iconSection {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		flex-wrap: wrap;
+
+		.iconColumn {
+			flex: 1 1 20%;
+			max-width: 20%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 1rem;
+			background: transparent;
+			border: 1px solid rgba(128, 128, 128, 0.121);
+			border-radius: 8px;
+			// box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease-in-out;
+			height: 150px; // Fixed height for all columns
+			overflow: hidden;
+
+			&:hover {
+				transform: translateY(-10px);
+			}
+		}
+
+		.icon {
+			width: 70px;
+			height: 70px;
+			margin-bottom: 0.5rem;
+		}
+
+		.iconTitle {
+			font-size: 0.5rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		// Media query for mobile devices
+	@media (max-width: 768px) {
+		justify-content: center; // Center items in the row
+
+		.iconColumn {
+			flex: 1 1 45%; // Adjust to 45% for two columns in mobile view
+			max-width: 45%; // Ensure columns don’t exceed 45% of the width
+			// margin-bottom: 1rem; // Add some space at the bottom for better spacing
+		}
+	}
+	}
+
+	
+
+	.projectDescription {
+		.bigTitle {
+			font-size: 2.5rem;
+			font-weight: bold;
+		}
+
+		.tagline {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.reviewStars {
+			margin-bottom: 1rem;
+
+			.fa-star,
+			.fa-star-half-alt {
+				margin-right: 5px;
+			}
+
+			.starRating {
+				font-size: 1rem;
+				margin-left: 10px;
+				color: #333;
+			}
+		}
+
+		.shortDescription {
+			font-size: 1.2rem;
+			margin-bottom: 1.5rem;
+			color: #666;
+		}
+
+		.iconPoints {
+			list-style: none !important;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+
+			ul {
+				list-style: none !important;
+			}
+
+			li {
+				display: flex;
+				align-items: center;
+				font-size: 1rem;
+				color: #333;
+
+				img {
+					margin-right: 0.5rem;
+				}
+			}
+		}
 	}
 }
 
@@ -7571,6 +8040,7 @@ h6,
 	position: relative;
 	padding-bottom: 52.6725%;
 }
+
 .project-image img {
 	position: absolute;
 	top: 0;
@@ -7580,6 +8050,8 @@ h6,
 	object-fit: cover;
 	object-position: center;
 }
+
+.product-image {}
 
 .onovo-text {
 	h6 {
@@ -7601,7 +8073,99 @@ h6,
 		object-position: center;
 	}
 }
+// components/LogoSlider.module.scss
 
+.logoSlider {
+	-webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+  
+	&::before,
+	&::after {
+	  content: "";
+	  height: 175px !important;
+	  position: absolute;
+	  width: 200px;
+	  z-index: 2;
+	}
+  
+	&::after {
+	  right: 0;
+	  top: 0;
+	  -webkit-transform: rotateZ(180deg);
+	  transform: rotateZ(180deg);
+	}
+  
+	&::before {
+	  left: 0;
+	  top: 0;
+	}
+  }
+  
+  .logoSlideTrack {
+	-webkit-animation: logo-scroll 60s linear infinite;
+	animation: logo-scroll 60s linear infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: calc(250px * 14);
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+  }
+  
+  .slide {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 150px;
+	width: auto;
+	padding: 40px;
+  }
+  
+  .slide img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	width: auto;
+	height: auto;
+	margin: auto;
+  }
+  
+  @-webkit-keyframes logo-scroll {
+	0% {
+	  -webkit-transform: translateX(0);
+	  transform: translateX(0);
+	}
+	100% {
+	  -webkit-transform: translateX(calc(-250px * 7));
+	  transform: translateX(calc(-250px * 7));
+	}
+  }
+  
+  @keyframes logo-scroll {
+	0% {
+	  -webkit-transform: translateX(0);
+	  transform: translateX(0);
+	}
+	100% {
+	  -webkit-transform: translateX(calc(-250px * 7));
+	  transform: translateX(calc(-250px * 7));
+	}
+  }
+
+  // src/FullWidthImage.scss
+  .full-width-image__section {
+	background: url('/images/services/background.png');
+	background-size: cover;
+	background-color: #214D9E;
+  }
+
+.full-width-image__section img {
+  width: 100%;
+}
 /* ---
 	Skin Options
 ---*/
