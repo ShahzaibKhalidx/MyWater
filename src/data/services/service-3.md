@@ -1,9 +1,9 @@
 ---
 #preview details
 image: "/images/posts2.jpg"
-icon: "/images/serv-icon5.png"
-title: "Creative Direction"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+icon: "/images/services/allicons-03.png"
+title: "Reverse Osmosis (RO)"
+short: "Removes all types of invisible impurities including salts and harmful metals."
 
 #full details
 accordion:

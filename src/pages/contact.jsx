@@ -29,8 +29,8 @@ const Contact = () => {
   }
 
   return (
-    <Layouts>
-        <PageBanner pageTitle={"Contact Us"} pageDesc={"Have ideas for your business? Let’s build something awesome together."} />
+    <Layouts header={2}>
+        <PageBanner pageTitle={"Contact Us"} pageDesc={"To book a survey visit our website www.mywater.pk or call us at 021-11-11-WATER (92837)"} />
 
         {/* Onovo Contact Info */}
         <section className="onovo-section gap-top-140">
@@ -41,7 +41,7 @@ const Contact = () => {
                         {/* Heading */}
                         <div className="onovo-text gap-bottom-40">
                             <h4>Send Us A Message</h4>
-                            Then let us know about it and we can see what we can do to help
+                            Get Mineral Water to your glass!
                         </div>
 
                         {/* Form */}
@@ -180,9 +180,9 @@ const Contact = () => {
                         <div className="onovo-contact-info onovo-text-white">
                             <ul>
                                 <li>
-                                    <h5>Contact Info</h5>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430 2973</a><br/>
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a>
+                                    <h5>Let's Connect</h5>
+                                    <a href="tel:0211111WATER" className="onovo-lnk lnk--white" target="_blank">021-11-11-WATER (92837)</a><br/>
+                                    <a href="mailto:contact@mywater.pk" className="onovo-lnk lnk--white" target="_blank">mywater.pk</a>
                                     
                                     <div className="onovo-social-1 onovo-social-active" style={{"marginTop": "10px"}}>
                                         <ul>
@@ -197,12 +197,12 @@ const Contact = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Houston</h5>
-                                    <div>2001 N. Clybourn Avenue Suite 202, <br/>Block D, IL 60614</div>
+                                    <h5>Karachi</h5>
+                                    <div>1-D-28, Sector 30, Korangi, <br/>Industrial Area, Karachi</div>
                                 </li>
                                 <li>
-                                    <h5>Los Angeles</h5>
-                                    <div>2001 N. Clybourn Avenue Suite 202</div>
+                                    <h5>Islamabad</h5>
+                                    <div>60-A, F-6, Jinnah Avenue Blue Area</div>
                                 </li>
                             </ul>
                         </div>
@@ -213,10 +213,8 @@ const Contact = () => {
         </section>
 
         {/* Onovo Faq */}
-        <section className="onovo-section gap-top-140">
+        {/* <section className="onovo-section gap-top-140">
             <div className="container">
-
-                {/* Heading */}
                 <div className="onovo-heading align-center gap-bottom-40">
                     <div className="onovo-subtitle-1">
                         <span>{faqData.title}</span>
@@ -226,7 +224,6 @@ const Contact = () => {
                     </h2>
                 </div>
 
-                {/* Faq items */}
                 <div className="onovo-faq-items">
                 <Accordion defaultActiveKey="faq-acc-0">
                     {faqData.items.map((item, key) => (
@@ -250,7 +247,7 @@ const Contact = () => {
                 </div>
                 
             </div>
-        </section>
+        </section> */}
       
     </Layouts>
   );

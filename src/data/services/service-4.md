@@ -1,9 +1,10 @@
 ---
 #preview details
 image: "/images/post3.jpg"
-icon: "/images/serv-icon3.png"
-title: "Machine Learning / AI"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+icon: "/images/services/allicons-04.png"
+title: "Dual Carbon Filtration"
+short: "Removes all types of odors and toxic
+chemicals. Improves taste."
 
 #full details
 accordion:

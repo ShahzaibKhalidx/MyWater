@@ -3144,7 +3144,7 @@ a.onovo-menu-btn,
 	padding: 90px 0 30px 0;
 }
 
-.onovo-footer .footer--default h5{
+.onovo-footer .footer--default h5 {
 	font-family: "Nourd";
 	font-weight: 500;
 }
@@ -7933,6 +7933,7 @@ h6,
 		gap: 1rem;
 		margin-top: 10px;
 	}
+
 	.iconSection {
 		display: flex;
 		justify-content: space-around;
@@ -7971,19 +7972,20 @@ h6,
 			text-align: center;
 			text-transform: uppercase;
 		}
-		// Media query for mobile devices
-	@media (max-width: 768px) {
-		justify-content: center; // Center items in the row
 
-		.iconColumn {
-			flex: 1 1 45%; // Adjust to 45% for two columns in mobile view
-			max-width: 45%; // Ensure columns don’t exceed 45% of the width
-			// margin-bottom: 1rem; // Add some space at the bottom for better spacing
+		// Media query for mobile devices
+		@media (max-width: 768px) {
+			justify-content: center; // Center items in the row
+
+			.iconColumn {
+				flex: 1 1 45%; // Adjust to 45% for two columns in mobile view
+				max-width: 45%; // Ensure columns don’t exceed 45% of the width
+				// margin-bottom: 1rem; // Add some space at the bottom for better spacing
+			}
 		}
 	}
-	}
 
-	
+
 
 	.projectDescription {
 		.bigTitle {
@@ -8079,6 +8081,7 @@ h6,
 		object-position: center;
 	}
 }
+
 // components/LogoSlider.module.scss
 
 .logoSlider {
@@ -8088,30 +8091,31 @@ h6,
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-  
+	padding: 1.2rem;
+
 	&::before,
 	&::after {
-	  content: "";
-	  height: 175px !important;
-	  position: absolute;
-	  width: 200px;
-	  z-index: 2;
+		content: "";
+		height: 175px !important;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
 	}
-  
+
 	&::after {
-	  right: 0;
-	  top: 0;
-	  -webkit-transform: rotateZ(180deg);
-	  transform: rotateZ(180deg);
+		right: 0;
+		top: 0;
+		-webkit-transform: rotateZ(180deg);
+		transform: rotateZ(180deg);
 	}
-  
+
 	&::before {
-	  left: 0;
-	  top: 0;
+		left: 0;
+		top: 0;
 	}
-  }
-  
-  .logoSlideTrack {
+}
+
+.logoSlideTrack {
 	-webkit-animation: logo-scroll 60s linear infinite;
 	animation: logo-scroll 60s linear infinite;
 	display: -webkit-box;
@@ -8120,58 +8124,99 @@ h6,
 	width: calc(250px * 14);
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
-  }
-  
-  .slide {
+}
+
+.slide {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	height: 150px;
+	height: 180px;
 	width: auto;
 	padding: 40px;
-  }
-  
-  .slide img {
+}
+
+.slide img {
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
 	width: auto;
 	height: auto;
 	margin: auto;
-  }
-  
-  @-webkit-keyframes logo-scroll {
-	0% {
-	  -webkit-transform: translateX(0);
-	  transform: translateX(0);
-	}
-	100% {
-	  -webkit-transform: translateX(calc(-250px * 7));
-	  transform: translateX(calc(-250px * 7));
-	}
-  }
-  
-  @keyframes logo-scroll {
-	0% {
-	  -webkit-transform: translateX(0);
-	  transform: translateX(0);
-	}
-	100% {
-	  -webkit-transform: translateX(calc(-250px * 7));
-	  transform: translateX(calc(-250px * 7));
-	}
-  }
+}
 
-  // src/FullWidthImage.scss
-  .full-width-image__section {
+@-webkit-keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+@keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+// src/FullWidthImage.scss
+.full-width-image__section {
 	background: url('/images/services/background.png');
 	background-size: cover;
 	background-color: #214D9E;
-  }
+}
 
 .full-width-image__section img {
-  width: 100%;
+	width: 100%;
+	padding: 8rem 0rem;
 }
+
+// styles/PurificationProcess.module.scss
+.purifyWrapper {
+	position: relative;
+	width: 400px; // Adjust based on the size of your central image
+	height: 400px; // Adjust to match width for circular layout
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	.centerImage {
+		width: 200px; // Adjust based on your actual image size
+		height: auto;
+		z-index: 1;
+	}
+
+	.icon {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.tooltip {
+		position: absolute;
+		padding: 10px;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+		white-space: nowrap;
+		transform: translate(-50%, -120%);
+		z-index: 2;
+	}
+}
+
 /* ---
 	Skin Options
 ---*/

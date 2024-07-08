@@ -1,9 +1,9 @@
 ---
 #preview details
 image: "/images/posts3.jpg"
-icon: "/images/serv-icon1.png"
-title: "Social Media Campaign"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+icon: "/images/services/allicons-02.png"
+title: "Nano-Silver Disinfection"
+short: "Kills and deactivates all types of tertiary biological (viral & bacteria) contaminants."
 
 #full details
 accordion:

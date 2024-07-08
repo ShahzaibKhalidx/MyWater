@@ -2,6 +2,8 @@ import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import ImageView from "@components/ImageView";
+import { getSortedServicesData } from "@library/services";
+
 
 import { useRouter } from 'next/router';
 
@@ -14,10 +16,10 @@ import {
   RedditShareButton,
   TwitterShareButton
 } from "react-share";
-import LogoSlider from "@/src/components/sections/LogoSlider";
 import ComparisonChart from "@/src/components/sections/ComparisonChart";
 import FAQs from "@/src/components/sections/FAQs";
 import LogoSlider2 from "@/src/components/sections/LogoSlider2";
+import Services4Section from "@/src/components/sections/Services4";
 
 const ProjectDetail = (props) => {
 
@@ -167,8 +169,9 @@ const ProjectDetail = (props) => {
       </section>
       {/* <LogoSlider /> */}
       <ComparisonChart />
-      <FAQs title="Frequently Asked Questions" items={faqContent.items} />
+      <Services4Section services={props.services} />
       <LogoSlider2 />
+      <FAQs title="Frequently Asked Questions" items={faqContent.items} />
       {/* Onovo Navs */}
       <section className="onovo-section">
         <div className="container">
@@ -219,11 +222,13 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const postData = await getProjectData(params.id)
   const allProjects = await getSortedProjectsData()
+  const allServices = getSortedServicesData();
 
   return {
     props: {
       data: postData,
-      projects: allProjects
+      projects: allProjects,
+      services: allServices
     }
   }
 }

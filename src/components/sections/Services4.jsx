@@ -6,15 +6,15 @@ const Services4Section = ({ services }) => {
   return (
     <>
         {/* Onovo Services */}
-		<section className="onovo-section gap-bottom-140">
+		<section className="onovo-section gap-bottom-140 gap-top-40">
 			<div className="container">
 
 				{/* Heading */}
 				<div className="onovo-heading gap-bottom-40">
-					<div className="onovo-subtitle-1">
+					<div className="onovo-subtitle-1 text-center">
 						<span>{Data.subtitle}</span>
 					</div>
-					<h2 className="onovo-title-2">
+					<h2 className="onovo-title-2 text-center">
 						<span>{Data.title}</span>
 					</h2>
 				</div>

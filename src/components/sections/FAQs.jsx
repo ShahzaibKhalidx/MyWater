@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const FAQComponent = ({ title, items }) => {
   return (
-    <section className="onovo-section gap-top-140 gap-bottom-40">
+    <section className="onovo-section gap-top-80 gap-bottom-40">
       <div className="container">
         {title && <h2 className="section-title text-center gap-bottom-40">{title}</h2>}
         <Accordion>

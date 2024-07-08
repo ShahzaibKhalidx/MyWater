@@ -1,9 +1,10 @@
 ---
 #preview details
 image: "/images/posts4.jpg"
-icon: "/images/serv-icon4.png"
-title: "Visual Identity"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+icon: "/images/services/allicons-05.png"
+title: "Mineralization"
+short: "Adds essential minerals to enhance
+nutrients and flavor."
 
 #full details
 accordion:
