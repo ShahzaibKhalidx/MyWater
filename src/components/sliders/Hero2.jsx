@@ -9,7 +9,6 @@ const Hero2Slider = () => {
     <>
         {/* Onovo Hero */}
         <section className="onovo-section onovo-hero hero--two">
-
             {/* Hero swiper */}
             <Swiper
                 {...sliderProps.hero2Slider}

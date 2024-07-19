@@ -28,7 +28,7 @@ const FAQ = () => {
   }
 
   return (
-    <Layouts>
+    <Layouts header={2}>
       <PageBanner pageTitle={"Client’s FAQ"} pageDesc={"Solving business problems is an everyday."} />
       
       {/* Onovo Faq */}

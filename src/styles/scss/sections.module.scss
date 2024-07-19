@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #EDEFF0;
+    color: #FFFFFF;
     overflow: hidden;
 
     // Overlay to darken the background image for better text visibility
@@ -33,21 +33,21 @@
         padding: 20px;
 
         .heading {
-            font-size: 2rem;
+            // font-size: 2rem;
             margin-bottom: 20px;
             text-transform: uppercase;
 
             @media (min-width: 768px) {
-                font-size: 4rem;
+                // font-size: 4rem;
             }
         }
 
         .subtitle {
-            font-size: 1.2rem;
+            // font-size: 1.2rem;
             margin-bottom: 30px;
 
             @media (min-width: 768px) {
-                font-size: 1.5rem;
+                // font-size: 1.5rem;
             }
         }
     }

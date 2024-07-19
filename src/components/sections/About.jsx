@@ -1,7 +1,14 @@
 import Data from "@data/sections/about.json";
 import Link from "next/link";
+import { useState } from 'react';
+import SurveyModal from './SurveyModal';
 
 const AboutSection = () => {
+
+  const [showSurvey, setShowSurvey] = useState(false);
+  const handleShowSurvey = () => setShowSurvey(true);
+  const handleCloseSurvey = () => setShowSurvey(false);
+
     return (
       <>
         {/* Onovo About */}
@@ -46,7 +53,7 @@ const AboutSection = () => {
                     <h5 className="text-uppercase text-white">{item.title}</h5>
                     <p className="text-white" dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&
-                    <Link className="onovo-btn onovo-hover-btn" style={{backgroundColor:'#00F6FF'}} href={item.button.link}>
+                    <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn" style={{backgroundColor:'#00F6FF'}} href={"#"}>
                       <i className="arrow"><span /></i>
                       <span>{item.button.label}</span>
                     </Link>
@@ -71,6 +78,7 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+          <SurveyModal show={showSurvey} handleClose={handleCloseSurvey} />
         </section>
       </>
     );

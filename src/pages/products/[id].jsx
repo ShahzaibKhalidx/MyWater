@@ -3,9 +3,10 @@ import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import ImageView from "@components/ImageView";
 import { getSortedServicesData } from "@library/services";
-
-
 import { useRouter } from 'next/router';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { sliderProps } from "@common/sliderProps";
+
 
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
 
@@ -77,6 +78,14 @@ const ProjectDetail = (props) => {
       }
     ]
   };
+
+  // const [sliderData, setSliderData] = useState([]);
+
+  // useEffect(() => {
+  //   const data = getSliderData();
+  //   setSliderData(data);
+  // }, []);
+
   return (
 
     <Layouts header={3}>
@@ -90,11 +99,50 @@ const ProjectDetail = (props) => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               {/* Project Info */}
               {/* Image */}
-              <div className="gap-bottom-80">
-                <div className="product-image">
-                  <img src={postData.product_img} alt={postData.title} />
-                </div>
-              </div>
+              <section className="onovo-section onovo-hero hero--two">
+                {/* Hero swiper */}
+                <Swiper
+                  {...sliderProps.hero2Slider}
+                  className="swiper-container js-hero-slider"
+                >
+                  <div className="swiper-wrapper">
+                    {postData.slides.map((item, key) => (
+                      <SwiperSlide key={`h2s-slide-${key}`} className="swiper-slide">
+                        <div className="onovo-hero-slide-item">
+                          {item.video == undefined &&
+                            <div style={{ backgroundSize: "contain" }} className="image" data-dimg={item.image.desktop} data-mimg={item.image.mobile}>
+                              <div className="ovrl" />
+                            </div>
+                          }
+                          {item.video != undefined &&
+                            <div className="image video">
+                              <video autoPlay muted loop playsInline>
+                                <source src={item.video} type="video/mp4" />
+                              </video>
+                              <div className="ovrl" style={{ "opacity": "0.95" }} />
+                            </div>
+                          }
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </div>
+
+                  {/* navs */}
+                  <div className="onovo-navs js-hero-slider-navs">
+                    <div className="onovo-prev js-hero-slider-prev nav--white onovo-hover-2">
+                      <i />
+                    </div>
+                    <div className="onovo-paginations-container pag--white">
+                      <div className="onovo-paginations js-hero-pagination" />
+                      <div className="swiper-nav-active" />
+                    </div>
+                    <div className="onovo-next js-hero-slider-next nav--white onovo-hover-2">
+                      <i />
+                    </div>
+                  </div>
+                </Swiper>
+
+              </section>
             </div>
             {/* META */}
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 align-content-center">
@@ -131,6 +179,55 @@ const ProjectDetail = (props) => {
                     </div>
                     {/* Description */}
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                    {/* Social Buttons */}
+                    <div className="onovo-share gap-bottom-40">
+                      <div className="social-share onovo-post-socials onovo-social-2">
+                        <ul>
+                          <li>
+                            <FacebookShareButton
+                              className="onovo-social-link onovo-hover-2"
+                              url={shareUrl}
+                              quote={postData.title}
+                              hashtag={'#' + postData.category}
+                            >
+                              <i className="icon fab fa-facebook" />
+                            </FacebookShareButton>
+                          </li>
+                          <li>
+                            <TwitterShareButton
+                              className="onovo-social-link onovo-hover-2"
+                              url={shareUrl}
+                              title={postData.title}
+                              hashtag={'#' + postData.category}
+                            >
+                              <i className="icon fab fa-twitter"></i>
+                            </TwitterShareButton>
+                          </li>
+                          <li>
+                            <LinkedinShareButton
+                              className="onovo-social-link onovo-hover-2"
+                              url={shareUrl}
+                              title={postData.title}
+                              summary={postData.type}
+                              source={shareUrl}
+                            >
+                              <i className="icon fab fa-linkedin" />
+                            </LinkedinShareButton>
+                          </li>
+                          <li>
+                            <PinterestShareButton
+                              className="onovo-social-link onovo-hover-2"
+                              url={shareUrl}
+                              media={postData.image}
+                              description={postData.title}
+                            >
+                              <i className="icon fab fa-pinterest" />
+                            </PinterestShareButton>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    {/* Buttons */}
                     <div className="buttonGroup">
                       <Link className="onovo-btn onovo-hover-btn" href="">
                         <i className="arrow"><span /></i>

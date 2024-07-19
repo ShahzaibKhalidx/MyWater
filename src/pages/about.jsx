@@ -32,7 +32,7 @@ const About = (props) => {
   }
 
   return (
-    <Layouts>
+    <Layouts header={2}>
     	<PageBanner pageTitle={"About Us"} pageDesc={"Creative studio at the intersection of art, designand technology."} />
       
       	{/* Onovo About */}

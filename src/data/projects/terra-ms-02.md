@@ -81,6 +81,15 @@ additional:
         </li>
       </ul>
     "
+
+slides:
+  - image:
+      desktop: "/images/products/MS2B.png"
+      mobile: "/images/products/MS2B.png"
+  - image:
+      desktop: "/images/products/MS2.png"
+      mobile: "/images/products/MS2.png"
+
 ---
 
 
