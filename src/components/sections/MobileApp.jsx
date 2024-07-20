@@ -16,7 +16,7 @@ const MobileApp = () => {
                 <div className={styles.textContent}>
                     <h1>Know Your Water</h1>
                     <p>
-                        At MyWater, aaawe believe in the power of repair. Our app empowers you to take charge of your
+                        At MyWater, we believe in the power of repair. Our app empowers you to take charge of your
                         appliances, contribute to a circular economy.
                     </p>
                     <div className={styles.pointers}>

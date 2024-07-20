@@ -2,12 +2,11 @@
 #preview
 title: LIMITED EDITION SERIES
 image: /images/products/5.png
-product_img: /images/products/limited.png
+product_img: /images/products/limited.
 category: Institutes
 category_slug: institute
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
-team: Thomas Jackki
-date: 2021-2023
+
 
 
 # Additional details
@@ -81,6 +80,19 @@ additional:
         </li>
       </ul>
     "
+slides:
+  - image:
+      desktop: "/images/products/limited.png"
+      mobile: "/images/products/limited.png"
+  - image:
+      desktop: "/images/products/limited1.png"
+      mobile: "/images/products/limited1.png"
+  - image:
+      desktop: "/images/products/limited2.png"
+      mobile: "/images/products/limited2.png"
+  - image:
+      desktop: "/images/products/limited3.jpg"
+      mobile: "/images/products/limited3.jpg"
 ---
 
 

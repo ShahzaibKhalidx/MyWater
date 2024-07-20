@@ -3,6 +3,8 @@
 title: TERRA MS-03
 image: /images/products/4.png
 product_img: /images/products/MS3.png
+price: Rs. 55,000
+price_mrc: Rs. 7,000
 category: Offices
 category_slug: office
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
@@ -81,6 +83,14 @@ additional:
         </li>
       </ul>
     "
+
+slides:
+  - image:
+      desktop: "/images/products/MS3.png"
+      mobile: "/images/products/MS3.png"
+  - image:
+      desktop: "/images/products/MS2.png"
+      mobile: "/images/products/MS2.png"
 ---
 
 

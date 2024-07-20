@@ -244,4 +244,65 @@ export const sliderProps = {
       swiper.el.parentNode.querySelector('.swiper-nav-active').style.left = current_pos+'px';
     }
   },
+  heroProduct: {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    speed: 1200,
+    parallax: true,
+    autoplay: {
+      delay: 6000
+    },
+    grabCursor: false,
+    watchSlidesProgress: true,
+    pagination: {
+      el: '.js-hero-pagination',
+      type: 'bullets',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.js-hero-slider-next',
+      prevEl: '.js-hero-slider-prev',
+    },
+    onSlideChange: function(swiper){
+      let current_pos = swiper.el.querySelector('.swiper-pagination-bullet-active').offsetLeft;
+      swiper.el.querySelector('.swiper-nav-active').style.left = current_pos+'px';
+    },
+    onProgress: function(swiper){
+      for (var i = 0; i < swiper.slides.length; i++) {
+        var slideProgress = swiper.slides[i].progress, innerOffset = swiper.width * 0.5, innerTranslate = slideProgress * innerOffset;
+        swiper.slides[i].querySelector('.image').style.transform = "translateX(" + innerTranslate + "px)";
+      }
+    },
+    onTouchStart: function(swiper){
+      for (var i = 0; i < swiper.slides.length; i++) {
+        swiper.slides[i].style.transition = "";
+      }
+    },
+    onSetTransition: function(swiper, speed){
+      for (var i = 0; i < swiper.slides.length; i++) {
+        swiper.slides[i].style.transition = speed + "ms";
+        swiper.slides[i].querySelector('.image').style.transition = speed + "ms";
+      }
+    },
+    onAfterInit: function(swiper){
+      let allImages = swiper.el.querySelectorAll('.image');
+      allImages.forEach(element => {
+        let img_d = element.dataset.dimg;
+        let img_m = element.dataset.mimg;
+        if ( window.innerWidth < 768 ) {
+          if ( img_m != undefined) {
+            element.style.backgroundImage = 'url('+img_m+')';
+          }
+          else {
+            element.style.backgroundImage = 'url('+img_d+')';
+          }
+        } else {
+          if ( img_d != undefined ) {
+            element.style.backgroundImage = 'url('+img_d+')';
+          }
+        }
+      });
+    },
+  },
 };

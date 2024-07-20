@@ -1,24 +1,24 @@
 {
     "title": "Send Us Your <br/><strong>Bright Ideas</strong>",
     "subtitle": "Get in Touch",
-    "text": "<a href=\"mailto:infoname@domain.com\" target=\"_blank\">infoname@domain.com</a><p>36 East 8th Street, New York, <br />NY 10003, United States.</p>",
+    "text": "<a href=\"mailto:info@mywater.pk\" target=\"_blank\">info@mywater.pk</a><p>60-A, F-6, Jinnah Avenue, <br />Blue Area, Islamabad.</p>",
     "bg_image": "/images/services/4.png",
     "bg_image2": "/images/cta-circle4.png",
     "social": [
         {
-            "link": "https://facebook.com/",
+            "link": "https://www.facebook.com/mywaterpk",
             "icon": "fab fa-facebook-f",
             "title": "Facebook"
         },
         {
-            "link": "https://instagram.com/",
+            "link": "https://www.instagram.com/mywaterpk",
             "icon": "fab fa-instagram",
             "title": "Instagram"
         },
         {
-            "link": "https://twitter.com/",
-            "icon": "fab fa-twitter",
-            "title": "Twitter"
+            "link": "https://www.linkedin.com/company/mywaterpk/",
+            "icon": "fab fa-linkedin",
+            "title": "LinkedIn"
         },
         {
             "link": "https://youtube.com/",

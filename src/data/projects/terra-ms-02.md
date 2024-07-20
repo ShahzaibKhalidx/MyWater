@@ -3,6 +3,8 @@
 title: TERRA MS-02
 image: /images/products/4.png
 product_img: /images/products/MS2B.png
+price: Rs. 45,000
+price_mrc: Rs. 4,500
 category: Home
 category_slug: home
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES

@@ -922,7 +922,7 @@ hr {
 
 .onovo-contact-info {
 	position: relative;
-	background: #000;
+	background: #0A195D;
 	padding: 50px;
 }
 
@@ -946,7 +946,7 @@ hr {
 .onovo-contact-info>ul>li {
 	padding-bottom: 30px;
 	margin-bottom: 30px;
-	border-bottom: 2px solid #3E3E3E;
+	border-bottom: 2px solid #f6f6f670;
 }
 
 .onovo-contact-info>ul>li:last-child {
@@ -3215,7 +3215,7 @@ ul.onovo-footer-menu li {
 .onovo-hero {
 	position: relative;
 	height: 100vh;
-	background: #555;
+	background: rgba(128, 128, 128, 0.571);
 }
 
 .onovo-hero .image,
@@ -3234,7 +3234,20 @@ ul.onovo-footer-menu li {
 	object-fit: cover;
 	object-position: center;
 }
-
+.onovo-hero .image .ovrl2,
+.onovo-hero .video .ovrl2,
+.onovo-intro .image .ovrl2,
+.onovo-intro .video .ovrl2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.10;
+	z-index: 2;
+	border-radius: 5px;
+}
 .onovo-hero .image .ovrl,
 .onovo-hero .video .ovrl,
 .onovo-intro .image .ovrl,
@@ -7928,11 +7941,35 @@ h6,
 // ProjectDetail.module.scss
 
 .projectDetailSection {
+	.list-group-item.active {
+		color: #0A195D;
+		background-color: #EDEFF0;
+		border-color: #0A195D;
+	}
+	
+	.list-group {
+		border-radius: 66px;
+	}
+	
+	.list-group-item {
+	border: 1px solid #00000075;
+	background-color: #ffffffb8;
+	}
+	
+	.price_tabs {
+	  padding: 12px 0px;
+	}
+
+	.price_heading{
+		--bs-gutter-y: 0.5rem;
+	}
+
 	.buttonGroup {
 		display: flex;
 		// justify-content: center;
 		gap: 1rem;
 		margin-top: 10px;
+		flex-wrap: wrap;
 	}
 
 	.iconSection {
@@ -7986,21 +8023,10 @@ h6,
 		}
 	}
 
-
-
 	.projectDescription {
-		.bigTitle {
-			font-size: 2.5rem;
-			font-weight: bold;
-		}
-
-		.tagline {
-			font-size: 1.5rem;
-			margin-bottom: 1rem;
-		}
 
 		.reviewStars {
-			margin-bottom: 1rem;
+			// margin-bottom: 1rem;
 
 			.fa-star,
 			.fa-star-half-alt {
@@ -8010,7 +8036,6 @@ h6,
 			.starRating {
 				font-size: 1rem;
 				margin-left: 10px;
-				color: #333;
 			}
 		}
 

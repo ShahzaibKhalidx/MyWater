@@ -6,6 +6,10 @@ import { getSortedServicesData } from "@library/services";
 import { useRouter } from 'next/router';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { sliderProps } from "@common/sliderProps";
+import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
+import Row from 'react-bootstrap/Row';
+import Tab from 'react-bootstrap/Tab';
 
 
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
@@ -53,29 +57,21 @@ const ProjectDetail = (props) => {
   const faqContent = {
     items: [
       {
-        heading: "What types of impurities does the MyWater filtration system remove?",
-        content: "The MyWater system effectively removes a wide range of impurities through its advanced multi-stage filtration process:\n- Dual Particle Filtration: Removes dust, particulates, and suspended solids.\n- Reverse Osmosis (RO): Eliminates invisible impurities, including salts and harmful metals.\n- Dual Carbon Filtration: Removes odors and toxic chemicals, enhancing taste.\n- UV Disinfection: Kills bacteria, viruses, protozoa, cysts, and pathogens.\n- Nano-Silver Disinfection: Deactivates various biological contaminants such as viruses and bacteria."
+        "heading": "Do you deliver water bottles?",
+        "content": "No, we do not deliver water. We purify the tap water to provide clean and safe drinking water."
       },
       {
-        heading: "How does MyWater ensure the water is safe and healthy to drink?",
-        content: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "What is the difference between MyWater® and other water brands?",
+        "content": "MyWater® does not use any artificial infused minerals and is plastic free. Our minerals are naturally sourced which gives your water unique taste from other branded water brands"
       },
       {
-        heading: "Can I monitor the performance of my MyWater system?",
-        content: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "What are the monthly charges?",
+        "content": "The charges are as under: <br> 1.	Neo: PKR 3500/ PM- + Inclusive Tax (Under sink Unit) <br> 2.	Terra: PKR 4500/-PM +Inclusive Tax (Dispenser Unit)",
       },
       {
-        heading: "How does MyWater's filtration system improve the taste of water?",
-        content: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "What are the payment options?",
+        "content": "We have different payment options for customer’s ease. Payments can be made by following options: <br>1.	Kuickpay <br>2.	Cheques (Payable to MyWater®.pk) <br>3.	Bank Transfer <br>4.	Cash Collections <br>5.	Online Payment Through Master/Visa",
       },
-      {
-        heading: "How can I save on my water costs with MyWater?",
-        content: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-      },
-      {
-        heading: "How do I book a survey or get more information about MyWater?",
-        content: "To book a survey or learn more about MyWater, you can visit our website at www.mywater.pk or call us at 021-11-11-WATER (92837)."
-      }
     ]
   };
 
@@ -90,19 +86,17 @@ const ProjectDetail = (props) => {
 
     <Layouts header={3}>
       {/* <PageBanner pageTitle={postData.title} pageDesc={postData.type} /> */}
-
       {/* Onovo Project Detail */}
       <section className="onovo-section gap-top-140 projectDetailSection">
         <div className="container">
-
           <div className="row gap-bottom-80">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               {/* Project Info */}
               {/* Image */}
-              <section className="onovo-section onovo-hero hero--two">
+              <section className="onovo-section onovo-hero hero--product">
                 {/* Hero swiper */}
                 <Swiper
-                  {...sliderProps.hero2Slider}
+                  {...sliderProps.heroProduct}
                   className="swiper-container js-hero-slider"
                 >
                   <div className="swiper-wrapper">
@@ -111,7 +105,7 @@ const ProjectDetail = (props) => {
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
                             <div style={{ backgroundSize: "contain" }} className="image" data-dimg={item.image.desktop} data-mimg={item.image.mobile}>
-                              <div className="ovrl" />
+                              <div className="ovrl2" />
                             </div>
                           }
                           {item.video != undefined &&
@@ -145,16 +139,15 @@ const ProjectDetail = (props) => {
               </section>
             </div>
             {/* META */}
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 align-content-center">
-
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 align-content-center pt-4">
               {postData.contentHtml != "" &&
                 <>
                   <div className="onovo-text">
-                    <h1 className="bigTitle">{postData.title}</h1>
-                    <h5 className="tagline">{postData.tagline}</h5>
+                    <h2 className="bigTitle">{postData.title}</h2>
+                    <p className="tagline">{postData.tagline}</p>
                     {/* Review Stars */}
                     <div className="reviewStars">
-                      {Array.from({ length: 5 }, (v, i) => (
+                      {Array.from({ length: 4 }, (v, i) => (
                         <i
                           key={i}
                           className={`fa${i < Math.floor(postData.review_stars) ? 's' : 'r'} fa-star`}
@@ -166,6 +159,35 @@ const ProjectDetail = (props) => {
                       )}
                       {/* <span className="starRating">{postData.review_stars.toFixed(1)}</span> */}
                     </div>
+                    {/* <div><h3 style={{display: "inline"}}>Rs. {postData.price}</h3><span> (Inclusive of Taxes)</span></div> */}
+                    {/* PRICE */}
+                    <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
+                      <Row className="price_tabs">
+                        <Col sm={12}>
+                          <Tab.Content>
+                            <Tab.Pane eventKey="#link1"><div><h3 style={{display: "inline"}}>{postData.price}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#link2"><div><h3 style={{display: "inline"}}>{postData.price_mrc}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
+                          </Tab.Content>
+                        </Col>
+                      </Row>
+                      <Row className="price_heading">
+                        <Col sm={6} lg={4} md={6}>
+                          <ListGroup>
+                            <ListGroup.Item action href="#link1">
+                              OTC
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                        <Col sm={6} lg={4} md={6}>
+                          <ListGroup>
+                            <ListGroup.Item action href="#link2">
+                              MRC
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                      </Row>
+                    </Tab.Container>
+                    
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
                     {/* Project Requirement Icons */}
@@ -179,54 +201,7 @@ const ProjectDetail = (props) => {
                     </div>
                     {/* Description */}
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                    {/* Social Buttons */}
-                    <div className="onovo-share gap-bottom-40">
-                      <div className="social-share onovo-post-socials onovo-social-2">
-                        <ul>
-                          <li>
-                            <FacebookShareButton
-                              className="onovo-social-link onovo-hover-2"
-                              url={shareUrl}
-                              quote={postData.title}
-                              hashtag={'#' + postData.category}
-                            >
-                              <i className="icon fab fa-facebook" />
-                            </FacebookShareButton>
-                          </li>
-                          <li>
-                            <TwitterShareButton
-                              className="onovo-social-link onovo-hover-2"
-                              url={shareUrl}
-                              title={postData.title}
-                              hashtag={'#' + postData.category}
-                            >
-                              <i className="icon fab fa-twitter"></i>
-                            </TwitterShareButton>
-                          </li>
-                          <li>
-                            <LinkedinShareButton
-                              className="onovo-social-link onovo-hover-2"
-                              url={shareUrl}
-                              title={postData.title}
-                              summary={postData.type}
-                              source={shareUrl}
-                            >
-                              <i className="icon fab fa-linkedin" />
-                            </LinkedinShareButton>
-                          </li>
-                          <li>
-                            <PinterestShareButton
-                              className="onovo-social-link onovo-hover-2"
-                              url={shareUrl}
-                              media={postData.image}
-                              description={postData.title}
-                            >
-                              <i className="icon fab fa-pinterest" />
-                            </PinterestShareButton>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    
                     {/* Buttons */}
                     <div className="buttonGroup">
                       <Link className="onovo-btn onovo-hover-btn" href="">

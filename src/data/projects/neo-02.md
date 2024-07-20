@@ -3,11 +3,12 @@
 title: NEO 02
 image: /images/products/2.png
 product_img: /images/products/neo1.png
+price: Rs. 35,000
+price_mrc: Rs. 3,500
 category: Home
 category_slug: home
 type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
-team: Thomas Jackki
-date: 2021-2023
+
 
 
 # Additional details
@@ -81,6 +82,13 @@ additional:
         </li>
       </ul>
     "
+slides:
+  - image:
+      desktop: "/images/products/neo1.png"
+      mobile: "/images/products/neo1.png"
+  - image:
+      desktop: "/images/products/neo1.png"
+      mobile: "/images/products/neo1.png"
 ---
 
 
