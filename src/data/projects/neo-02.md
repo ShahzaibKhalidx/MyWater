@@ -8,7 +8,9 @@ price_mrc: Rs. 3,500
 category: Home
 category_slug: home
 type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
-
+promo_title: "Two Months Free Service"
+promo_desc: "Monthly Rental: Rs. 4,500"
+promo_offer: "Monthly rental will be charged after 2nd month."
 
 
 # Additional details

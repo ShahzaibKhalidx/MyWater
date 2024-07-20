@@ -8,8 +8,7 @@ price_mrc: Rs. 25,000
 category: Corporate
 category_slug: corporate
 type: UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES
-team: Thomas Jackki
-date: 2021-2023
+none: "none"
 
 
 # Additional details

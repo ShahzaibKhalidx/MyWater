@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import Link from "next/link";
@@ -10,6 +11,8 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
+import { Card } from 'react-bootstrap';
+
 
 
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
@@ -74,13 +77,7 @@ const ProjectDetail = (props) => {
       },
     ]
   };
-
-  // const [sliderData, setSliderData] = useState([]);
-
-  // useEffect(() => {
-  //   const data = getSliderData();
-  //   setSliderData(data);
-  // }, []);
+  const [promo, setPromo] = useState({});
 
   return (
 
@@ -165,8 +162,8 @@ const ProjectDetail = (props) => {
                       <Row className="price_tabs">
                         <Col sm={12}>
                           <Tab.Content>
-                            <Tab.Pane eventKey="#link1"><div><h3 style={{display: "inline"}}>{postData.price}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
-                            <Tab.Pane eventKey="#link2"><div><h3 style={{display: "inline"}}>{postData.price_mrc}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#link1"><div><h3 style={{ display: "inline" }}>{postData.price}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#link2"><div><h3 style={{ display: "inline" }}>{postData.price_mrc}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
                           </Tab.Content>
                         </Col>
                       </Row>
@@ -187,7 +184,6 @@ const ProjectDetail = (props) => {
                         </Col>
                       </Row>
                     </Tab.Container>
-                    
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
                     {/* Project Requirement Icons */}
@@ -201,7 +197,21 @@ const ProjectDetail = (props) => {
                     </div>
                     {/* Description */}
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                    
+                    {/* PROMO */}
+                    {postData.contentHtml != "" &&
+                      <Card className="my-3 p-3 rounded promo_offer text-left">
+                        <Card.Header as="h5">SPECIAL OFFER!</Card.Header>
+                        <Card.Body>
+                          <Card.Title>{postData.promo_title}</Card.Title>
+                          <Card.Text>
+                            {postData.promo_desc}
+                          </Card.Text>
+                          <Card.Text>
+                            <strong>Offer:</strong> {postData.promo_offer}
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                    }
                     {/* Buttons */}
                     <div className="buttonGroup">
                       <Link className="onovo-btn onovo-hover-btn" href="">
@@ -213,11 +223,9 @@ const ProjectDetail = (props) => {
                         <span>Book Survey</span>
                       </Link>
                     </div>
-
                   </div>
                 </>
               }
-
             </div>
           </div>
           {/* {typeof postData.gallery != "undefined" &&

@@ -6,7 +6,7 @@ product_img: /images/products/limited.
 category: Institutes
 category_slug: institute
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
-
+none: "none"
 
 
 # Additional details

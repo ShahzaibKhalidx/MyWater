@@ -8,9 +8,9 @@ price_mrc: Rs. 4,500
 category: Home
 category_slug: home
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
-team: Thomas Jackki
-date: 2021-2023
-
+promo_title: "Two Months Free Service"
+promo_desc: "Monthly Rental: Rs. 4,500"
+promo_offer: "Monthly rental will be charged after 2nd month."
 
 # Additional details
 tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES"

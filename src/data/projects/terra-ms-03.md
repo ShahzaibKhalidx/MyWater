@@ -8,8 +8,7 @@ price_mrc: Rs. 7,000
 category: Offices
 category_slug: office
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
-team: Thomas Jackki
-date: 2021-2023
+none: "none"
 
 
 # Additional details

@@ -6,9 +6,13 @@ const ComparisonChart = () => {
     <>
       {/* Full Width Image Section */}
       <section className="full-width-image__section">
-        {chartData.map((chart, index) => (
-          <img src={chart.imageUrl} alt={index} />
-        ))}
+        <div className="box">
+          <div className="imgBx4">
+            {chartData.map((chart, index) => (
+              <img src={chart.imageUrl} alt={index} />
+            ))}
+          </div>
+        </div>
       </section>
     </>
   );
