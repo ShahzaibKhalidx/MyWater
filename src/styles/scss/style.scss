@@ -8420,7 +8420,38 @@ h6,
   .sv_main .sv_qcbc .sv_q_checkbox.sv_q_radiogroup_control_label--checked img {
 	opacity: 0.7;
   }
-  
+
+.multistepForm{
+	.form_btn{
+		border-radius: 66px;
+		color: #fff;
+		background-color: #0A195D;
+		padding: 10px 40px;
+		vertical-align: middle;
+		line-height: normal;
+		height: auto;
+	}
+	.form_btn:hover{
+		background-color: #00F6FF;
+		color: #fff;
+	}
+	.option_icon{
+		color: #0A195D;
+		border-color: #0A195D;
+	}
+	.option_icon:hover{
+		color: #ffffff;
+		border-color: #00F6FF;
+		background-color: #00F6FF
+	}
+	input[type=checkbox], input[type=radio]{
+		margin: 5px
+	}
+	input[type=checkbox]:checked{
+		background-color: #0A195D;
+		color: #0A195D
+	}
+}
 /* ---
 	Skin Options
 ---*/
