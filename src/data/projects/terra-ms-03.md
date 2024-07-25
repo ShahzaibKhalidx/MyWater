@@ -12,6 +12,9 @@ none: "none"
 promo_title: "Free Service"
 promo_desc: "N/A"
 promo_offer: "N/A"
+display: "none"
+three_year: "N/A"
+five_year: "N/A"
 
 
 # Additional details
@@ -87,6 +90,7 @@ additional:
     "
 
 slides:
+ items:
   - image:
       desktop: "/images/products/slider/ms3.png"
       mobile: "/images/products/slider/ms3.png"

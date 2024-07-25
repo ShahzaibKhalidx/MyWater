@@ -11,7 +11,10 @@ type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
 promo_title: "Two Months Free Service"
 promo_desc: "Monthly Rental: Rs. 3,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
-
+three_year: "OTC: Rs. 185,000 (Exclusive of taxes)"
+note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 3,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+five_year: "OTC: Rs. 250,000 (Exclusive of taxes)"
+note_2: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 4,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 
 # Additional details
 tagline: "COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS"
@@ -85,18 +88,19 @@ additional:
       </ul>
     "
 slides:
-  - image:
-      desktop: "/images/products/slider/neo1.png"
-      mobile: "/images/products/slider/neo1.png"
-  - image:
-      desktop: "/images/products/slider/neo2.png"
-      mobile: "/images/products/slider/neo2.png"
-  - image:
-      desktop: "/images/products/slider/neo3.png"
-      mobile: "/images/products/slider/neo3.png"
-  - image:
-      desktop: "/images/products/slider/neo4.png"
-      mobile: "/images/products/slider/neo4.png"
+    items:
+      - image:
+          desktop: "/images/products/slider/neo1.png"
+          mobile: "/images/products/slider/neo1.png"
+      - image:
+          desktop: "/images/products/slider/neo2.png"
+          mobile: "/images/products/slider/neo2.png"
+      - image:
+          desktop: "/images/products/slider/neo3.png"
+          mobile: "/images/products/slider/neo3.png"
+      - image:
+          desktop: "/images/products/slider/neo4.png"
+          mobile: "/images/products/slider/neo4.png"
 ---
 
 

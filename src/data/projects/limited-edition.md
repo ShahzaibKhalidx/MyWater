@@ -12,6 +12,8 @@ none: "none"
 promo_title: "Two Months Free Service"
 promo_desc: "Monthly Rental: Rs. 4,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
+three_year: "N/A"
+five_year: "N/A"
 
 
 # Additional details
@@ -86,6 +88,7 @@ additional:
       </ul>
     "
 slides:
+  items:
   - image:
       desktop: "/images/products/slider/le1.png"
       mobile: "/images/products/slider/le1.png"

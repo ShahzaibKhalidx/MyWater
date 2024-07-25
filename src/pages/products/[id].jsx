@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import Link from "next/link";
@@ -31,16 +31,21 @@ import Services4Section from "@/src/components/sections/Services4";
 
 const ProjectDetail = (props) => {
 
-  const postData = props.data;
-  let prev_id, next_id, prev_key, next_key = 0;
+  const [postData, setPostData] = useState(props.data);
+  const router = useRouter();
+  
+  useEffect(() => {
+    setPostData(props.data);
+  }, [props.data]);
 
+  let prev_id, next_id, prev_key, next_key = 0;
   props.projects.forEach(function (item, key) {
     if (item.id == postData.id) {
       prev_key = key - 1;
       next_key = key + 1;
     }
   })
-
+  
   props.projects.forEach(function (item, key) {
     if (key == prev_key) {
       prev_id = item.id;
@@ -95,9 +100,10 @@ const ProjectDetail = (props) => {
                 <Swiper
                   {...sliderProps.heroProduct}
                   className="swiper-container js-hero-slider"
+                  key={postData.id}
                 >
                   <div className="swiper-wrapper">
-                    {postData.slides.map((item, key) => (
+                    {postData.slides.items.map((item, key) => (
                       <SwiperSlide key={`h2s-slide-${key}`} className="swiper-slide">
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
@@ -157,7 +163,9 @@ const ProjectDetail = (props) => {
                       {/* <span className="starRating">{postData.review_stars.toFixed(1)}</span> */}
                     </div>
                     {/* <div><h3 style={{display: "inline"}}>Rs. {postData.price}</h3><span> (Inclusive of Taxes)</span></div> */}
+                    
                     {/* PRICE */}
+                    <div>
                     <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
                       <Row className="price_tabs">
                         <Col sm={12}>
@@ -184,8 +192,39 @@ const ProjectDetail = (props) => {
                         </Col>
                       </Row>
                     </Tab.Container>
+                    </div>
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
+                    {/* YEARLY PLANS */}
+                    <>
+                    <Tab.Container id="yearly-programs"  key={postData.id} style={{display:`${postData.noyear}`}}>
+                      <Row className="price_heading">
+                        <Col sm={6} lg={4} md={6}>
+                          <ListGroup>
+                            <ListGroup.Item action href="#three-year">
+                              3-Years Plan
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                        <Col sm={6} lg={4} md={6}>
+                          <ListGroup>
+                            <ListGroup.Item action href="#five-year">
+                              5-Years Plan
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                      </Row>
+                      <Row className="price_tabs">
+                        <Col sm={12}>
+                          <Tab.Content>
+                            <Tab.Pane eventKey="#three-year"><div><h6 >{postData.three_year}</h6><span>{postData.note_1}</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#five-year"><div><h6 >{postData.five_year}</h6><span>{postData.note_2}</span></div></Tab.Pane>
+                          </Tab.Content>
+                        </Col>
+                      </Row>
+                    </Tab.Container>
+                    </>
+                    
                     {/* Project Requirement Icons */}
                     <div className="iconSection">
                       {postData.details_icon.items.map((item, index) => (
@@ -199,7 +238,7 @@ const ProjectDetail = (props) => {
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     {/* PROMO */}
                     {postData.contentHtml != "" &&
-                      <Card className="my-3 p-3 rounded promo_offer text-left">
+                      <Card key={postData.id} className="my-3 p-3 rounded promo_offer text-left" style={{display:`${postData.display}`}}>
                         <Card.Header as="h5">SPECIAL OFFER!</Card.Header>
                         <Card.Body>
                           <Card.Title>{postData.promo_title}</Card.Title>
@@ -212,6 +251,7 @@ const ProjectDetail = (props) => {
                         </Card.Body>
                       </Card>
                     }
+                    
                     {/* Buttons */}
                     <div className="buttonGroup">
                       <Link className="onovo-btn onovo-hover-btn" href="https://wa.me/021111192837">
@@ -228,23 +268,6 @@ const ProjectDetail = (props) => {
               }
             </div>
           </div>
-          {/* {typeof postData.gallery != "undefined" &&
-            <>
-              <div className="row gap-row gallery-items onovo-custom-gallery">
-
-                {postData.gallery.items.map((item, key) => (
-                  <div key={`gallery-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div className="gallery-item">
-                      <a href={item.image} className="mfp-image">
-                        <img src={item.image} alt={item.alt} />
-                      </a>
-                    </div>
-                  </div>
-                ))}
-
-              </div>
-            </>
-          } */}
         </div>
       </section>
       {/* <LogoSlider /> */}

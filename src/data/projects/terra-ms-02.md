@@ -11,6 +11,10 @@ type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
 promo_title: "Two Months Free Service"
 promo_desc: "Monthly Rental: Rs. 4,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
+three_year: "OTC: Rs. 257,000 (Exclusive of taxes)"
+note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 3,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+five_year: "OTC: Rs. 315,000 (Exclusive of taxes)"
+note_2: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 4,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 
 # Additional details
 tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES"
@@ -85,6 +89,7 @@ additional:
     "
 
 slides:
+ items:
   - image:
       desktop: "/images/products/slider/ms2.png"
       mobile: "/images/products/slider/ms2.png"
