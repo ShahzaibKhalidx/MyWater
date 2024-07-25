@@ -5,8 +5,13 @@ image: /images/products/5.png
 product_img: /images/products/limited.
 category: Institutes
 category_slug: institute
+price: Rs. 60,000
+price_mrc: Rs. 4,500
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
 none: "none"
+promo_title: "Two Months Free Service"
+promo_desc: "Monthly Rental: Rs. 4,500"
+promo_offer: "Monthly rental will be charged after 2nd month."
 
 
 # Additional details
@@ -82,17 +87,23 @@ additional:
     "
 slides:
   - image:
-      desktop: "/images/products/limited.png"
-      mobile: "/images/products/limited.png"
+      desktop: "/images/products/slider/le1.png"
+      mobile: "/images/products/slider/le1.png"
   - image:
-      desktop: "/images/products/limited1.png"
-      mobile: "/images/products/limited1.png"
+      desktop: "/images/products/slider/le2.png"
+      mobile: "/images/products/slider/le2.png"
   - image:
-      desktop: "/images/products/limited2.png"
-      mobile: "/images/products/limited2.png"
+      desktop: "/images/products/slider/le3.png"
+      mobile: "/images/products/slider/le3.png"
   - image:
-      desktop: "/images/products/limited3.jpg"
-      mobile: "/images/products/limited3.jpg"
+      desktop: "/images/products/slider/le4.png"
+      mobile: "/images/products/slider/le4.png"
+  - image:
+      desktop: "/images/products/slider/le5.png"
+      mobile: "/images/products/slider/le5.png"
+  - image:
+      desktop: "/images/products/slider/le6.png"
+      mobile: "/images/products/slider/le6.png"
 ---
 
 

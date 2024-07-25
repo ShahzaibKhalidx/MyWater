@@ -86,11 +86,11 @@ additional:
 
 slides:
   - image:
-      desktop: "/images/products/MS2B.png"
-      mobile: "/images/products/MS2B.png"
+      desktop: "/images/products/slider/ms2.png"
+      mobile: "/images/products/slider/ms2.png"
   - image:
-      desktop: "/images/products/MS2.png"
-      mobile: "/images/products/MS2.png"
+      desktop: "/images/products/slider/ms2-1.png"
+      mobile: "/images/products/slider/ms2-1.png"
 
 ---
 

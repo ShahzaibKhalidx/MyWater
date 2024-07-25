@@ -1201,7 +1201,7 @@ hr {
 	-webkit-transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 	transform: scale(0);
 	-webkit-transform: scale(0);
-	background: #D8FF36;
+	background: #00F6FF;
 	pointer-events: none;
 }
 
@@ -1278,7 +1278,7 @@ hr {
 	-webkit-transition: transform 0.4s cubic-bezier(0.3, 0, 0.3, 1);
 	transform: scaleY(0);
 	-webkit-transform: scaleY(0);
-	background: #D8FF36;
+	background: #00F6FF;
 	transform-origin: bottom center;
 	z-index: 1;
 }
@@ -1359,7 +1359,7 @@ span.onovo-lnk.lnk--white::after,
 a.onovo-lnk.lnk--active::after,
 span.onovo-lnk.lnk--active::after,
 .onovo-lnk.lnk--active a::after {
-	background: #D8FF36;
+	background: #00F6FF;
 }
 
 a.onovo-lnk.lnk--revert::after,
@@ -5589,7 +5589,7 @@ ul.onovo-footer-menu li {
 
 .onovo-video {
 	position: relative;
-	height: 670px;
+	height: 590px;
 	z-index: 1;
 	background-color: #555;
 }
@@ -8451,6 +8451,12 @@ h6,
 		background-color: #0A195D;
 		color: #0A195D
 	}
+}
+
+.my-hover img:hover{
+	transform: scale3d(1.1, 1.1, 1.1);
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
 }
 /* ---
 	Skin Options

@@ -9,6 +9,9 @@ category: Offices
 category_slug: office
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
 none: "none"
+promo_title: "Free Service"
+promo_desc: "N/A"
+promo_offer: "N/A"
 
 
 # Additional details
@@ -85,11 +88,11 @@ additional:
 
 slides:
   - image:
-      desktop: "/images/products/MS3.png"
-      mobile: "/images/products/MS3.png"
+      desktop: "/images/products/slider/ms3.png"
+      mobile: "/images/products/slider/ms3.png"
   - image:
-      desktop: "/images/products/MS2.png"
-      mobile: "/images/products/MS2.png"
+      desktop: "/images/products/slider/ms3-1.png"
+      mobile: "/images/products/slider/ms3-1.png"
 ---
 
 

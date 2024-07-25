@@ -9,7 +9,7 @@ category: Home
 category_slug: home
 type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
 promo_title: "Two Months Free Service"
-promo_desc: "Monthly Rental: Rs. 4,500"
+promo_desc: "Monthly Rental: Rs. 3,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
 
 
@@ -86,11 +86,17 @@ additional:
     "
 slides:
   - image:
-      desktop: "/images/products/neo1.png"
-      mobile: "/images/products/neo1.png"
+      desktop: "/images/products/slider/neo1.png"
+      mobile: "/images/products/slider/neo1.png"
   - image:
-      desktop: "/images/products/neo1.png"
-      mobile: "/images/products/neo1.png"
+      desktop: "/images/products/slider/neo2.png"
+      mobile: "/images/products/slider/neo2.png"
+  - image:
+      desktop: "/images/products/slider/neo3.png"
+      mobile: "/images/products/slider/neo3.png"
+  - image:
+      desktop: "/images/products/slider/neo4.png"
+      mobile: "/images/products/slider/neo4.png"
 ---
 
 

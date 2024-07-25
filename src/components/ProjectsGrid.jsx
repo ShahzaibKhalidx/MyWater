@@ -123,7 +123,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                             {layout == "grid" &&    
                                 <div className="onovo-portfolio-item">
                                     <div className={masonry ? "image" : "image image-square"} data-onovo-overlay data-onovo-scroll>
-                                        <Link href={galleryMode ? item.image : `/products/${item.id}`} className="onovo-hover-3">
+                                        <Link href={galleryMode ? item.image : `/products/${item.id}`} className="my-hover">
                                             <img src={item.image} alt={item.title} />
                                         </Link>
                                     </div>
@@ -144,7 +144,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                             {layout == "list" &&
                                 <div className="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div className="image" data-onovo-overlay data-onovo-scroll>
-                                        <Link href={`/projects/${item.id}`} className="onovo-hover-3">
+                                        <Link href={`/projects/${item.id}`} className="my-hover">
                                           <img src={item.image} alt={item.title} />
                                         </Link>
                                     </div>

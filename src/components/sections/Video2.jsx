@@ -20,8 +20,7 @@ const VideoSection2 = () => {
     <>
       	{/* Onovo Video */}
 		<section style={{backgroundColor:"#214D9E"}} className="onovo-section gap-bottom-120">
-			<div className="container">
-
+			<div className="container video-section">
 				{/* video */}
 				<div className="onovo-video" data-onovo-overlay data-onovo-scroll>
 					<div className="image" onClick={ (e) => clickedVideoButton(e) } style={{"backgroundImage": "url("+Data.bg_image+")"}} />

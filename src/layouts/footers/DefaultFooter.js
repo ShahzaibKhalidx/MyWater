@@ -22,8 +22,10 @@ const DefaultFooter = () => {
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>MYWATER (Pvt.) Ltd.</h5>
-                                <p style={{"opacity": "0.8"}}>From the moment our company was founded, we've helped our clients find exceptional solutions <strong>for their businesses</strong>.</p>
-                                <p style={{"opacity": "0.8"}}><strong>021-11-11-WATER (92837)</strong></p>
+                                <p style={{"opacity": "0.8"}}>Think Smart | Drink Smart.</p>
+                                {/* <p style={{"opacity": "0.8"}}><strong>021-11-11-WATER (92837)</strong></p> */}
+                                <a href="tel:021-11-11-WATER(92837)" className="onovo-lnk lnk--white" target="_blank">Helpline: 021-11-11-WATER (92837)</a><br />
+                                <a href="tel:+923112522543" className="onovo-lnk lnk--white" target="_blank">For Sales: +92 (311) 252 2543</a><br />
                             </div>
 
                         </div>
@@ -34,7 +36,7 @@ const DefaultFooter = () => {
                                 <h5>Karachi</h5>
                                 <p style={{"opacity": "0.8"}}>1-D-28, Sector 30, Korangi <br />Industrial Area, Karachi </p>
                                 <p style={{"opacity": "0.8"}}>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+92 (318) 2062676</a><br />
+                                    {/* <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+92 (318) 2062676</a><br /> */}
                                     {/* <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a> */}
                                 </p>
                             </div>
@@ -47,7 +49,7 @@ const DefaultFooter = () => {
                                 <h5>Islamabad</h5>
                                 <p style={{"opacity": "0.8"}}>60-A, F-6, Jinnah Avenue <br />Blue Area, Islamabad </p>
                                 <p style={{"opacity": "0.8"}}>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+92 (318) 2986945</a><br />
+                                    {/* <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+92 (318) 2986945</a><br /> */}
                                     {/* <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a> */}
                                 </p>
                             </div>
@@ -60,7 +62,7 @@ const DefaultFooter = () => {
                                 <h5>Lahore</h5>
                                 <p style={{"opacity": "0.8"}}>344-5, Quaid-e-Azam Industrial Estate, <br />Kot Lakhpat, Lahore 54000 </p>
                                 <p style={{"opacity": "0.8"}}>
-                                    <a href="tel:+923700216915" className="onovo-lnk lnk--white" target="_blank">+92 (370) 0216915</a><br />
+                                    {/* <a href="tel:+923700216915" className="onovo-lnk lnk--white" target="_blank">+92 (370) 0216915</a><br /> */}
                                     {/* <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a> */}
                                 </p>
                             </div>

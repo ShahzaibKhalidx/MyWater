@@ -3,12 +3,15 @@
 title: SOLACE-02
 image: /images/products/1.png
 product_img: /images/products/solace2.png
-price: Rs. 20,000
+price: Rs. 70,000
 price_mrc: Rs. 25,000
 category: Corporate
 category_slug: corporate
 type: UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES
 none: "none"
+promo_title: "Free Service"
+promo_desc: "N/A"
+promo_offer: "N/A"
 
 
 # Additional details
@@ -86,11 +89,11 @@ additional:
 
 slides:
   - image:
-      desktop: "/images/products/solace2.png"
-      mobile: "/images/products/solace2.png"
+      desktop: "/images/products/slider/solace2.png"
+      mobile: "/images/products/slider/solace2.png"
   - image:
-      desktop: "/images/products/solace1.png"
-      mobile: "/images/products/solace.png"
+      desktop: "/images/products/slider/solace1.png"
+      mobile: "/images/products/slider/solace1.png"
 ---
 
 

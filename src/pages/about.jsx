@@ -61,7 +61,7 @@ const About = (props) => {
 						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 offset-lg-1 hide-on-mobile">
 
 							{/* Image */}
-							<img src="/images/onovo-about-logo.png" alt="" />
+							<img src="/images/67.png" alt="" />
 
 						</div>
 					</div>
@@ -72,33 +72,33 @@ const About = (props) => {
 						{/*number-item*/}
 						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div className="onovo-counter">
-								<div className="num onovo-text-white js-counter" data-end-value="23">
-									<CountUp end="23" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
-								</div>
-								<div className="num-after onovo-text-white"> + </div>
-								<div className="label"> Team members </div>
-							</div>
-						</div>
-
-						{/*number-item*/}
-						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-							<div className="onovo-counter">
-								<div className="num onovo-text-white js-counter" data-end-value="99">
-									<CountUp end="99" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
-								</div>
-								<div className="num-after onovo-text-white"> + </div>
-								<div className="label"> Completed projects </div>
-							</div>
-						</div>
-
-						{/*number-item*/}
-						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-							<div className="onovo-counter">
-								<div className="num onovo-text-white js-counter" data-end-value="12">
-									<CountUp end="12" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								<div className="num onovo-text-white js-counter" data-end-value="7">
+									<CountUp end="7" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
 								</div>
 								<div className="num-after onovo-text-white"> M </div>
-								<div className="label"> Lines of code </div>
+								<div className="label"> Bottles Saved</div>
+							</div>
+						</div>
+
+						{/*number-item*/}
+						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<div className="onovo-counter">
+								<div className="num onovo-text-white js-counter" data-end-value="66">
+									<CountUp end="66" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								</div>
+								<div className="num-after onovo-text-white"> M </div>
+								<div className="label"> Litres Consumed </div>
+							</div>
+						</div>
+
+						{/*number-item*/}
+						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<div className="onovo-counter">
+								<div className="num onovo-text-white js-counter" data-end-value="7">
+									<CountUp end="7" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								</div>
+								<div className="num-after onovo-text-white"> K </div>
+								<div className="label"> Happy Customers </div>
 							</div>
 						</div>
 
@@ -120,30 +120,30 @@ const About = (props) => {
 							<h5 className="text-uppercase">Our Mission</h5>
 						</div>
 						<div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-							From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience.
+							To serve the highest quality of mineral drinking water using cutting edge technology and modern design. Our products not only give you one of the cleanest drinking water available but also provides you with an experience of a healthier lifestyle by reducing usage of plastic bottles. Your journey with mywater® will transform perspectives on matters such as health, environmental concern and comfort in all aspects of your life. We want to set better standards of a hassle-free service for our customers.
 						</div>
 					</div>
 
 					{/* Description */}
 					<div className="row gap-top-60">
 						<div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-							<h5 className="text-uppercase">Our Goal</h5>
+							<h5 className="text-uppercase">Quality Policy</h5>
 						</div>
 						<div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-							Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech, entertainment, arts &amp; culture.
+							At Mywater, we are committed to providing the highest quality of mineral drinking water using cutting edge technology and modern design by eliminating the use of plastic bottles. We are dedicated to continuously improve our Quality Management System to comply with ISO 9001 standard and other regulatory requirements by setting attainable and measurable quality objectives to ensure customer satisfaction and enhance our reputation as a reliable and sustainable global manufacturer and distributor of smart home appliances.
 						</div>
 					</div>
 
 					{/* Gallery */}
 					<div className="row gap-top-100">
 						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-							<a href="/images/posts1.jpg" className="mfp-image">
-								<img src="/images/posts1-1024x683.jpg" alt="" />
+							<a href="https://play.google.com/store/apps/details?id=com.mywater.customer.app&pli=1" className="mfp-image">
+								<img src="/images/about1.jpg" alt="" />
 							</a>
 						</div>
 						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 gap-top-60">
-							<a href="/images/posts2.jpg" className="mfp-image">
-								<img src="/images/posts2-1024x683.jpg" alt="" />
+							<a href="/products" className="mfp-image">
+								<img src="/images/about2.jpg" alt="" />
 							</a>
 						</div>
 					</div>
@@ -153,11 +153,11 @@ const About = (props) => {
 
 			<Services4Section services={props.services} />
 
-			<AwardsSection />
+			{/* <AwardsSection /> */}
 
 			<HistorySlider />
 
-			<Team2Section team={props.team} />
+			{/* <Team2Section team={props.team} /> */}
 
 			<Testimonial2Slider />
 

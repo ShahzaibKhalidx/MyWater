@@ -78,7 +78,7 @@
                 "children": 0
             },
             {
-                "label": "FAQ",
+                "label": "FAQs",
                 "link": "/faq",
                 "children": 0
             },
@@ -155,6 +155,11 @@
         {
             "link": "https://www.linkedin.com/company/mywaterpk/",
             "icon": "fab fa-linkedin",
+            "title": "Linkedin"
+        },
+        {
+            "link": "https://wa.me/021111192837",
+            "icon": "fab fa-whatsapp",
             "title": "Linkedin"
         }
     ]

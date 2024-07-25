@@ -2,19 +2,19 @@
     "bg_image": "/images/testi-bg.jpg",
     "items": [
         {
-            "name": "Thomas Smith",
-            "role": "Customer Support",
-            "text": "Their high level of customer service complemented their technical expertise. They were responsive, supportive, and communicative. Their dedication to the project was impressive."
+            "name": "Ameemah Aafreen",
+            "role": "Customer",
+            "text": "Highly recommend #mywater gives a better alternate of plastic bottles"
         },
         {
-            "name": "Mike Cameron",
-            "role": "Code Quality",
-            "text": "Their high level of customer service complemented their technical expertise. They were responsive, supportive, and communicative. Their dedication to the project was impressive."
+            "name": "Farhan Salam",
+            "role": "Customer",
+            "text": "What a wonderful product and excellent service.. so relaxed by this hassle free product..keep growing!"
         },
         {
-            "name": "Jessica Brown",
-            "role": "Design Quality",
-            "text": "Their high level of customer service complemented their technical expertise. They were responsive, supportive, and communicative. Their dedication to the project was impressive."
+            "name": "Shahroz Ali",
+            "role": "Customer",
+            "text": "Highly recommended , The best drinking water option available right now is mywater. As a way to rid from plastic water bottles"
         }
     ]
 }

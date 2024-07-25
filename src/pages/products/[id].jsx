@@ -162,8 +162,8 @@ const ProjectDetail = (props) => {
                       <Row className="price_tabs">
                         <Col sm={12}>
                           <Tab.Content>
-                            <Tab.Pane eventKey="#link1"><div><h3 style={{ display: "inline" }}>{postData.price}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
-                            <Tab.Pane eventKey="#link2"><div><h3 style={{ display: "inline" }}>{postData.price_mrc}</h3><span> (Inclusive of Taxes)</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#link1"><div><h3 style={{ display: "inline" }}>{postData.price}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
+                            <Tab.Pane eventKey="#link2"><div><h3 style={{ display: "inline" }}>{postData.price_mrc}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
                           </Tab.Content>
                         </Col>
                       </Row>
@@ -214,7 +214,7 @@ const ProjectDetail = (props) => {
                     }
                     {/* Buttons */}
                     <div className="buttonGroup">
-                      <Link className="onovo-btn onovo-hover-btn" href="">
+                      <Link className="onovo-btn onovo-hover-btn" href="https://wa.me/021111192837">
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>

@@ -1,17 +1,17 @@
 {
     "items": [
         {
-            "value": "100",
-            "label": "Litres of Water",
-            "after": "K"
+            "value": "66",
+            "label": "Litres Consumed",
+            "after": "M"
         },
         {
-            "value": "73",
+            "value": "7",
             "label": "Bottles Saved",
             "after": "M"
         },
         {
-            "value": "5",
+            "value": "7",
             "label": "Happy Customers",
             "after": "K"
         }

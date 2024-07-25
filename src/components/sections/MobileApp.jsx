@@ -34,7 +34,7 @@ const MobileApp = () => {
                         </div>
                     </div>
                 <div className={styles.storeLinks}>
-                        <Link href="https://play.google.com/store/apps/details?id=com.mywater.customer.app&pli=1" passHref legacyBehavior>
+                        <Link href="https://apps.apple.com/us/app/mywater-app/id1464485043" passHref legacyBehavior>
                             <a target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src="/images/appstore.png"
@@ -44,7 +44,7 @@ const MobileApp = () => {
                                 />
                             </a>
                         </Link>
-                        <Link href="https://apps.apple.com/us/app/mywater-app/id1464485043" passHref legacyBehavior>
+                        <Link href="https://play.google.com/store/apps/details?id=com.mywater.customer.app&pli=1" passHref legacyBehavior>
                             <a target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src="/images/playstore.png"
