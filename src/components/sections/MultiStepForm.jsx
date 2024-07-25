@@ -1,8 +1,6 @@
 import { Formik, Form, Field } from 'formik';
 import { useState } from 'react';
-import appData from "@data/app.json";
 
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 
 const MultiStepForm = () => {
     const [step, setStep] = useState(0);  // Current step state
@@ -18,10 +16,30 @@ const MultiStepForm = () => {
     const nextStep = () => setStep(step + 1);
     const prevStep = () => setStep(step - 1);
 
-    const handleSubmit = (values) => {
-        console.log(values);
-        // Here you can integrate the final form submission logic
-        alert('Form submitted,');
+    const handleSubmit = async (values, { resetForm }) => {
+        const formEndpoint = "https://formspree.io/f/xgvwoblq"; // Replace {your_form_id} with your actual Formspree form ID
+
+        try {
+            const response = await fetch(formEndpoint, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(values)
+            });
+
+            if (response.ok) { // Check if POST was successful
+                alert('Form submitted successfully!');
+                resetForm(); // Optionally reset the form
+            } else {
+                const error = await response.text();
+                throw new Error(error);
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            alert('An error occurred. Please try again!');
+        }
     };
 
     return (
@@ -42,7 +60,7 @@ const MultiStepForm = () => {
                 onSubmit={handleSubmit}
             >
                 {({ values, setFieldValue }) => (
-                    <Form onSubmit={handleSubmit} method='post'>
+                    <Form>
                         {step === 0 && (
                             <div>
                                 <div id="checkbox-group">What is the problem with your current bottled water?</div>

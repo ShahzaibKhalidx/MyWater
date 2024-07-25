@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from "react";
 import Layouts from "@layouts/Layouts";
-import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import ImageView from "@components/ImageView";
 import { getSortedServicesData } from "@library/services";
@@ -12,6 +11,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import { Card } from 'react-bootstrap';
+import SurveyModal from "@/src/components/sections/SurveyModal";
 
 
 
@@ -33,6 +33,9 @@ const ProjectDetail = (props) => {
 
   const [postData, setPostData] = useState(props.data);
   const router = useRouter();
+  const [showSurvey, setShowSurvey] = useState(false);
+  const handleShowSurvey = () => setShowSurvey(true);
+  const handleCloseSurvey = () => setShowSurvey(false);
   
   useEffect(() => {
     setPostData(props.data);
@@ -258,7 +261,7 @@ const ProjectDetail = (props) => {
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>
-                      <Link className="onovo-btn onovo-hover-btn" href="">
+                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn" href={postData.id}>
                         <i className="arrow"><span /></i>
                         <span>Book Survey</span>
                       </Link>
@@ -304,10 +307,8 @@ const ProjectDetail = (props) => {
 
         </div>
       </section>
-
       <ImageView />
-
-
+      <SurveyModal show={showSurvey} handleClose={handleCloseSurvey} />
     </Layouts>
   );
 };

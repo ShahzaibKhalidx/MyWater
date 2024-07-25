@@ -53,7 +53,7 @@ const AboutSection = () => {
                     <h5 className="text-uppercase text-white">{item.title}</h5>
                     <p className="text-white" dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&
-                    <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn" style={{backgroundColor:'#00F6FF'}} href={"#"}>
+                    <Link className="onovo-btn onovo-hover-btn" style={{backgroundColor:'#00F6FF'}} href={"/about"}>
                       <i className="arrow"><span /></i>
                       <span>{item.button.label}</span>
                     </Link>
