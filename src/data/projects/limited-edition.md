@@ -6,14 +6,16 @@ product_img: /images/products/limited.
 category: Institutes
 category_slug: institute
 price: Rs. 60,000
-price_mrc: Rs. 4,500
+price_mrc: Rs. 5,500
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES
 none: "none"
 promo_title: "Two Months Free Service"
-promo_desc: "Monthly Rental: Rs. 4,500"
+promo_desc: "OTC: 60,000 | MRC: Rs. 5,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
-three_year: "N/A"
-five_year: "N/A"
+three_year: "OTC: Rs. 272,000 (Exclusive of taxes)"
+note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 3,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+five_year: "OTC: Rs. 330,000 (Exclusive of taxes)"
+note_2: "Service fee includes all types of general servicing and parts replacement for up to 5 years, after that monthly service fees are PKR 4,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 
 
 # Additional details

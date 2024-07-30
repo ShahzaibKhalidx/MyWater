@@ -3,7 +3,7 @@
 title: TERRA MS-03
 image: /images/products/4.png
 product_img: /images/products/MS3.png
-price: Rs. 55,000
+price: Rs. 65,000
 price_mrc: Rs. 7,000
 category: Offices
 category_slug: office

@@ -3,18 +3,18 @@
 title: NEO 02
 image: /images/products/2.png
 product_img: /images/products/neo1.png
-price: Rs. 35,000
-price_mrc: Rs. 3,500
+price: Rs. 45,000
+price_mrc: Rs. 4,500
 category: Home
 category_slug: home
 type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
 promo_title: "Two Months Free Service"
-promo_desc: "Monthly Rental: Rs. 3,500"
+promo_desc: "OTC: 45,000 | MRC: Rs. 4,500"
 promo_offer: "Monthly rental will be charged after 2nd month."
-three_year: "OTC: Rs. 185,000 (Exclusive of taxes)"
-note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 3,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
-five_year: "OTC: Rs. 250,000 (Exclusive of taxes)"
-note_2: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 4,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+three_year: "OTC: Rs. 200,000 (Exclusive of taxes)"
+note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 4,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+five_year: "OTC: Rs. 260,000 (Exclusive of taxes)"
+note_2: "Service fee includes all types of general servicing and parts replacement for up to 5 years, after that monthly service fees are PKR 5,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 
 # Additional details
 tagline: "COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS"

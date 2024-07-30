@@ -3275,7 +3275,7 @@ ul.onovo-footer-menu li {
 
 .onovo-hero .title {
 	margin: 0;
-	font-size: 110px;
+	font-size: 75px;
 	font-weight: 500;
 }
 
@@ -3301,7 +3301,7 @@ ul.onovo-footer-menu li {
 }
 
 .onovo-hero .subtitle {
-	margin: 40px 0 40px 710px;
+	margin: 40px 0 40px 960px;
 	max-width: 560px;
 	font-size: 28px;
 }
@@ -7957,7 +7957,7 @@ h6,
 	}
 	
 	.price_tabs {
-	  padding: 12px 0px;
+	  padding: 24px 0px 16px 0px;
 	}
 
 	.price_heading{
@@ -8210,7 +8210,7 @@ h6,
 .full-width-image__section img {
 	display: block;
 	margin: 0 auto;
-	padding: 5rem 0rem;
+	padding: 0rem 0rem 4rem 0rem;
 }
 
 .full-width-image__section {
@@ -8223,19 +8223,19 @@ h6,
   .full-width-image__section .box {
     position: relative;
     transition: 0.5s;
-    transform-style: preserve-3d;
+    // transform-style: preserve-3d;
     overflow: hidden;
     margin-right: 15px;
     margin-top: 45px;
   }
   .full-width-image__section:hover .box {
-    transform: rotateY(25deg);
+    // transform: rotateY(25deg);
   }
   .full-width-image__section .box:hover ~ .box {
-    transform: rotateY(-25deg);
+    // transform: rotateY(-25deg);
   }
   .full-width-image__section .box:hover {
-    transform: rotateY(0deg) scale(1.1);
+    // transform: rotateY(0deg) scale(1.1);
     z-index: 1;
     // box-shadow: 0 25px 40px rgba(0,0,0,0.5);
   }

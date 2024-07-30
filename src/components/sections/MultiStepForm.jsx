@@ -17,7 +17,7 @@ const MultiStepForm = () => {
     const prevStep = () => setStep(step - 1);
 
     const handleSubmit = async (values, { resetForm }) => {
-        const formEndpoint = "https://formspree.io/f/xgvwoblq"; // Replace {your_form_id} with your actual Formspree form ID
+        const formEndpoint = "https://formspree.io/f/meojgend"; // Replace {your_form_id} with your actual Formspree form ID
 
         try {
             const response = await fetch(formEndpoint, {

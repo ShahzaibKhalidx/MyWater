@@ -204,6 +204,11 @@ const Contact = () => {
                                     <h5>Islamabad</h5>
                                     <div>60-A, F-6, Jinnah Avenue Blue Area</div>
                                 </li>
+                                <li>
+                                    <h5>Lahore</h5>
+                                    <div>344-5, Quaid-e-Azam Industrial Estate,<br/>
+                                    Kot Lakhpat, Lahore 54000</div>
+                                </li>
                             </ul>
                         </div>
 

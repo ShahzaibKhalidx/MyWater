@@ -12,13 +12,13 @@ import { circleText } from "@common/utilits";
 //import HeroSection from "@components/sections/Hero";
 import ServicesSection from "@components/sections/Services";
 import AboutSection from "@components/sections/About";
-import ShowcaseSection from "@components/sections/Showcase";
+// import ShowcaseSection from "@components/sections/Showcase";
 // import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
 import VideoSection2 from "@components/sections/Video2";
 import CountersSection from "@components/sections/Counters";
-import CallToActionSection from "@components/sections/CallToAction";
-import CallToAction2Section from "@components/sections/CallToAction2";
+// import CallToActionSection from "@components/sections/CallToAction";
+// import CallToAction2Section from "@components/sections/CallToAction2";
 // import LatestPostsSection from "@components/sections/LatestPosts";
 import PartnersSection from "@components/sections/Partners"
 // import Pointers from "../components/sections/Pointers";

@@ -14,23 +14,32 @@ const MobileApp = () => {
         <section className={styles.mobileSection}>
             <div className={styles.contentWrapper}>
                 <div className={styles.textContent}>
-                    <h1>Know Your Water</h1>
+                    <h1>Know Your Smart Technology</h1>
                     <p>
-                        At MyWater, we believe in the power of repair. Our app empowers you to take charge of your
-                        appliances, contribute to a circular economy.
+                        Our app makes you smarter with your water.
                     </p>
                     <div className={styles.pointers}>
                         <div className={styles.pointerItem}>
                             <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
-                            Save money on repairs.
+                            Real-time health status of filters
                         </div>
                         <div className={styles.pointerItem}>
                             <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
-                            Extend the life of your appliances.
+                            Service history
                         </div>
                         <div className={styles.pointerItem}>
                             <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
-                            Contribute to a sustainable future.
+                            Billing
+                        </div>
+                        <div className={styles.pointerItem}>
+                            <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
+                            Water quality scan
+                        </div><div className={styles.pointerItem}>
+                            <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
+                            Amount of glasses consumed by the user
+                        </div><div className={styles.pointerItem}>
+                            <i className="fa fa-check-circle" /> {/* Use Font Awesome or other icons */}
+                            Number of bottles saved
                         </div>
                     </div>
                 <div className={styles.storeLinks}>

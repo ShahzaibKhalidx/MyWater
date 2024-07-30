@@ -5,15 +5,16 @@ const ComparisonChart = () => {
   return (
     <>
       {/* Full Width Image Section */}
-      <section className="full-width-image__section">
+      <div className="full-width-image__section gap-top-40">
         <div className="box">
+          <h2 style={{ color: "#fff" }}>Analysis of MyWater & Other Types of Water</h2>
           <div className="imgBx4">
             {chartData.map((chart, index) => (
               <img src={chart.imageUrl} alt={index} />
             ))}
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

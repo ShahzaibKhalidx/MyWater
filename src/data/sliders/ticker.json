@@ -1,36 +1,51 @@
 {
     "items": [
         {
-            "label": "- MAKES",
+            "label": "✦ MAKES",
             "link": "/services/service-4"
         },
         {
-            "label": "- LIFE",
+            "label": " LIFE",
             "link": "/services/service-1"
         },
         {
-            "label": "- EASY",
+            "label": " EASY",
             "link": "/services/service-2"
         },
         {
-            "label": "- ZINDAGI",
+            "label": "✦ ZINDAGI",
             "link": "/services/service-3"
         },
         {
-            "label": "- ASAAN",
+            "label": " ASAAN",
             "link": "/services/service-4"
         },
         {
-            "label": "- BANAO",
+            "label": " BANAO",
+            "link": "/services/service-1"
+        },{
+            "label": "✦ MAKES",
+            "link": "/services/service-4"
+        },
+        {
+            "label": " LIFE",
             "link": "/services/service-1"
         },
         {
-            "label": "- PURE",
+            "label": " EASY",
             "link": "/services/service-2"
         },
         {
-            "label": "- HYDRATION",
+            "label": "✦ ZINDAGI",
             "link": "/services/service-3"
+        },
+        {
+            "label": " ASAAN",
+            "link": "/services/service-4"
+        },
+        {
+            "label": " BANAO",
+            "link": "/services/service-1"
         }
     ]
 }
