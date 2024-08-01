@@ -71,7 +71,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 			<div className="header--builder">
 				<div className="container">
 					<div className="row">
-						<div className="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-6 align-self-center">
+						<div className="col-6 col-xs-4 col-sm-4 col-md-4 col-lg-4 align-self-center">
 
 							{/* Logo */}
 							<div className="onovo-logo-image" style={{"maxWidth": "180px"}}>
@@ -82,7 +82,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 							</div>
 
 						</div>
-						<div className="col-6 col-xs-8 col-sm-8 col-md-4 col-lg-6 align-self-center align-center m-align-center">
+						<div className="col-6 col-xs-8 col-sm-8 col-md-4 col-lg-8 align-self-center align-center m-align-center">
 
 							{/* Menu Horizontal */}
 							<div className="onovo-menu-horizontal">

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import appData from "@data/app.json";
 import ImageView from "@components/ImageView";
 
+
 const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode }) => {
   // Isotope
   const isotope = useRef();

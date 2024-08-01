@@ -1,92 +1,92 @@
 {
-    "subtitle": "Pricing Plans",
-    "title": "It Helps You Choose <br>Prices to Maximise",
+    "subtitle": "Promo Offers",
+    "title": "Two Months Free Service<br>Promo Offer",
     "items": [
         {
             "active": 0,
-            "title": "Standard Package",
-            "subtitle": "3 Months",
-            "price": "$60.10",
-            "icon": "fas fa-rocket",
+            "title": "Free Service",
+            "subtitle": "2 Months",
+            "price": "TERRA",
+            "icon": "fas fa-crown",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "OTC: PKR 55,000",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "MRC: PKR 5,500",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
-                    "included": 0
+                    "label": "Inclusive of Taxes",
+                    "included": 1
                 },
                 {
-                    "label": "Custom design and features",
-                    "included": 0
+                    "label": "Monthly rental will be charged after 2nd month",
+                    "included": 1
                 }
             ],
             "button": {
-                "label": "Purchase Now",
-                "link": "/contact"
+                "label": "Book Now",
+                "link": "/products/terra-ms-02"
             }
         },
         {
             "active": 1,
-            "title": "Professional Package",
-            "subtitle": "6 Months",
-            "price": "$120.10",
+            "title": "Free Service",
+            "subtitle": "2 Months",
+            "price": "NEO-02",
             "icon": "fas fa-crown",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "OTC: PKR 45,000",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "MRC: PKR 4,500",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
+                    "label": "Inclusive of Taxes",
                     "included": 1
                 },
                 {
-                    "label": "Custom design and features",
-                    "included": 0
+                    "label": "Monthly rental will be charged after 2nd month",
+                    "included": 1
                 }
             ],
             "button": {
-                "label": "Purchase Now",
-                "link": "/contact"
+                "label": "Book Now",
+                "link": "/products/neo-02"
             }
         },
         {
             "active": 0,
-            "title": "Business Package",
-            "subtitle": "01 Year",
-            "price": "$230.10",
-            "icon": "fas fa-city",
+            "title": "Free Service",
+            "subtitle": "2 Months",
+            "price": "LIMITED EDITION",
+            "icon": "fas fa-crown",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "OTC: PKR 60,000",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "MRC: PKR 5,500",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
+                    "label": "Inclusive of Taxes",
                     "included": 1
                 },
                 {
-                    "label": "Custom design and features",
+                    "label": "Monthly rental will be charged after 2nd month",
                     "included": 1
                 }
             ],
             "button": {
-                "label": "Purchase Now",
-                "link": "/contact"
+                "label": "Book Now",
+                "link": "/products/limited-edition"
             }
         }
     ]

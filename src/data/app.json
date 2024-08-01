@@ -18,8 +18,8 @@
                     "slug": "corporate"
                 },
                 {
-                    "label": "Institutes",
-                    "slug": "institute"
+                    "label": "Limited Edition",
+                    "slug": "limited"
                 }
             ]
         }
@@ -46,40 +46,40 @@
                         "children": 0
                     },
                     {
-                        "label": "Terra MS-02",
-                        "link": "/products/terra-ms-02",
+                        "label": "For Homes",
+                        "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "Terra MS-03",
-                        "link": "/products/terra-ms-03",
+                        "label": "For Corporate",
+                        "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "Solace-02",
-                        "link": "/products/solace-02",
+                        "label": "For Offices",
+                        "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "Neo-02",
-                        "link": "/products/neo-02",
-                        "children": 0
-                    },
-                    {
-                        "label": "Limited Edition Series",
-                        "link": "/products/limited-edition",
+                        "label": "Limited Edition",
+                        "link": "/products",
                         "children": 0
                     }
                 ]
             },
             {
                 "label": "Offers",
-                "link": "#",
+                "link": "/promo",
                 "children": 0
             },
             {
                 "label": "FAQs",
                 "link": "/faq",
+                "children": 0
+            },
+            {
+                "label": "Our Team",
+                "link": "#",
                 "children": 0
             },
             {

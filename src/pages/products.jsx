@@ -12,7 +12,7 @@ const Portfolio = (props) => {
     <Layouts header={3}>
       {/* <PageBanner pageTitle={"MyWater Collection"} pageDesc={"Explore our exclusive range of water dispensers, each designed to provide you with the purest hydration experience."} /> */}
 
-      <ProjectsGrid projects={props.projects} layout={"grid"} masonry />
+      <ProjectsGrid projects={props.projects} layout={"grid"} sideFilter masonry/>
       
     </Layouts>
   );

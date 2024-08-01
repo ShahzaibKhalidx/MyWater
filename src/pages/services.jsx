@@ -1,45 +1,48 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
-import Link from "next/link";
+// import Link from "next/link";
 
 import { getSortedServicesData } from "@library/services";
 
-import Services2Section from "@components/sections/Services2";
-import CountersSection from "@components/sections/Counters";
-import VideoSection from "@components/sections/Video";
-import CallToActionSection from "@components/sections/CallToAction";
+// import Services2Section from "@components/sections/Services2";
+// import Services3Section from "@components/sections/Services3";
+// import Services4Section from "@components/sections/Services4";
+// import CountersSection from "@components/sections/Counters";
+// import VideoSection from "@components/sections/Video";
+// import CallToActionSection from "@components/sections/CallToAction";
 import PartnersSection from "@components/sections/Partners";
+import PricingSection from '../components/sections/Pricing';
 
 const Services = (props) => {
 
   return (
-    <Layouts>
-      <PageBanner pageTitle={"Our Services"} pageDesc={"Our values and vaulted us to the top of our industry."} />
+    <Layouts header={2}>
+      <PageBanner pageTitle={"Promo Offers"} pageDesc={"Our values and vaulted us to the top of our industry."} />
 
-      <Services2Section introHidden noPaddingBottom />
+      {/* <Services2Section ection introHidden noPaddingBottom /> */}
 
-      <CountersSection />
+      {/* <CountersSection /> */}
 
-      <VideoSection />
+      {/* <VideoSection /> */}
+
+	  <PricingSection bg={"bg"} />
 
       {/* Onovo Services */}
 	  <section className="onovo-section gap-top-140 gap-bottom-140">
 		<div className="container">
-
 			{/* Heading */}
-			<div className="onovo-heading gap-bottom-40">
+			{/* <div className="onovo-heading gap-bottom-40">
 				<div className="onovo-subtitle-1">
 					<span>What we do</span>
 				</div>
 				<h2 className="onovo-title-2">
 					<span>We’re a full-service agency</span>
 				</h2>
-			</div>
-
+			</div> */}
 			{/* Services items */}
-			<div className="onovo-services-list">
+			{/* <div className="onovo-services-list">
 				{props.services.map((item, key) => (
 				<div key={`services-item-${key}`} className="onovo-service-item-list">
 					<div className="onovo-service-item-list-inner">
@@ -64,15 +67,13 @@ const Services = (props) => {
 					</div>
 				</div>
 				))}
-
-			</div>
-			
+			</div> */}
 		</div>
 	  </section>
       
-      <CallToActionSection />
+      {/* <CallToActionSection /> */}
 
-      <PartnersSection paddingTop />
+      <PartnersSection />
       
     </Layouts>
   );

@@ -6360,9 +6360,10 @@ ul.onovo-footer-menu li {
 }
 
 .onovo-pricing-item .price {
-	font-size: 50px;
+	font-size: 32px;
 	line-height: 1;
 	font-weight: 700;
+	font-family: 'Nourd_Bold';
 }
 
 .onovo-pricing-item .image {
@@ -6429,6 +6430,7 @@ ul.onovo-footer-menu li {
 	border-top: 1px solid rgba(237, 237, 237, 1);
 	transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
+	font-weight: 600;
 }
 
 .onovo-pricing-item .list ul li:first-child {
@@ -7942,8 +7944,8 @@ h6,
 
 .projectDetailSection {
 	.list-group-item.active {
-		color: #0A195D;
-		background-color: #EDEFF0;
+		background-color: #0A195D;
+		color: #EDEFF0;
 		border-color: #0A195D;
 	}
 	
@@ -8322,7 +8324,7 @@ h6,
 		flex: 0 1 45%; // Allows cards to wrap and maintain a minimum width
 		display: flex;
 		flex-direction: column;
-		max-width: 650px;
+		max-width: 850px;
 		// align-items: center;
 		background: #FFFFFF;
 		border-radius: 5px;

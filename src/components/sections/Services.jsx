@@ -27,12 +27,12 @@ const ServicesSection = () => {
                             </div>
                             <h5 className="onovo-title-3">
                                 <a >
-                                    <span>{item.title}</span>
+                                    <span style={{fontSize:"42px"}}>{item.title}</span>
                                 </a>
                             </h5>
                             <div className="onovo-text">
-                                <div style={{lineHeight:"1.2rem"}}>
-                                    <p>{item.text}</p>
+                                <div >
+                                    <p style={{lineHeight:"1.2rem"}}>{item.text}</p>
                                 </div>
                             </div>
                             <div className="onovo-bubble">
