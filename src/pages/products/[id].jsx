@@ -95,8 +95,8 @@ const ProjectDetail = (props) => {
       <section className="onovo-section gap-top-140 projectDetailSection">
         <div className="container">
           <div className="row gap-bottom-80">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               {/* Project Info */}
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               {/* Image */}
               <section className="onovo-section onovo-hero hero--product">
                 {/* Hero swiper */}
@@ -257,13 +257,17 @@ const ProjectDetail = (props) => {
                     
                     {/* Buttons */}
                     <div className="buttonGroup">
-                      <Link className="onovo-btn onovo-hover-btn" href="https://wa.me/021111192837">
+                      <Link className="onovo-btn onovo-hover-btn " href="https://wa.me/021111192837">
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>
-                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn" href={postData.id}>
+                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn " href={postData.id}>
                         <i className="arrow"><span /></i>
                         <span>Book Survey</span>
+                      </Link>
+                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn " href={postData.id}>
+                        <i className="arrow"><span /></i>
+                        <span>Saving Calculator</span>
                       </Link>
                     </div>
                   </div>

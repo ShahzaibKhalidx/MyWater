@@ -1750,6 +1750,7 @@ button>span,
 	color: #fff;
 	transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all .4s cubic-bezier(0.3, 0, 0.3, 1);
+	background: #0A195D;
 }
 
 .onovo-social-1.social--minimal ul li a {
@@ -5282,7 +5283,10 @@ ul.onovo-footer-menu li {
 /*---
 	9. Team
 ---*/
-
+.my-container{
+	max-width: 1480px;
+	margin: auto;
+}
 .onovo-team-detail {
 	position: relative;
 	border: 1px solid #3E3E3E;
@@ -7026,12 +7030,12 @@ body .onovo-subscribe-form .submit-container {
 }
 
 .onovo-team-info ul li .title {
-	width: 40%;
+	width: 100%;
 	font-weight: 700;
 }
 
 .onovo-team-info ul li .onovo-text {
-	width: 60%;
+	width: 100%;
 }
 
 .onovo-team-info ul li .onovo-text p {
