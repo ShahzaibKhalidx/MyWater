@@ -2,12 +2,12 @@ import React, {useState} from "react";
 import Link from 'next/link';
 import styles from "../../styles/scss/sections.module.scss"; // Adjust the import based on your file structure
 import SurveyModal from './SurveyModal';
-import SavingsCalculatorModal from "./SavingCalculatorModal";
+// import SavingsCalculatorModal from "./SavingCalculatorModal";
 
 
 const CTASection = () => {
     const [showSurvey, setShowSurvey] = useState(false);
-    const [modalShow, setModalShow] = useState(false);
+    // const [modalShow, setModalShow] = useState(false);
     const handleShowSurvey = () => setShowSurvey(true);
     const handleCloseSurvey = () => setShowSurvey(false);
 
@@ -23,16 +23,15 @@ const CTASection = () => {
                     </i>
                     <span>Book Now</span>
                 </Link>
-                <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn" href={""} passHref>
+                {/* <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn" href={""} passHref>
                     <i className="arrow">
                         <span />
                     </i>
                     <span>Saving Calculator</span>
-                </Link>
+                </Link> */}
             </div>
             <SurveyModal show={showSurvey} handleClose={handleCloseSurvey} />
-            <SavingsCalculatorModal show={modalShow} handleClose={() => setModalShow(false)}
-      />
+            {/* <SavingsCalculatorModal show={modalShow} handleClose={() => setModalShow(false)}/> */}
         </div>
     );
 };
