@@ -33,12 +33,15 @@
         padding: 20px;
 
         .heading {
-            // font-size: 2rem;
+            font-size: 2rem;
             margin-bottom: 20px;
             text-transform: uppercase;
+            max-width: 100%;
+            margin: auto;
 
             @media (min-width: 768px) {
-                // font-size: 4rem;
+                font-size: 3rem;
+                max-width: 70%;
             }
         }
 
@@ -66,7 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 
     @media (min-width: 768px) {
         padding: 80px 40px;
@@ -82,7 +84,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
 
         @media (min-width: 768px) {
             flex-direction: row;

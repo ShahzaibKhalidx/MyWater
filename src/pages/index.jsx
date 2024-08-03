@@ -47,17 +47,17 @@ const Home1 = (props) => {
         <MobileApp/>
         <TickerSlider />
         <PromotionCards />
-        {/* <ShowcaseSection projects={props.projects} /> */}
-        {/* <Pointers/> */}
-        {/* <TeamSection team={props.team} /> */}
         <TestimonialSlider />
         <VideoSection />
         <CountersSection />
         <CTASection/>
+        <PartnersSection paddingTop={2}/>
         {/* <CallToActionSesction /> */}
         {/* <CallToAction2Section /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}
-        <PartnersSection paddingTop={2}/>
+        {/* <ShowcaseSection projects={props.projects} /> */}
+        {/* <Pointers/> */}
+        {/* <TeamSection team={props.team} /> */}
       </>
     </Layouts>
   );

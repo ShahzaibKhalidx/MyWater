@@ -15,7 +15,7 @@ const CTASection = () => {
         <div className={styles.parallaxSection}>
             <div className={styles.overlay}></div>
             <div className={styles.content}>
-                <h1 className={styles.heading}>Revolutionize Your<br /> Water Experience</h1>
+                <h1 className={styles.heading}>Revolutionize Your Water Experience</h1>
                 <p className={styles.subtitle}>Discover our advanced water filtration system.</p>
                 <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn" href={""} passHref>
                     <i className="arrow">

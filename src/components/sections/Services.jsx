@@ -14,7 +14,6 @@ const ServicesSection = () => {
         {/* Onovo Services */}
         <section className="onovo-section gap-top-140 gap-bottom-140">
             <div className="container-xl">
-
                 {/* Services items */}
                 <div className="row onovo-services-grid-fw">
                     {Data.items.map((item, key) => (
@@ -27,12 +26,12 @@ const ServicesSection = () => {
                             </div>
                             <h5 className="onovo-title-3">
                                 <a >
-                                    <span style={{fontSize:"42px"}}>{item.title}</span>
+                                    <span>{item.title}</span>
                                 </a>
                             </h5>
                             <div className="onovo-text">
-                                <div >
-                                    <p style={{lineHeight:"1.2rem"}}>{item.text}</p>
+                                <div className="service-text">
+                                    <p>{item.text}</p>
                                 </div>
                             </div>
                             <div className="onovo-bubble">
