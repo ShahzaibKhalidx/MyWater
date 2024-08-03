@@ -35,10 +35,10 @@ const PromotionCards = () => {
                         <i className="arrow"><span /></i><span>Know More</span>
                     </Link>
                 </div>
-                <img src="/images/products/promo-test.png" alt="Neo Product" className="product-image" />
+                <img src="/images/products/promo-test3.png" alt="Neo Product" className="product-image" />
             </div>
             <div className="card">
-                <img src="/images/products/promo-test2.png" alt="Terra Product" className="product-image" />
+                <img src="/images/products/promo-test4.png" alt="Terra Product" className="product-image" />
                 <div className="card-content">
                     <h2>SOLACE</h2>
                     <p>COMPACT.<br />VERSATILE.<br />SMART.</p>

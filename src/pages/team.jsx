@@ -59,7 +59,7 @@ const Team = (props) => {
 			<section className="onovo-section gap-bottom-140">
 				<div className="container">
 					{/* Team items */}
-					<div className="row gap-row align-center">
+					<div className="row gap-row align-center justify-content-end">
 						{props.team.map((item, key) => (
 							<div key={`team-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 								<div className="onovo-team-two">
@@ -94,7 +94,6 @@ const Team = (props) => {
 								</div>
 							</div>
 						))}
-
 						{/* Button */}
 						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
 							<Link className="onovo-btn-circle onovo-hover-2" href={'/contact'}>
@@ -103,15 +102,11 @@ const Team = (props) => {
 								</i>
 							</Link>
 						</div>
-
 					</div>
-
 				</div>
 			</section>
-
 			{/* <CallToActionSection /> */}
-			<Testimonial2Slider />
-
+			{/* <Testimonial2Slider /> */}
 			<PartnersSection/>
 
 		</Layouts>

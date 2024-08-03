@@ -8464,6 +8464,88 @@ h6,
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+
+// Saving Calculator
+
+.modalContainer {
+	.form-label{
+		margin-bottom: 0rem;
+		margin-top: 0.5rem;
+	}
+	input[type=number] {
+		border-radius: 5px;
+		font-size: 14px;
+	}
+	.modal-content {
+	  border-radius: 10px;
+	  padding: 20px;
+	  background-color: #f9f9f9;
+  
+	  .modal-header {
+		border-bottom: none;
+		.modal-title {
+		  font-size: 24px;
+		  color: #0A195D;
+		}
+		button.close {
+		  span {
+			font-size: 24px;
+			color: #aaa;
+		  }
+		}
+	  }
+  
+	  .modal-body {
+		form {
+		  .form-group {
+			margin-bottom: 10px;
+			label {
+			  font-size: 14px;
+			  color: #666;
+			}
+  
+			input, .form-control {
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  border: 1px solid #ccc;
+			  border-radius: 5px;
+			}
+  
+			.results-display {
+			  display: flex;
+			  flex-direction: column;
+			  gap: 10px;
+  
+			  .form-control[readonly] {
+				background-color: #e9ecef;
+				color: #495057;
+				font-weight: bold;
+			  }
+			}
+		  }
+  
+		  button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #0A195D;
+			border: none;
+			border-radius: 66px;
+			color: white;
+			margin-top: 20px;
+  
+			&:hover {
+			  background-color: #0056b3;
+			}
+		  }
+		}
+	  }
+  
+	  .modal-footer {
+		border-top: none;
+	  }
+	}
+  }  
+
 /* ---
 	Skin Options
 ---*/

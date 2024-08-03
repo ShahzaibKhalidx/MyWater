@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Button, Form, Dropdown, InputGroup, FormControl } from 'react-bootstrap';
+import { Modal, Button, Form, Dropdown, InputGroup, FormControl, Row, Col } from 'react-bootstrap';
 
 function SavingsCalculatorModal({ show, handleClose }) {
     const [currentCost, setCurrentCost] = useState('');
@@ -38,9 +38,21 @@ function SavingsCalculatorModal({ show, handleClose }) {
         });
     };
 
+    // System types and their monthly costs
+    const systemCosts = {
+        "NEO-2": 4000,  // Example cost for NEO-2
+        "TERRA-MS":5000  // Example cost for TERRA-MS
+    };
+
+    const handleSystemTypeChange = (newType) => {
+        setSystemType(newType);
+        const cost = systemCosts[newType] || 0;  // Default to 0 if no type is selected or if it's an invalid type
+        setSystemMonthlyCost(cost);
+    };
+    
 
     return (
-        <Modal show={show} onHide={handleClose} centered size={"lg"}>
+        <Modal show={show} onHide={handleClose} centered size={"lg"} className='modalContainer'>
             <Modal.Header closeButton>
                 <Modal.Title>Water Savings Calculator</Modal.Title>
             </Modal.Header>
@@ -50,71 +62,95 @@ function SavingsCalculatorModal({ show, handleClose }) {
                         <Form.Label>How much are you paying for bottle Water:</Form.Label>
                         {/* <Form.Control type="number" placeholder="Enter cost per bottle" value={pricePerBottle} onChange={e => setPricePerBottle(e.target.value)} /> */}
                         <InputGroup>
-                                <FormControl
-                                    as="select"
-                                    value={pricePerBottle}
-                                    onChange={e => setPricePerBottle(e.target.value)}
-                                >
-                                    {/* Assuming these are the costs per bottle, modify as necessary */}
-                                    <option value="330">330 PKR</option>
-                                    <option value="300">300 PKR</option>
-                                    <option value="290">290 PKR</option>
-                                    <option value="280">280 PKR</option>
-                                </FormControl>
-                            </InputGroup>
+                            <FormControl
+                                as="select"
+                                value={pricePerBottle}
+                                onChange={e => setPricePerBottle(e.target.value)}
+                            >
+                                {/* Assuming these are the costs per bottle, modify as necessary */}
+                                <option value="330">330 PKR</option>
+                                <option value="300">300 PKR</option>
+                                <option value="290">290 PKR</option>
+                                <option value="280">280 PKR</option>
+                            </FormControl>
+                        </InputGroup>
                     </Form.Group>
-                    <Form.Group controlId="bottleCount">
-                        <Form.Label>How many Bottles of Water are you buying? (Per Week)</Form.Label>
-                        <Form.Control as="select" value={bottlesPerWeek} onChange={e => setBottlesPerWeek(e.target.value)}>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="8">8</option>
-                            <option value="10">10</option>
-                        </Form.Control>
-                    </Form.Group>
-                    <Button onClick={calculateCosts}>
-                        Calculate Cost
-                    </Button>
+                    <Row>
+                        <Col lg={9}>
+                            <Form.Group controlId="bottleCount">
+                                <Form.Label>How many Bottles of Water are you buying? (Per Week)</Form.Label>
+                                <Form.Control as="select" value={bottlesPerWeek} onChange={e => setBottlesPerWeek(e.target.value)}>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="8">8</option>
+                                    <option value="10">10</option>
+                                </Form.Control>
+                            </Form.Group>
+                        </Col>
+                        <Col lg={3} className='align-self-end'>
+                            <Button onClick={calculateCosts}>
+                                Calculate Cost
+                            </Button>
+                        </Col>
+                    </Row>
                     <div className="results-display">
-                        <Form.Group>
-                            <Form.Label>Monthly Cost</Form.Label>
-                            <Form.Control readOnly value={`PKR ${results.monthlyCost}`} />
-                        </Form.Group>
-                        <Form.Group>
-                            <Form.Label>Annual Cost</Form.Label>
-                            <Form.Control readOnly value={`PKR ${results.annualCost}`} />
-                        </Form.Group>
-                        <Form.Group>
-                            <Form.Label>Five Years Cost</Form.Label>
-                            <Form.Control readOnly value={`PKR ${results.fiveYearsCost}`} />
-                        </Form.Group>
+                        <Row>
+                            <Col>
+                                <Form.Group>
+                                    <Form.Label>Monthly Cost</Form.Label>
+                                    <Form.Control readOnly value={`PKR ${results.monthlyCost}`} />
+                                </Form.Group>
+                            </Col>
+                            <Col>
+                                <Form.Group>
+                                    <Form.Label>Annual Cost</Form.Label>
+                                    <Form.Control readOnly value={`PKR ${results.annualCost}`} />
+                                </Form.Group>
+                            </Col>
+                            <Col>
+                                <Form.Group>
+                                    <Form.Label>Five Years Cost</Form.Label>
+                                    <Form.Control readOnly value={`PKR ${results.fiveYearsCost}`} />
+                                </Form.Group>
+                            </Col>
+                        </Row>
                     </div>
-
                     <Form.Group controlId="systemType">
                         <Form.Label>Select MyWater Purification Type</Form.Label>
-                        <Form.Control as="select" value={systemType} onChange={e => setSystemType(e.target.value)}>
+                        <Form.Control as="select" value={systemType} onChange={e => handleSystemTypeChange(e.target.value)}>
                             <option value="">Select System</option>
                             <option value="NEO-2">NEO-2</option>
                             <option value="TERRA-MS">TERRA-MS</option>
                         </Form.Control>
                     </Form.Group>
-                    <Form.Group controlId="systemMonthlyCost">
-                        <Form.Label>Monthly Rental Price</Form.Label>
-                        <Form.Control type="number" placeholder="Enter monthly rental cost" value={systemMonthlyCost} onChange={e => setSystemMonthlyCost(e.target.value)} />
-                    </Form.Group>
-                    <Button onClick={calculateCosts}>
-                        Calculate Savings
-                    </Button>
+                    <Row>
+                        <Col lg={8}>
+                            <Form.Group controlId="systemMonthlyCost">
+                                <Form.Label>Monthly Rental Price</Form.Label>
+                                <Form.Control type="number" placeholder="Enter monthly rental cost" value={systemMonthlyCost} readOnly />
+                            </Form.Group>
+                        </Col>
+                        <Col lg={4} className='align-self-end'>
+                            <Button onClick={calculateCosts}>
+                                Calculate Savings
+                            </Button>
+                        </Col>
+                    </Row>
                     <div className="results-display">
-                        <Form.Group>
-                            <Form.Label>Annual Saving</Form.Label>
-                            <Form.Control readOnly value={`PKR ${results.annualSavings}`} />
-                        </Form.Group>
-                        <Form.Group>
-                            <Form.Label>Five Years Saving</Form.Label>
-                            <Form.Control readOnly value={`PKR ${results.fiveYearSavings}`} />
-                        </Form.Group>
+                        <Row>
+                            <Col><Form.Group>
+                                <Form.Label>Annual Saving</Form.Label>
+                                <Form.Control readOnly value={`PKR ${results.annualSavings}`} />
+                            </Form.Group>
+                            </Col>
+                            <Col>
+                                <Form.Group>
+                                    <Form.Label>Five Years Saving</Form.Label>
+                                    <Form.Control readOnly value={`PKR ${results.fiveYearSavings}`} />
+                                </Form.Group>
+                            </Col>
+                        </Row>
                     </div>
                 </Form>
             </Modal.Body>
