@@ -1,24 +1,24 @@
 ---
 #preview details
-image: /images/team/mehreen_saad.png
-name: Mehreen Saad
-role: Manager Supply Chain
-first_letter: M
+image: /images/team/adnan_ahmed.png
+name: Adnan Ahmed Khan
+role: Production Manager
+first_letter: A
 social:
-  - link: https://www.linkedin.com/in/mehreen-saad/
+  - link: https://www.linkedin.com/in/adnan-ahmed-khan-8a343722/
     icon: fab fa-linkedin-in
     title: Linkedin
 
 #full details
 info:
   - label: Age
-    value: 26 Years
+    value: 27 Years
   
   - label: Location
     value: Baird House, 15-17 St Cross St London EC1N 8UW
   
   - label: Email
-    value: alexander.bravo@domain.com
+    value: thomesjackki@domain.com
 
   - label: Phone No
     value: +44 (0) 20 7430 2973
@@ -44,15 +44,15 @@ awards:
     image: /images/award3.png
 
 projects: 
-  - project-03
   - project-04
+  - project-02
+  - project-03
   - project-05
-  - project-06
 ---
 
 Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
 
-The most exciting would be that no day is ever the same and each day brings new challenges. My professional passion would be team morale and relationship building. I think the true measure of success in an organization is to gage employee satisfaction, engagement nd the relationships that they build. I truly never envisioned that Construction would have been the organization that empowers. The most exciting would be that no day is ever the same and each day brings new challenges. My professional passion would be team morale and relationship building.
+In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.
 
 - Far curiosity incommode now led smallness allowance.
 - Favour bed assure son things yet.

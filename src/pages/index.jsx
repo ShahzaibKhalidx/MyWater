@@ -26,7 +26,8 @@ import CTASection from "../components/sections/CTASection";
 import MobileApp from "../components/sections/MobileApp";
 import PromotionCards from "../components/sections/PromotionCards";
 
-const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
+// const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
+const Hero2Slider = dynamic( () => import("@components/sliders/Hero2"), { ssr: false } );
 const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
@@ -39,7 +40,8 @@ const Home1 = (props) => {
   return (
     <Layouts header={2}>
       <>
-        <HeroSection />
+        {/* <HeroSection /> */}
+        <Hero2Slider />
         <ServicesSection />
         <AboutSection />
         <VideoSection2 />
