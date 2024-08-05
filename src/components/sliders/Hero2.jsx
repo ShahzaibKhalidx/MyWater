@@ -20,7 +20,7 @@ const Hero2Slider = () => {
                         <div className="onovo-hero-slide-item">
                             {item.video == undefined &&
                             <div className="image" data-dimg={item.image.desktop} data-mimg={item.image.mobile}>
-                                <div className="ovrl" style={{"opacity": "0.95"}} />
+                                <div className="ovrl" style={{"opacity": "0.65"}} />
                             </div>
                             }
                             {item.video != undefined &&
@@ -28,7 +28,7 @@ const Hero2Slider = () => {
                                 <video autoPlay muted loop playsInline>
                                     <source src={item.video} type="video/mp4" />
                                 </video>
-                                <div className="ovrl" style={{"opacity": "0.95"}} />
+                                <div className="ovrl" style={{"opacity": "0.65"}} />
                             </div>
                             }
                             <div className="container">
