@@ -59,7 +59,7 @@ const Team = (props) => {
 			<section className="onovo-section gap-bottom-140">
 				<div className="container">
 					{/* Team items */}
-					<div className="row gap-row align-center justify-content-end">
+					<div className="row gap-row align-center justify-content-center">
 						{props.team.map((item, key) => (
 							<div key={`team-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 								<div className="onovo-team-two">
@@ -95,13 +95,13 @@ const Team = (props) => {
 							</div>
 						))}
 						{/* Button */}
-						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
+						{/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
 							<Link className="onovo-btn-circle onovo-hover-2" href={'/contact'}>
 								<i className="arrow">
 									<span />
 								</i>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>

@@ -1,7 +1,10 @@
 {
     "items": [
         {
-            "video": "/video/bgvideo.mp4",
+            "image": {
+                "desktop": "/images/banner/banner0.png",
+                "mobile": "/images//banner/mob0.png"
+            },
             "title": "THINK SMART <br />DRINK SMART",
             "text": "Turn your tap water into purified, <br> mineralized, still or sparkling water.",
             "button": {
