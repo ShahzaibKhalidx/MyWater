@@ -67,21 +67,18 @@
                     }
                 ]
             },
-            {
-                "label": "Offers",
-                "link": "/promo",
-                "children": 0
-            },
-            {
-                "label": "FAQs",
-                "link": "/faq",
-                "children": 0
-            },
+            
             {
                 "label": "Our Team",
                 "link": "/team",
                 "children": 0
             },
+            {
+                "label": "Offers",
+                "link": "/promo",
+                "children": 0
+            },
+            
             {
                 "label": "Careers",
                 "link": "https://app.myhcm.pk/CareerPortal/Careers?q=olBwJs6tOQ9sgxyMavM%2BVQ%3D%3D&lang=null",
@@ -90,6 +87,11 @@
             {
                 "label": "Contact Us",
                 "link": "/contact",
+                "children": 0
+            },
+            {
+                "label": "FAQs",
+                "link": "/faq",
                 "children": 0
             }
         ],
