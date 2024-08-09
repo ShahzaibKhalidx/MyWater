@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
-
 import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 import { getSortedTeamData } from "@library/team";
@@ -27,10 +26,11 @@ import MobileApp from "../components/sections/MobileApp";
 import PromotionCards from "../components/sections/PromotionCards";
 
 // const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
-const Hero2Slider = dynamic( () => import("@components/sliders/Hero2"), { ssr: false } );
-const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
+const Hero2Slider = dynamic(() => import("@components/sliders/Hero2"), { ssr: false });
+const TickerSlider = dynamic(() => import("@components/sliders/Ticker"), { ssr: false });
+const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"), { ssr: false });
+const HistorySlider = dynamic(() => import("@components/sliders/History"), { ssr: false });
+
 
 const Home1 = (props) => {
   useEffect(() => {
@@ -38,6 +38,7 @@ const Home1 = (props) => {
   }, []);
 
   return (
+
     <Layouts header={2}>
       <>
         {/* <HeroSection /> */}
@@ -46,14 +47,14 @@ const Home1 = (props) => {
         <AboutSection />
         <VideoSection2 />
         <HistorySlider />
-        <MobileApp/>
+        <MobileApp />
         <TickerSlider />
         <PromotionCards />
         <TestimonialSlider />
         <VideoSection />
         <CountersSection />
-        <CTASection/>
-        <PartnersSection paddingTop={2}/>
+        <CTASection />
+        <PartnersSection paddingTop={2} />
         {/* <CallToActionSesction /> */}
         {/* <CallToAction2Section /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}

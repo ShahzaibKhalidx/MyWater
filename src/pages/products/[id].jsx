@@ -1,4 +1,5 @@
 import React, { useState,useEffect } from "react";
+import Image from "next/image";
 import Layouts from "@layouts/Layouts";
 import Link from "next/link";
 import ImageView from "@components/ImageView";
@@ -112,8 +113,9 @@ const ProjectDetail = (props) => {
                       <SwiperSlide key={`h2s-slide-${key}`} className="swiper-slide">
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
-                            <div style={{ backgroundSize: "contain" }} className="image" data-dimg={item.image.desktop} data-mimg={item.image.mobile}>
-                              <div className="ovrl2" />
+                            <div className="image" >
+                              <Image src={item.image.desktop} fill={true}/>
+                              {/* <div className="ovrl2" /> */}
                             </div>
                           }
                           {item.video != undefined &&
@@ -200,6 +202,7 @@ const ProjectDetail = (props) => {
                     </div>
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
+                    <p className="shortDescription">{postData.short_description2}</p>
                     {/* YEARLY PLANS */}
                     <>
                     <Tab.Container id="yearly-programs"  key={postData.id} style={{display:`${postData.noyear}`}}>

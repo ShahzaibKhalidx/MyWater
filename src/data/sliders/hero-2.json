@@ -1,10 +1,7 @@
 {
     "items": [
         {
-            "image": {
-                "desktop": "/images/banner/banner0.png",
-                "mobile": "/images//banner/mob0.png"
-            },
+            "video": "/video/video.mp4",
             "title": "THINK SMART <br />DRINK SMART",
             "text": "Turn your tap water into purified, <br> mineralized, still or sparkling water.",
             "button": {
@@ -18,7 +15,7 @@
                 "mobile": "/images//banner/mob1.png"
             },
             "title": "TERRA MS-02",
-            "text": "Advanced, all-in-one, smart, Make pure drinking a habit with 8 stages smart purification system",
+            "text": "Advanced, All-In-One, Smart. Make pure drinking a habit with 8 stages smart purification system",
             "button": {
                 "label": "Know More",
                 "link": "/products/terra-ms-02"
@@ -30,7 +27,7 @@
                 "mobile": "/images/banner/mob2.png"
             },
             "title": "NEO 02",
-            "text": "Compact, versatile, smart, Make pure drinking a habit with 8 stages smart purification system.",
+            "text": "Compact, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
             "button": {
                 "label": "Know More",
                 "link": "/products/neo-02"
@@ -42,7 +39,7 @@
                 "mobile": "/images/banner/mob3.png"
             },
             "title": "LIMITED EDITION",
-            "text": "Advanced, all-in-one, smart, Make pure drinking a habit with 8 stages smart purification system.",
+            "text": "Advanced, All-In-One, Smart. Make pure drinking a habit with 8 stages smart purification system",
             "button": {
                 "label": "Know More",
                 "link": "/products/limited-edition"
@@ -54,7 +51,7 @@
                 "mobile": "/images/banner/mob4.png"
             },
             "title": "SOLACE 02",
-            "text": "Universal, versatile, smart, Make pure drinking a habit with 8 stages smart purification system.",
+            "text": "Universal, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
             "button": {
                 "label": "Know More",
                 "link": "/products/solace-02"

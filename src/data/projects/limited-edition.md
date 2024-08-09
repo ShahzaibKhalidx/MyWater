@@ -21,7 +21,8 @@ note_2: "Service fee includes all types of general servicing and parts replaceme
 # Additional details
 tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES"
 review_stars: 4.5
-short_description: "Complimentary 90-days disinfection and filter replacement Multiple colors to choose from Water quality monitoring app."
+short_description: "1. Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
+short_description2: "2. Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
 
 
 #full details

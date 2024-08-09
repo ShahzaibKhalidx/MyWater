@@ -25,7 +25,7 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.css" />
           <link rel="stylesheet" href="/css/vendors/magnific-popup.css" />
           {/* public assets end */}
-          <script src="https://app.boei.help/embed/k/a21f1e5c-fc2a-4d55-8895-59d41601112d" async></script>
+          <script src="https://app.boei.help/embed/k/ef6462c4-7c77-4606-9cab-0ba16f69ee99" async></script>
         </Head>
         <body>
           <Main />

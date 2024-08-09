@@ -2580,6 +2580,7 @@ a.onovo-head-btn,
 }
 
 .onovo-menu-horizontal ul ul {
+	text-align: left;
 	margin-left: -120px;
 	padding: 20px;
 	position: absolute;
@@ -3599,9 +3600,9 @@ ul.onovo-footer-menu li {
 	width: auto;
 }
 
-.onovo-hero-carousel .swiper-slide.swiper-slide-active {
-	//width: 328px;
-}
+// .onovo-hero-carousel .swiper-slide.swiper-slide-active {
+// 	width: 328px;
+// }
 
 .onovo-hero-carousel-item {
 	position: relative;
@@ -8100,8 +8101,6 @@ h6,
 	object-position: center;
 }
 
-.product-image {}
-
 .onovo-text {
 	h6 {
 		text-transform: uppercase;
@@ -8237,12 +8236,7 @@ h6,
     margin-right: 15px;
     margin-top: 45px;
   }
-  .full-width-image__section:hover .box {
-    // transform: rotateY(25deg);
-  }
-  .full-width-image__section .box:hover ~ .box {
-    // transform: rotateY(-25deg);
-  }
+
   .full-width-image__section .box:hover {
     // transform: rotateY(0deg) scale(1.1);
     z-index: 1;

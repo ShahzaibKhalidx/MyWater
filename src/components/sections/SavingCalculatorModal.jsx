@@ -54,20 +54,16 @@ function SavingsCalculatorModal({ show, handleClose }) {
     return (
         <Modal show={show} onHide={handleClose} centered size={"lg"} className='modalContainer'>
             <Modal.Header closeButton>
-                <Modal.Title>Water Savings Calculator</Modal.Title>
+                <Modal.Title>Savings Calculator</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <Form>
                     <Form.Group controlId="waterCost">
                         <Form.Label>How much are you paying for bottle Water:</Form.Label>
-                        {/* <Form.Control type="number" placeholder="Enter cost per bottle" value={pricePerBottle} onChange={e => setPricePerBottle(e.target.value)} /> */}
                         <InputGroup>
-                            <FormControl
-                                as="select"
-                                value={pricePerBottle}
-                                onChange={e => setPricePerBottle(e.target.value)}
-                            >
-                                {/* Assuming these are the costs per bottle, modify as necessary */}
+                            <FormControl as="select" value={pricePerBottle}
+                                onChange={e => setPricePerBottle(e.target.value)}>
+                                <option value="">Select</option>
                                 <option value="330">330 PKR</option>
                                 <option value="300">300 PKR</option>
                                 <option value="290">290 PKR</option>
@@ -80,6 +76,7 @@ function SavingsCalculatorModal({ show, handleClose }) {
                             <Form.Group controlId="bottleCount">
                                 <Form.Label>How many Bottles of Water are you buying? (Per Week)</Form.Label>
                                 <Form.Control as="select" value={bottlesPerWeek} onChange={e => setBottlesPerWeek(e.target.value)}>
+                                    <option value="">Select</option>
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                     <option value="6">6</option>

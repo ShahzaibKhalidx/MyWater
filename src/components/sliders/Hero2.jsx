@@ -28,7 +28,7 @@ const Hero2Slider = () => {
                                 <video autoPlay muted loop playsInline>
                                     <source src={item.video} type="video/mp4" />
                                 </video>
-                                <div className="ovrl" style={{"opacity": "0.65"}} />
+                                <div className="ovrl" style={{"opacity": "0.45"}} />
                             </div>
                             }
                             <div className="container">
