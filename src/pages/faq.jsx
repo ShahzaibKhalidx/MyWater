@@ -14,7 +14,7 @@ const FAQ = () => {
       },
       {
         "heading": "Do you deliver water bottles?",
-        "content": "No we do not deliver water. We purify the tap water to provide clean and safe drinking water."
+        "content": "No we do not deliver water, We purify the tap water to provide clean and safe drinking water."
       },
       {
         "heading": "What is the difference between MyWater® and other water brands?",
@@ -42,7 +42,7 @@ const FAQ = () => {
       },
       {
         "heading": "Can I get this installed in my office?",
-        "content": "Yes we offer customized units tailored to your specific requirements."
+        "content": "Yes, We offer customized units tailored to your specific requirements."
       },
       {
         "heading": "How can I make a water quality complaint?",
@@ -62,7 +62,7 @@ const FAQ = () => {
       },
       {
         "heading": "Do you have industrial solutions?",
-        "content": "Depending on the requirement we do provide industrial solutions. We have Solace Terra MS-03 for industrial and corporate use."
+        "content": "Depending on the requirement we do provide industrial solutions. We have Solace, Terra MS-03 for industrial and corporate use."
       },
       {
         "heading": "What are the names of your corporate clients?",
@@ -70,7 +70,7 @@ const FAQ = () => {
       },
       {
         "heading": "Can you show all the filters and processes physically?",
-        "content": "Yes we can give you a 3D visual or if needed we can show you the filtration process inside the unit."
+        "content": "Yes, We can give you a 3D visual or if needed we can show you the filtration process inside the unit."
       },
       {
         "heading": "What is the TDS range which your system can cover and convert into pure mineral water?",
@@ -130,7 +130,7 @@ const FAQ = () => {
       },
       {
         "heading": "Can I buy this equipment?",
-        "content": "Yes. If a customer pays the upfront cost of the equipment, the device can be his property. We offer various service packages for our upfront units, including options for 1-year, 3-year, and on-demand plans."
+        "content": "Yes, If a customer pays the upfront cost of the equipment, the device can be his property. We offer various service packages for our upfront units, including options for 1-year, 3-year, and on-demand plans."
       },
       {
         "heading": "How long do you take for installation?",

@@ -24,7 +24,6 @@ import PartnersSection from "@components/sections/Partners"
 import CTASection from "../components/sections/CTASection";
 import MobileApp from "../components/sections/MobileApp";
 import PromotionCards from "../components/sections/PromotionCards";
-
 // const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
 const Hero2Slider = dynamic(() => import("@components/sliders/Hero2"), { ssr: false });
 const TickerSlider = dynamic(() => import("@components/sliders/Ticker"), { ssr: false });

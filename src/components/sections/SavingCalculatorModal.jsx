@@ -40,8 +40,10 @@ function SavingsCalculatorModal({ show, handleClose }) {
 
     // System types and their monthly costs
     const systemCosts = {
-        "NEO-2": 4000,  // Example cost for NEO-2
-        "TERRA-MS":5000  // Example cost for TERRA-MS
+        "NEO-2": 4500,
+        "TERRA-MS-02":5500,
+        "TERRA-MS-03": 7000,
+        "SOLACE-02": 25000,
     };
 
     const handleSystemTypeChange = (newType) => {
@@ -118,7 +120,9 @@ function SavingsCalculatorModal({ show, handleClose }) {
                         <Form.Control as="select" value={systemType} onChange={e => handleSystemTypeChange(e.target.value)}>
                             <option value="">Select System</option>
                             <option value="NEO-2">NEO-2</option>
-                            <option value="TERRA-MS">TERRA-MS</option>
+                            <option value="TERRA-MS-02">TERRA-MS-02</option>
+                            <option value="TERRA-MS-03">TERRA-MS-03</option>
+                            <option value="SOLACE-02">SOLACE</option>
                         </Form.Control>
                     </Form.Group>
                     <Row>
