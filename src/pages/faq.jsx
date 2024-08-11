@@ -14,7 +14,7 @@ const FAQ = () => {
       },
       {
         "heading": "Do you deliver water bottles?",
-        "content": "No we do not deliver water, We purify the tap water to provide clean and safe drinking water."
+        "content": "No, We do not deliver water, We purify the tap water to provide clean and safe drinking water."
       },
       {
         "heading": "What is the difference between MyWater® and other water brands?",
@@ -118,7 +118,7 @@ const FAQ = () => {
       },
       {
         "heading": "Is Mywater lab tested?",
-        "content": "Yes our water is lab tested from leading laboratories of Pakistan and International Market."
+        "content": "Yes, Our water is lab tested from leading laboratories of Pakistan and International Market."
       },
       {
         "heading": "Why is the taste of Mywater different from other bottled water?",

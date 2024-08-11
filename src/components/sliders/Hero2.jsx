@@ -25,7 +25,7 @@ const Hero2Slider = () => {
                             }
                             {item.video != undefined &&
                             <div className="image video">
-                                <video poster={item.poster} autoPlay muted loop >
+                                <video autoPlay muted loop >
                                     <source src={item.video} type="video/mp4" />
                                 </video>
                                 <div className="ovrl" style={{"opacity": "0.45"}} />
