@@ -33,8 +33,8 @@ const Team = (props) => {
 											<div className="onovo-text">
 												<div data-splitting data-onovo-scroll>
 													<p>At Mywater, we are inspired by a simple yet profound idea: that everyone deserves access to clean, drinking water. Our journey began with a desire to make a positive impact on health of our people and the environment. We wanted to challenge the status quo and create a solution that would transform everyday tap water into something extraordinary.
-														<br/>At mywater, we’ve harnessed cutting-edge technology to revolutionize the way we think about hydration. Our innovative dispensers, equipped with IoT devices, not only purify water but also monitor its quality in real-time. This means our customers can enjoy the peace of mind that comes with knowing their water is fresh, safe, and infused with essential minerals.
-														<br/>But mywater is more than just a product; it’s a movement. We’re committed to reducing plastic waste and promoting sustainability. With each refill, our customers contribute to a healthier planet, and that’s something we can all be proud of.
+														<br/><br/>At mywater, we’ve harnessed cutting-edge technology to revolutionize the way we think about hydration. Our innovative dispensers, equipped with IoT devices, not only purify water but also monitor its quality in real-time. This means our customers can enjoy the peace of mind that comes with knowing their water is fresh, safe, and infused with essential minerals.
+														<br/><br/>But mywater is more than just a product; it’s a movement. We’re committed to reducing plastic waste and promoting sustainability. With each refill, our customers contribute to a healthier planet, and that’s something we can all be proud of.
 														As we continue to grow and evolve, I want to thank you for being a part of our journey. Together, we are redefining hydration and creating a brighter future for generations to come. Here’s to enjoying every drop!</p>
 												</div>
 											</div>
