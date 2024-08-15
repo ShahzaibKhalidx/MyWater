@@ -66,9 +66,11 @@ function SavingsCalculatorModal({ show, handleClose }) {
                             <FormControl as="select" value={pricePerBottle}
                                 onChange={e => setPricePerBottle(e.target.value)}>
                                 <option value="">Select</option>
+                                <option value="430">430 PKR</option>
+                                <option value="400">400 PKR</option>
+                                <option value="380">380 PKR</option>
                                 <option value="330">330 PKR</option>
                                 <option value="300">300 PKR</option>
-                                <option value="290">290 PKR</option>
                                 <option value="280">280 PKR</option>
                             </FormControl>
                         </InputGroup>
@@ -109,7 +111,7 @@ function SavingsCalculatorModal({ show, handleClose }) {
                             </Col>
                             <Col>
                                 <Form.Group>
-                                    <Form.Label>Five Years Cost</Form.Label>
+                                    <Form.Label>5-Years Cost</Form.Label>
                                     <Form.Control readOnly value={`PKR ${results.fiveYearsCost}`} />
                                 </Form.Group>
                             </Col>

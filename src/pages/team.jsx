@@ -80,9 +80,10 @@ const Team = (props) => {
 												</ul>
 											</div>
 										</div>
+										{item.social.map((link, link_key) => (
 										<div className="desc">
 											<h5 className="title">
-												<Link href={`/team/${item.id}`} className="onovo-lnk">
+												<Link href={link.link} className="onovo-lnk">
 													<span data-splitting data-onovo-scroll>{item.name}</span>
 												</Link>
 											</h5>
@@ -90,25 +91,15 @@ const Team = (props) => {
 												<span data-splitting data-onovo-scroll>{item.role}</span>
 											</div>
 										</div>
+										))}
 									</div>
 								</div>
 							</div>
 						))}
-						{/* Button */}
-						{/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
-							<Link className="onovo-btn-circle onovo-hover-2" href={'/contact'}>
-								<i className="arrow">
-									<span />
-								</i>
-							</Link>
-						</div> */}
 					</div>
 				</div>
 			</section>
-			{/* <CallToActionSection /> */}
-			{/* <Testimonial2Slider /> */}
 			<PartnersSection/>
-
 		</Layouts>
 	);
 };

@@ -47,17 +47,16 @@ const MobileApp = () => {
                             <a target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src="/images/appstore.png"
-                                    alt="Download on Google Play"
+                                    alt="Download on App Store"
                                     width={120}
-                                    height={50}
-                                />
+                                    height={50}/>
                             </a>
                         </Link>
                         <Link href="https://play.google.com/store/apps/details?id=com.mywater.customer.app&pli=1" passHref legacyBehavior>
                             <a target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src="/images/playstore.png"
-                                    alt="Download on the App Store"
+                                    alt="Download on the Play Store"
                                     width={120}
                                     height={50}
                                 />

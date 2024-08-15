@@ -10,11 +10,9 @@ const TeamDetail = ( { postData, projects, services } ) => {
   return (
     <Layouts>
       <PageBanner pageTitle={postData.name} pageDesc={"Meet our creativity company family."} />
-
       	{/* Onovo Team Detail */}
 		<section className="onovo-section gap-top-140 gap-bottom-140">
 			<div className="container">
-
 				{/* Team Card */}
 				<div className="onovo-team-detail">
 					<div className="row gap-140 gap-top-60 gap-bottom-0">
@@ -68,8 +66,6 @@ const TeamDetail = ( { postData, projects, services } ) => {
 					<div dangerouslySetInnerHTML={{__html : postData.contentHtml}} />
 				</div>
 				}
-
-
 			</div>
 		</section>
 	

@@ -14,17 +14,7 @@ import Tab from 'react-bootstrap/Tab';
 import { Card } from 'react-bootstrap';
 import SurveyModal from "@/src/components/sections/SurveyModal";
 import SavingsCalculatorModal from "@/src/components/sections/SavingCalculatorModal";
-
-
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
-
-import {
-  FacebookShareButton,
-  LinkedinShareButton,
-  PinterestShareButton,
-  RedditShareButton,
-  TwitterShareButton
-} from "react-share";
 import ComparisonChart from "@/src/components/sections/ComparisonChart";
 import FAQs from "@/src/components/sections/FAQs";
 import LogoSlider2 from "@/src/components/sections/LogoSlider2";
@@ -113,7 +103,7 @@ const ProjectDetail = (props) => {
                       <SwiperSlide key={`h2s-slide-${key}`} className="swiper-slide">
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
-                            <div className="image" >
+                            <div className="image">
                               <Image src={item.image.desktop} fill={true}/>
                               {/* <div className="ovrl2" /> */}
                             </div>
@@ -262,15 +252,15 @@ const ProjectDetail = (props) => {
                     
                     {/* Buttons */}
                     <div className="buttonGroup">
-                      <Link className="onovo-btn onovo-hover-btn " href="https://wa.me/021111192837">
+                      <Link className="onovo-btn onovo-hover-btn product_btn" href="https://wa.me/021111192837">
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>
-                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn " href={postData.id}>
+                      <Link onClick={handleShowSurvey} className="onovo-btn onovo-hover-btn product_btn" href={postData.id}>
                         <i className="arrow"><span /></i>
                         <span>Book Survey</span>
                       </Link>
-                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn " href={postData.id}>
+                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn saving_btn" href={postData.id} style={{width:"100%", color:"#0A195D"}}>
                         <i className="arrow"><span /></i>
                         <span>Saving Calculator</span>
                       </Link>
