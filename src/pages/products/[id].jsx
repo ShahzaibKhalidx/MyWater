@@ -260,7 +260,7 @@ const ProjectDetail = (props) => {
                         <i className="arrow"><span /></i>
                         <span>Book Survey</span>
                       </Link>
-                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn saving_btn" href={postData.id} style={{width:"100%", color:"#0A195D"}}>
+                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn saving_btn" href={postData.id} style={{width:"100%", color:"#0A195D", border:"1px solid #0A195D"}}>
                         <i className="arrow"><span /></i>
                         <span>Saving Calculator</span>
                       </Link>

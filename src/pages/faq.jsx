@@ -74,7 +74,7 @@ const FAQ = () => {
       },
       {
         "heading": "What is the TDS range which your system can cover and convert into pure mineral water?",
-        "content": "As per Global bottled drinking water standards, any TDS starting from 30 – 150 is excellent drinking water. We have different ranges of waters such as Alkaline, Zero Sodium Water & Spring. Our system can convert any water having TDS up to 2000 – 2500 to ensure 30-150 TDs."
+        "content": "As per Global bottled drinking water standards, any TDS starting from 30 – 150 is excellent drinking water. We have different ranges of waters such as Alkaline, Zero Sodium Water & Spring. Our system can convert any water having TDS up to 2000 – 2500 to ensure 30-150 TDs. <img src='/images/services/faq.png'/>"
       },
       {
         "heading": "When did you guys launch this system in Pakistan? Because we didn’t hear so much about MyWater?",
@@ -118,7 +118,7 @@ const FAQ = () => {
       },
       {
         "heading": "Is Mywater lab tested?",
-        "content": "Yes, Our water is lab tested from leading laboratories of Pakistan and International Market."
+        "content": "Yes, Our water is lab tested from leading laboratories of Pakistan and International Market. <img src='/images/services/faq2.png'/>"
       },
       {
         "heading": "Why is the taste of Mywater different from other bottled water?",

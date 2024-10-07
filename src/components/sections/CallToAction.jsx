@@ -27,7 +27,7 @@ const CallToActionSection = () => {
 
                         {/* Social */}
                         <div className="onovo-cta-social">
-                            <div className="image" style={{"backgroundImage": "url("+ Data.bg_image2 +")"}}>
+                            <div className="image" >
                                 <div className="cta-img-circle img-circle--1" />
                                 <div className="cta-img-circle img-circle--2" />
                                 <div className="cta-img-circle img-circle--3" />

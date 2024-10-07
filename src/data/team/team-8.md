@@ -2,7 +2,7 @@
 #preview details
 image: /images/team/zeeshan.png
 name: Zeeshan ul Haq
-role: Regional Sales Manager South B2B
+role: National Sales Manager
 first_letter: Z
 social:
   - link: https://www.linkedin.com/in/muhammad-zeeshan-ul-haque-07360b1a3/
