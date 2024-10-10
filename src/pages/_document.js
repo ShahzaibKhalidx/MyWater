@@ -12,13 +12,18 @@ class MyDocument extends Document {
 
           {/* favicon begin */}
           <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
-	        <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+          <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
           {/* favicon */}
           {/* Fonts */}
           {/* public assets begin */}
           <link rel="stylesheet" href="/css/vendors/bootstrap.css" />
           <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.css" />
           <link rel="stylesheet" href="/css/vendors/magnific-popup.css" />
+
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+
           {/* public assets end */}
           <script src="https://app.boei.help/embed/k/ef6462c4-7c77-4606-9cab-0ba16f69ee99" async></script>
         </Head>

@@ -1,11 +1,11 @@
 ---
 #preview details
-image: /images/team/waqas_waheed.png
-name: Waqas Waheed
-role: Regional Sales Manager - Central
-first_letter: W
+image: /images/team/nabeel_ahmed.png
+name: Nabeel Ahmed Khan
+role: Manager Operations - South
+first_letter: N
 social:
-  - link: https://www.linkedin.com/in/waqas-waheed/
+  - link: https://www.linkedin.com/in/nabeel-ahmed-khan-862030179/
     icon: fab fa-linkedin-in
     title: Linkedin
 

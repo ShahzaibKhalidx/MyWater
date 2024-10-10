@@ -5,15 +5,15 @@
 	-webkit-box-sizing: border-box;
 }
 
-@font-face {
-	font-family: 'Nourd';
-	src: url('../../../public/fonts/nourd_regular.ttf');
-}
+// @font-face {
+// 	font-family: 'Nourd';
+// 	src: url('../../../public/fonts/nourd_regular.ttf');
+// }
 
-@font-face {
-	font-family: 'Nourd_Bold';
-	src: url('../../../public/fonts/nourd_bold.ttf');
-}
+// @font-face {
+// 	font-family: 'Nourd_Bold';
+// 	src: url('../../../public/fonts/nourd_bold.ttf');
+// }
 
 ::-webkit-input-placeholder {
 	color: rgba(0, 0, 0, 0.5);
@@ -39,7 +39,7 @@ body {
 	height: auto !important;
 	font-size: 18px;
 	color: #1B252E;
-	font-family: "Nourd", sans-serif;
+	font-family: "Rubik", sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
 	-webkit-font-smoothing: antialiased;
@@ -82,7 +82,7 @@ img {
 input,
 textarea,
 button {
-	font-family: "Nourd";
+	font-family: "Rubik";
 }
 
 label {
@@ -395,7 +395,7 @@ h4,
 h5,
 h6 {
 	font-weight: 600;
-	font-family: "Nourd_Bold";
+	font-family: "Rubik";
 	margin: 0;
 	margin-bottom: 15px;
 	color: #000;
@@ -724,7 +724,7 @@ label,
 legend {
 	display: block;
 	padding-bottom: 20px;
-	font-family: "Nourd";
+	font-family: "Rubik";
 }
 
 fieldset {
@@ -3135,7 +3135,7 @@ a.onovo-menu-btn,
 }
 
 .onovo-footer .footer--default h5 {
-	font-family: "Nourd";
+	font-family: "Rubik";
 	font-weight: 500;
 }
 
@@ -6358,7 +6358,7 @@ ul.onovo-footer-menu li {
 	font-size: 32px;
 	line-height: 1;
 	font-weight: 700;
-	font-family: 'Nourd_Bold';
+	font-family: 'Rubik';
 }
 
 .onovo-pricing-item .image {

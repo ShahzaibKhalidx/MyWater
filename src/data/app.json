@@ -64,6 +64,21 @@
                         "label": "Limited Edition",
                         "link": "/products",
                         "children": 0
+                    },
+                    {
+                        "label": "MySoda",
+                        "link": "/products",
+                        "children": 0
+                    },
+                    {
+                        "label": "SRO's",
+                        "link": "/products",
+                        "children": 0
+                    },
+                    {
+                        "label": "MyBottles",
+                        "link": "/products",
+                        "children": 0
                     }
                 ]
             },

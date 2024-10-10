@@ -1,11 +1,12 @@
 ---
 #preview details
-image: /images/team/nabeel_ahmed.png
-name: Nabeel Ahmed Khan
-role: Manager Operations - South
-first_letter: N
+#preview details
+image: /images/team/abdul_rahim.png
+name: Abdul Rahim
+role: Manager Operations - North & Central
+first_letter: A
 social:
-  - link: https://www.linkedin.com/in/nabeel-ahmed-khan-862030179/
+  - link: https://www.linkedin.com/in/malik-arz/
     icon: fab fa-linkedin-in
     title: Linkedin
 

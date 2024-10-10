@@ -57,6 +57,18 @@
                 "label": "Know More",
                 "link": "/products/solace-02"
             }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner5.png",
+                "mobile": "/images/banner/banner5.png"
+            },
+            "title": "MYSODA STANDALONE",
+            "text": "Advanced. All-in-one. Smart. Make pure drinking a habit with 8 stages smart purification system.",
+            "button": {
+                "label": "Know More",
+                "link": "/products/"
+            }
         }
     ]
 }
