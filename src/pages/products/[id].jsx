@@ -193,6 +193,7 @@ const ProjectDetail = (props) => {
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
                     <p className="shortDescription">{postData.short_description2}</p>
+                    <p className="shortDescription">{postData.short_description3}</p>
                     {/* YEARLY PLANS */}
                     <>
                     <Tab.Container id="yearly-programs"  key={postData.id} style={{display:`${postData.noyear}`}}>
@@ -252,7 +253,7 @@ const ProjectDetail = (props) => {
                     
                     {/* Buttons */}
                     <div className="buttonGroup">
-                      <Link className="onovo-btn onovo-hover-btn product_btn" href="https://wa.me/021111192837">
+                      <Link className="onovo-btn onovo-hover-btn product_btn" href="https://wa.me/+92111192837">
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>

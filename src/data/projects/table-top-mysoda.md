@@ -3,25 +3,26 @@
 title: TABLE TOP - MYSODA
 image: /images/products/9.png
 product_img: /images/products/MS3.png
-price: Rs. 65,000
-price_mrc: Rs. 7,000
+price: Rs. 60,000
+price_mrc: Rs. 8,000
 category: Offices
 category_slug: office
-type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
+type: COMPACT | VERSATILE | SMART | PERFECT FOR HOMES, OFFICES, AND RESTAURANTS
 none: "none"
 promo_title: "Free Service"
 promo_desc: "N/A"
 promo_offer: "N/A"
 display: "none"
-three_year: "N/A"
-five_year: "N/A"
+three_year: "Not Available"
+five_year: "Not Available"
 
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
 review_stars: 4.5
-short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
-short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description: "I. Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
+short_description2: "II. Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description3: "III. 02 gas tanks are included on delivery and additional tanks or refilling service will have extra charges."
 
 
 #full details
@@ -93,17 +94,17 @@ additional:
 slides:
  items:
   - image:
-      desktop: "/images/products/slider/ms3.png"
-      mobile: "/images/products/slider/ms3.png"
+      desktop: "/images/products/slider/tabletop.png"
+      mobile: "/images/products/slider/tabletop.png"
   - image:
-      desktop: "/images/products/slider/ms3-1.png"
-      mobile: "/images/products/slider/ms3-1.png"
+      desktop: "/images/products/slider/tabletop2.png"
+      mobile: "/images/products/slider/tabletop2.png"
 ---
 
 
 ###### Product Specifications
-- **PURIFICATION CAPACITY**: Upto 100L per day.
-- **TANK CAPACITY**: 5L Cold, 3L Storage.
-- **POWER CONSUMPTION**: 60 Watt.
-- **DIMENSION**: 10 x 16 x 45 inch.
-- **NET WEIGHTU**: 35 kg.
+- **PURIFICATION CAPACITY**: Upto 15(19L) Bottles per day.
+- **CARBONATION CAPACITY**: Upto 2L Per Hour.
+- **POWER CONSUMPTION**: 310 Watt.
+- **DIMENSION**: 10 x 18 x 20 inches.
+- **NET WEIGHTU**: 25 kg.

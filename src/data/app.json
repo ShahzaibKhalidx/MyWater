@@ -41,32 +41,42 @@
                 "link": "/products",
                 "children": [
                     {
-                        "label": "Shop All",
+                        "label": "SHOP ALL",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "For Homes",
+                        "label": "TERRA MS-02",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "For Corporate",
+                        "label": "TERRA MS-03",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "For Offices",
+                        "label": "SOLACE 02",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "Limited Edition",
+                        "label": "NEO 02",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "MySoda",
+                        "label": "STANDALONE MYSODA",
+                        "link": "/products",
+                        "children": 0
+                    },
+                    {
+                        "label": "TABLE TOP MYSODA",
+                        "link": "/products",
+                        "children": 0
+                    },
+                    {
+                        "label": "LIMITED EDITION SERIES",
                         "link": "/products",
                         "children": 0
                     },
@@ -76,7 +86,7 @@
                         "children": 0
                     },
                     {
-                        "label": "MyBottles",
+                        "label": "MY BOTTLES",
                         "link": "/products",
                         "children": 0
                     }
