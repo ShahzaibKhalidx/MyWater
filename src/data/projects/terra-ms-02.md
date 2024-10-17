@@ -41,16 +41,22 @@ details:
 details_icon:
     items:
         - label: "Dual Particle Filtration"
-          icon: /images/services/allicons-01.png
+          icon: /images/services/allicons-20.png
 
-        - label: "UV Disinfection"
-          icon: /images/services/allicons-06.png
+        - label: "Nano Silver Disinfection"
+          icon: /images/services/allicons-21.png
+
+        - label: "High Flux Remove Osmosis"
+          icon: /images/services/allicons-22.png
         
-        - label: "Remove Osmosis (RO)"
-          icon: /images/services/allicons-03.png
+        - label: "Dual Carbon Filteration"
+          icon: /images/services/allicons-23.png
 
         - label: "Mineralization"
-          icon: /images/services/allicons-05.png
+          icon: /images/services/allicons-24.png
+
+        - label: "UV Disinfection"
+          icon: /images/services/allicons-25.png
 
 gallery: 
     items:

@@ -18,6 +18,10 @@
                     "slug": "corporate"
                 },
                 {
+                    "label": "Restuarants",
+                    "slug": "restaurants"
+                }, 
+                {
                     "label": "Limited Edition",
                     "slug": "limited"
                 }
@@ -47,42 +51,42 @@
                     },
                     {
                         "label": "TERRA MS-02",
-                        "link": "/products",
+                        "link": "/products/terra-ms-02",
                         "children": 0
                     },
                     {
                         "label": "TERRA MS-03",
-                        "link": "/products",
+                        "link": "/products/terra-ms-03",
                         "children": 0
                     },
                     {
                         "label": "SOLACE 02",
-                        "link": "/products",
+                        "link": "/products/solace-02",
                         "children": 0
                     },
                     {
                         "label": "NEO 02",
-                        "link": "/products",
-                        "children": 0
-                    },
-                    {
-                        "label": "STANDALONE MYSODA",
-                        "link": "/products",
-                        "children": 0
-                    },
-                    {
-                        "label": "TABLE TOP MYSODA",
-                        "link": "/products",
+                        "link": "/products/neo-02",
                         "children": 0
                     },
                     {
                         "label": "LIMITED EDITION SERIES",
-                        "link": "/products",
+                        "link": "/products/limited-edition",
+                        "children": 0
+                    },
+                    {
+                        "label": "STANDALONE MYSODA",
+                        "link": "/products/standalone-mysoda",
+                        "children": 0
+                    },
+                    {
+                        "label": "TABLE TOP MYSODA",
+                        "link": "/products/table-top-mysoda",
                         "children": 0
                     },
                     {
                         "label": "SRO's",
-                        "link": "/products",
+                        "link": "/products/smartRO",
                         "children": 0
                     },
                     {

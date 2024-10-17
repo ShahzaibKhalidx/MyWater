@@ -15,7 +15,7 @@ promo_offer: "N/A"
 display: "none"
 three_year: "Not Available"
 five_year: "Not Available"
-
+noyear: "none"
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"

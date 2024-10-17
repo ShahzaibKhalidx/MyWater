@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 import { getSortedProjectsData } from "@library/projects";
 
-import PageBanner from "@components/PageBanner";
+// import PageBanner from "@components/PageBanner";
 
 const ProjectsGrid = dynamic( () => import("@components/ProjectsGrid"), { ssr: false } );
 

@@ -15,13 +15,14 @@ promo_offer: "N/A"
 display: "none"
 three_year: "N/A"
 five_year: "N/A"
+noyear: "none"
+price_display: "none"
 
 
 # Additional details
-tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
+tagline: "CHOOSE YOUR WATER"
 review_stars: 4.5
-short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
-short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description: "Sparkling water is essentially regular water combined with carbon dioxide, adding a refreshing, bubbly feel to the drink but without all the added sugars and chemicals."
 
 
 #full details
@@ -42,16 +43,22 @@ details:
 details_icon:
     items:
         - label: "Dual Particle Filtration"
-          icon: /images/services/allicons-01.png
+          icon: /images/services/allicons-20.png
 
-        - label: "UV Disinfection"
-          icon: /images/services/allicons-06.png
+        - label: "Nano Silver Disinfection"
+          icon: /images/services/allicons-21.png
+
+        - label: "High Flux Remove Osmosis"
+          icon: /images/services/allicons-22.png
         
-        - label: "Remove Osmosis (RO)"
-          icon: /images/services/allicons-03.png
+        - label: "Dual Carbon Filteration"
+          icon: /images/services/allicons-23.png
 
         - label: "Mineralization"
-          icon: /images/services/allicons-05.png
+          icon: /images/services/allicons-24.png
+
+        - label: "UV Disinfection"
+          icon: /images/services/allicons-25.png
 
 gallery: 
     items:
@@ -93,17 +100,15 @@ additional:
 slides:
  items:
   - image:
-      desktop: "/images/products/slider/ms3.png"
-      mobile: "/images/products/slider/ms3.png"
-  - image:
-      desktop: "/images/products/slider/ms3-1.png"
-      mobile: "/images/products/slider/ms3-1.png"
+      desktop: "/images/products/slider/spark-bottle.png"
+      mobile: "/images/products/slider/spark-bottle.png"
 ---
 
 
-###### Product Specifications
-- **PURIFICATION CAPACITY**: Upto 100L per day.
-- **TANK CAPACITY**: 5L Cold, 3L Storage.
-- **POWER CONSUMPTION**: 60 Watt.
-- **DIMENSION**: 10 x 16 x 45 inch.
-- **NET WEIGHTU**: 35 kg.
+###### 750 ML
+- **BOTTLE PRICE**: PKR 400.
+- **REFILL PRICE**: PKR 250.
+
+###### 500 ML
+- **BOTTLE PRICE**: PKR 350.
+- **REFILL PRICE**: PKR 200.

@@ -1,13 +1,13 @@
 ---
 #preview
-title: SMART PORTABLE RO
+title: SROs
 image: /images/products/10.png
-product_img: /images/products/MS3.png
-price: Rs. 65,000
-price_mrc: Rs. 7,000
+product_img: /images/products/10.png
+# price: Rs. 65,000
+# price_mrc: Rs. 7,000
 category: Offices
 category_slug: office
-type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
+type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR ALL KINDS OF WATER
 none: "none"
 promo_title: "Free Service"
 promo_desc: "N/A"
@@ -15,13 +15,17 @@ promo_offer: "N/A"
 display: "none"
 three_year: "N/A"
 five_year: "N/A"
+otc: "OTC"
+mrc: "MRC"
+price_display: "none"
+noyear: "none"
 
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
 review_stars: 4.5
-short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
-short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description: "Pakistan's first smart portable RO Plant"
+short_description2: "App Monitoring, Plant Automation, Full Service Contract, Solar Option, System Customization (process or drinking water type)"
 
 
 #full details
@@ -42,16 +46,22 @@ details:
 details_icon:
     items:
         - label: "Dual Particle Filtration"
-          icon: /images/services/allicons-01.png
+          icon: /images/services/allicons-20.png
 
-        - label: "UV Disinfection"
-          icon: /images/services/allicons-06.png
+        - label: "Nano Silver Disinfection"
+          icon: /images/services/allicons-21.png
+
+        - label: "High Flux Remove Osmosis"
+          icon: /images/services/allicons-22.png
         
-        - label: "Remove Osmosis (RO)"
-          icon: /images/services/allicons-03.png
+        - label: "Dual Carbon Filteration"
+          icon: /images/services/allicons-23.png
 
         - label: "Mineralization"
-          icon: /images/services/allicons-05.png
+          icon: /images/services/allicons-24.png
+
+        - label: "UV Disinfection"
+          icon: /images/services/allicons-25.png
 
 gallery: 
     items:
@@ -93,17 +103,16 @@ additional:
 slides:
  items:
   - image:
-      desktop: "/images/products/slider/ms3.png"
-      mobile: "/images/products/slider/ms3.png"
+      desktop: "/images/products/slider/sro.png"
+      mobile: "/images/products/slider/sro.png"
   - image:
-      desktop: "/images/products/slider/ms3-1.png"
-      mobile: "/images/products/slider/ms3-1.png"
+      desktop: "/images/products/slider/sro2.png"
+      mobile: "/images/products/slider/sro2.png"
 ---
 
 
 ###### Product Specifications
-- **PURIFICATION CAPACITY**: Upto 100L per day.
-- **TANK CAPACITY**: 5L Cold, 3L Storage.
-- **POWER CONSUMPTION**: 60 Watt.
-- **DIMENSION**: 10 x 16 x 45 inch.
-- **NET WEIGHTU**: 35 kg.
+- **PURIFICATION CAPACITY**: 1,500 - 15,000 per day.
+- **PURIFICATION ABILITY**: TDS upto 30,000 ppm.
+- **CHASSIS**: Upto 40 foot container.
+- **DIMENSION**: Min 43 x 42 x 70 inches.

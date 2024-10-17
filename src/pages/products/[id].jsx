@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Layouts from "@layouts/Layouts";
 import Link from "next/link";
@@ -29,7 +29,7 @@ const ProjectDetail = (props) => {
   const handleCloseSurvey = () => setShowSurvey(false);
   const [modalShow, setModalShow] = useState(false);
 
-  
+
   useEffect(() => {
     setPostData(props.data);
   }, [props.data]);
@@ -41,7 +41,7 @@ const ProjectDetail = (props) => {
       next_key = key + 1;
     }
   })
-  
+
   props.projects.forEach(function (item, key) {
     if (key == prev_key) {
       prev_id = item.id;
@@ -88,7 +88,7 @@ const ProjectDetail = (props) => {
       <section className="onovo-section gap-top-140 projectDetailSection">
         <div className="container">
           <div className="row gap-bottom-80">
-              {/* Project Info */}
+            {/* Project Info */}
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               {/* Image */}
               <section className="onovo-section onovo-hero hero--product">
@@ -104,7 +104,7 @@ const ProjectDetail = (props) => {
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
                             <div className="image">
-                              <Image src={item.image.desktop} fill={true}/>
+                              <Image src={item.image.desktop} fill={true} />
                               {/* <div className="ovrl2" /> */}
                             </div>
                           }
@@ -160,70 +160,73 @@ const ProjectDetail = (props) => {
                       {/* <span className="starRating">{postData.review_stars.toFixed(1)}</span> */}
                     </div>
                     {/* <div><h3 style={{display: "inline"}}>Rs. {postData.price}</h3><span> (Inclusive of Taxes)</span></div> */}
-                    
+
                     {/* PRICE */}
-                    <div>
-                    <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
-                      <Row className="price_tabs">
-                        <Col sm={12}>
-                          <Tab.Content>
-                            <Tab.Pane eventKey="#link1"><div><h3 style={{ display: "inline" }}>{postData.price}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
-                            <Tab.Pane eventKey="#link2"><div><h3 style={{ display: "inline" }}>{postData.price_mrc}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
-                          </Tab.Content>
-                        </Col>
-                      </Row>
-                      <Row className="price_heading">
-                        <Col sm={6} lg={4} md={6}>
-                          <ListGroup>
-                            <ListGroup.Item action href="#link1">
-                              OTC
-                            </ListGroup.Item>
-                          </ListGroup>
-                        </Col>
-                        <Col sm={6} lg={4} md={6}>
-                          <ListGroup>
-                            <ListGroup.Item action href="#link2">
-                              MRC
-                            </ListGroup.Item>
-                          </ListGroup>
-                        </Col>
-                      </Row>
-                    </Tab.Container>
-                    </div>
+                    {postData.contentHtml != "" &&
+                      <div style={{ display: `${postData.price_display}` }}>
+                        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
+                          <Row className="price_tabs">
+                            <Col sm={12}>
+                              <Tab.Content>
+                                <Tab.Pane eventKey="#link1"><div><h3 style={{ display: "inline" }}>{postData.price}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
+                                <Tab.Pane eventKey="#link2"><div><h3 style={{ display: "inline" }}>{postData.price_mrc}</h3><span> (Exclusive of Taxes)</span></div></Tab.Pane>
+                              </Tab.Content>
+                            </Col>
+                          </Row>
+                          <Row className="price_heading">
+                            <Col sm={6} lg={4} md={6}>
+                              <ListGroup>
+                                <ListGroup.Item action href="#link1">
+                                  OTC
+                                </ListGroup.Item>
+                              </ListGroup>
+                            </Col>
+                            <Col sm={6} lg={4} md={6}>
+                              <ListGroup>
+                                <ListGroup.Item action href="#link2">
+                                  MRC
+                                </ListGroup.Item>
+                              </ListGroup>
+                            </Col>
+                          </Row>
+                        </Tab.Container>
+                      </div>
+                    }
                     {/* Short Description */}
                     <p className="shortDescription">{postData.short_description}</p>
                     <p className="shortDescription">{postData.short_description2}</p>
                     <p className="shortDescription">{postData.short_description3}</p>
                     {/* YEARLY PLANS */}
-                    <>
-                    <Tab.Container id="yearly-programs"  key={postData.id} style={{display:`${postData.noyear}`}}>
-                      <Row className="price_heading">
-                        <Col sm={6} lg={4} md={6}>
-                          <ListGroup>
-                            <ListGroup.Item action href="#three-year">
-                              3-Years Plan
-                            </ListGroup.Item>
-                          </ListGroup>
-                        </Col>
-                        <Col sm={6} lg={4} md={6}>
-                          <ListGroup>
-                            <ListGroup.Item action href="#five-year">
-                              5-Years Plan
-                            </ListGroup.Item>
-                          </ListGroup>
-                        </Col>
-                      </Row>
-                      <Row className="price_tabs">
-                        <Col sm={12}>
-                          <Tab.Content>
-                            <Tab.Pane eventKey="#three-year"><div><h6 >{postData.three_year}</h6><span>{postData.note_1}</span></div></Tab.Pane>
-                            <Tab.Pane eventKey="#five-year"><div><h6 >{postData.five_year}</h6><span>{postData.note_2}</span></div></Tab.Pane>
-                          </Tab.Content>
-                        </Col>
-                      </Row>
-                    </Tab.Container>
-                    </>
-                    
+                    {postData.contentHtml != "" &&
+                      <div style={{ display: `${postData.noyear}` }}>
+                        <Tab.Container id="yearly-programs" key={postData.id} >
+                          <Row className="price_heading">
+                            <Col sm={6} lg={4} md={6}>
+                              <ListGroup>
+                                <ListGroup.Item action href="#three-year">
+                                  3-Years Plan
+                                </ListGroup.Item>
+                              </ListGroup>
+                            </Col>
+                            <Col sm={6} lg={4} md={6}>
+                              <ListGroup>
+                                <ListGroup.Item action href="#five-year">
+                                  5-Years Plan
+                                </ListGroup.Item>
+                              </ListGroup>
+                            </Col>
+                          </Row>
+                          <Row className="price_tabs">
+                            <Col sm={12}>
+                              <Tab.Content>
+                                <Tab.Pane eventKey="#three-year"><div><h6 >{postData.three_year}</h6><span>{postData.note_1}</span></div></Tab.Pane>
+                                <Tab.Pane eventKey="#five-year"><div><h6 >{postData.five_year}</h6><span>{postData.note_2}</span></div></Tab.Pane>
+                              </Tab.Content>
+                            </Col>
+                          </Row>
+                        </Tab.Container>
+                      </div>
+                    }
                     {/* Project Requirement Icons */}
                     <div className="iconSection">
                       {postData.details_icon.items.map((item, index) => (
@@ -237,7 +240,7 @@ const ProjectDetail = (props) => {
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     {/* PROMO */}
                     {postData.contentHtml != "" &&
-                      <Card key={postData.id} className="my-3 p-3 rounded promo_offer text-left" style={{display:`${postData.display}`}}>
+                      <Card key={postData.id} className="my-3 p-3 rounded promo_offer text-left" style={{ display: `${postData.display}` }}>
                         <Card.Header as="h5">SPECIAL OFFER!</Card.Header>
                         <Card.Body>
                           <Card.Title>{postData.promo_title}</Card.Title>
@@ -250,7 +253,7 @@ const ProjectDetail = (props) => {
                         </Card.Body>
                       </Card>
                     }
-                    
+
                     {/* Buttons */}
                     <div className="buttonGroup">
                       <Link className="onovo-btn onovo-hover-btn product_btn" href="https://wa.me/+92111192837">
@@ -261,7 +264,7 @@ const ProjectDetail = (props) => {
                         <i className="arrow"><span /></i>
                         <span>Book Survey</span>
                       </Link>
-                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn saving_btn" href={postData.id} style={{width:"100%", color:"#0A195D", border:"1px solid #0A195D"}}>
+                      <Link onClick={() => setModalShow(true)} className="onovo-btn onovo-hover-btn saving_btn" href={postData.id} style={{ width: "100%", color: "#0A195D", border: "1px solid #0A195D" }}>
                         <i className="arrow"><span /></i>
                         <span>Saving Calculator</span>
                       </Link>
