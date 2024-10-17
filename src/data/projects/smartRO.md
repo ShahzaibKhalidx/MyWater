@@ -22,7 +22,7 @@ noyear: "none"
 
 
 # Additional details
-tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
+tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR ALL KINDS OF WATER"
 review_stars: 4.5
 short_description: "Pakistan's first smart portable RO Plant"
 short_description2: "App Monitoring, Plant Automation, Full Service Contract, Solar Option, System Customization (process or drinking water type)"
