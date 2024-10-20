@@ -15,7 +15,8 @@ promo_offer: "N/A"
 display: "none"
 three_year: "N/A"
 five_year: "N/A"
-
+buy_link: "https://wa.me/+92111192837"
+order: 2
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
@@ -23,21 +24,6 @@ review_stars: 4.5
 short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
 short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
 
-
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:

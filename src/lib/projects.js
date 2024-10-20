@@ -28,11 +28,12 @@ export function getSortedProjectsData() {
   })
   // Sort posts by date
   return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
+    // If order is not defined, put the item at the end
+    if (a.order === undefined) return 1;
+    if (b.order === undefined) return -1;
+    
+    // Sort by order
+    return a.order - b.order;
   })
 }
 
@@ -63,11 +64,12 @@ export function getFeaturedProjectsData(ids) {
 
   // Sort posts by date
   return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
+    // If order is not defined, put the item at the end
+    if (a.order === undefined) return 1;
+    if (b.order === undefined) return -1;
+    
+    // Sort by order
+    return a.order - b.order;
   })
 }
 

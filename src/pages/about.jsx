@@ -103,7 +103,7 @@ const About = (props) => {
 						<iframe className="js-video-iframe" data-src="https://www.youtube.com/embed/dWOjfNzjDIc?showinfo=0&rel=0&autoplay=1"></iframe>
 						<div className="play onovo-circle-text" onClick={(e) => clickedVideoButton(e)}>
 							<div className="arrow" />
-							<div className="label onovo-text-black onovo-circle-text-label">Upgrade - You Water - Experience - </div>
+							<div className="label onovo-text-black onovo-circle-text-label">Upgrade - Your Water - Experience - </div>
 						</div>
 					</div>
 

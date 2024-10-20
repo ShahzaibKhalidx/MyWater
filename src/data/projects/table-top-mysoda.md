@@ -5,8 +5,8 @@ image: /images/products/9.png
 product_img: /images/products/MS3.png
 price: Rs. 60,000
 price_mrc: Rs. 8,000
-category: Offices
-category_slug: office
+category: Corporate
+category_slug: corporate
 type: COMPACT | VERSATILE | SMART | PERFECT FOR HOMES, OFFICES, AND RESTAURANTS
 none: "none"
 promo_title: "Free Service"
@@ -16,6 +16,8 @@ display: "none"
 three_year: "Not Available"
 five_year: "Not Available"
 noyear: "none"
+buy_link: "https://wa.me/+92111192837"
+order: 6
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"
@@ -25,20 +27,6 @@ short_description2: "II. Filter Replacements Are Done On A Periodic Cycle Of 90 
 short_description3: "III. 02 gas tanks are included on delivery and additional tanks or refilling service will have extra charges."
 
 
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:

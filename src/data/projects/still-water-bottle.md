@@ -5,8 +5,8 @@ image: /images/products/11.png
 product_img: /images/products/slider/still-bottle.png
 price: Rs. 65,000
 price_mrc: Rs. 7,000
-category: Offices
-category_slug: office
+category: Home
+category_slug: home
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
 none: "none"
 promo_title: "Free Service"
@@ -17,6 +17,8 @@ three_year: "N/A"
 five_year: "N/A"
 noyear: "none"
 price_display: "none"
+buy_link: "https://www.mycart.pk/catalogsearch/result/?q=mywater&cat=)"
+order: 8
 
 
 # Additional details
@@ -25,20 +27,6 @@ review_stars: 4.5
 short_description: "Still water, simply is non-carbonated water"
 
 
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:

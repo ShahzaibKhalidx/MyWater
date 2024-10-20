@@ -60,14 +60,62 @@
         },
         {
             "image": {
-                "desktop": "/images/banner/banner5.png",
-                "mobile": "/images/banner/banner5.png"
+                "desktop": "/images/banner/banner9.png",
+                "mobile": "/images/banner/banner9.png"
             },
             "title": "MYSODA STANDALONE",
-            "text": "Advanced. All-in-one. Smart. Make pure drinking a habit with 8 stages smart purification system.",
+            "text": "Innovative, Intuitive, Expansive, Perfect for offices and workspaces",
             "button": {
                 "label": "Know More",
-                "link": "/products/"
+                "link": "/products/standalone-mysoda"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner10.png",
+                "mobile": "/images/banner/banner10.png"
+            },
+            "title": "MYSODA TABLETOP",
+            "text": "Innovative, Intuitive, Expansive, Perfect for offices and workspaces.",
+            "button": {
+                "label": "Know More",
+                "link": "/products/table-top-mysoda"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner6.png",
+                "mobile": "/images/banner/banner6.png"
+            },
+            "title": "SROs",
+            "text": "Advanced. All-in-one. Smart. Perfect for all kinds of water",
+            "button": {
+                "label": "Know More",
+                "link": "/products/smartRO"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner7.png",
+                "mobile": "/images/banner/banner7.png"
+            },
+            "title": "SPARKLING WATER BOTTLE",
+            "text": "Sparkling water is essentially regular water combined with carbon dioxide",
+            "button": {
+                "label": "Know More",
+                "link": "/products/sparkling-water-bottle"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner8.png",
+                "mobile": "/images/banner/banner8.png"
+            },
+            "title": "STILL WATER BOTTLE",
+            "text": "Still water, simply is non-carbonated water",
+            "button": {
+                "label": "Know More",
+                "link": "/products/still-water-bottle"
             }
         }
     ]

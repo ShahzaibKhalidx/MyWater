@@ -104,7 +104,10 @@ const ProjectDetail = (props) => {
                         <div className="onovo-hero-slide-item">
                           {item.video == undefined &&
                             <div className="image">
-                              <Image src={item.image.desktop} fill={true} />
+                              {/* <Image src={item.image.desktop}
+                              width={742} height={1080}/> */}
+
+                              <img src={item.image.desktop} alt="" />
                               {/* <div className="ovrl2" /> */}
                             </div>
                           }
@@ -256,7 +259,7 @@ const ProjectDetail = (props) => {
 
                     {/* Buttons */}
                     <div className="buttonGroup">
-                      <Link className="onovo-btn onovo-hover-btn product_btn" href="https://wa.me/+92111192837">
+                      <Link className="onovo-btn onovo-hover-btn product_btn" href={postData.buy_link} >
                         <i className="arrow"><span /></i>
                         <span>Buy Now</span>
                       </Link>

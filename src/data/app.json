@@ -90,8 +90,13 @@
                         "children": 0
                     },
                     {
-                        "label": "MY BOTTLES",
-                        "link": "/products",
+                        "label": "SPARKLING WATER BOTTLE",
+                        "link": "/products/sparkling-water-bottle",
+                        "children": 0
+                    },
+                    {
+                        "label": "STILL WATER BOTTLE",
+                        "link": "/products/still-water-bottle",
                         "children": 0
                     }
                 ]
@@ -189,7 +194,7 @@
             "title": "Linkedin"
         },
         {
-            "link": "https://wa.me/021111192837",
+            "link": "https://wa.me/+921111192837",
             "icon": "fab fa-whatsapp",
             "title": "Linkedin"
         }

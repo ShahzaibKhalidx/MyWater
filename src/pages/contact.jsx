@@ -206,7 +206,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <h5>Lahore</h5>
-                                    <div>344-5, Quaid-e-Azam Industrial Estate,<br/>
+                                    <div>344-S, Quaid-e-Azam Industrial Estate,<br/>
                                     Kot Lakhpat, Lahore 54000</div>
                                 </li>
                             </ul>

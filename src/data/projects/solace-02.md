@@ -16,6 +16,8 @@ display: "none"
 three_year: "N/A"
 five_year: "N/A"
 noyear: "none"
+buy_link: "https://wa.me/+92111192837"
+order: 4
 
 
 # Additional details

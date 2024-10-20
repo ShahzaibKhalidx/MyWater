@@ -17,6 +17,8 @@ three_year: "N/A"
 five_year: "N/A"
 noyear: "none"
 price_display: "none"
+buy_link: "https://www.mycart.pk/catalogsearch/result/?q=mywater&cat=)"
+order: 7
 
 
 # Additional details
@@ -24,21 +26,6 @@ tagline: "CHOOSE YOUR WATER"
 review_stars: 4.5
 short_description: "Sparkling water is essentially regular water combined with carbon dioxide, adding a refreshing, bubbly feel to the drink but without all the added sugars and chemicals."
 
-
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:

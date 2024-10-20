@@ -15,28 +15,14 @@ three_year: "OTC: Rs. 260,000 (Exclusive of taxes)"
 note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 4,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 five_year: "OTC: Rs. 315,000 (Exclusive of taxes)"
 note_2: "Service fee includes all types of general servicing and parts replacement for up to 5 years, after that monthly service fees are PKR 5,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+buy_link: "https://wa.me/+92111192837"
 
 # Additional details
 tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES"
 review_stars: 4.5
 short_description: "1. Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
 short_description2: "2. Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
-
-
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
+order: 1
 
 details_icon:
     items:

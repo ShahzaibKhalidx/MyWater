@@ -25,7 +25,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
 
           {/* public assets end */}
-          <script src="https://app.boei.help/embed/k/ef6462c4-7c77-4606-9cab-0ba16f69ee99" async></script>
+          
         </Head>
         <body>
           <Main />

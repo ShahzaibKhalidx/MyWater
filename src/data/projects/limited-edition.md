@@ -16,6 +16,7 @@ three_year: "OTC: Rs. 272,000 (Exclusive of taxes)"
 note_1: "Service fee includes all types of general servicing and parts replacement for up to 3 years, after that monthly service fees are PKR 3,500 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
 five_year: "OTC: Rs. 330,000 (Exclusive of taxes)"
 note_2: "Service fee includes all types of general servicing and parts replacement for up to 5 years, after that monthly service fees are PKR 4,000 inclusive of taxes. Filter replacements are done based on real time health status as per our service protocols"
+buy_link: "https://wa.me/+92111192837"
 
 
 # Additional details

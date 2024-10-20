@@ -60,7 +60,7 @@ const DefaultFooter = () => {
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>Lahore</h5>
-                                <p style={{"opacity": "0.8"}}>344-5, Quaid-e-Azam Industrial Estate, <br />Kot Lakhpat, Lahore 54000 </p>
+                                <p style={{"opacity": "0.8"}}>344-S, Quaid-e-Azam Industrial Estate, <br />Kot Lakhpat, Lahore 54000 </p>
                                 <p style={{"opacity": "0.8"}}>
                                     {/* <a href="tel:+923700216915" className="onovo-lnk lnk--white" target="_blank">+92 (370) 0216915</a><br /> */}
                                     {/* <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a> */}

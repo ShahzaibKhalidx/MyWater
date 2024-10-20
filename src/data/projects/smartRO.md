@@ -5,8 +5,8 @@ image: /images/products/10.png
 product_img: /images/products/10.png
 # price: Rs. 65,000
 # price_mrc: Rs. 7,000
-category: Offices
-category_slug: office
+category: Restuarants
+category_slug: restaurants
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR ALL KINDS OF WATER
 none: "none"
 promo_title: "Free Service"
@@ -19,6 +19,8 @@ otc: "OTC"
 mrc: "MRC"
 price_display: "none"
 noyear: "none"
+buy_link: "https://wa.me/+92111192837"
+order: 9
 
 
 # Additional details
@@ -26,22 +28,8 @@ tagline: "ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR ALL KINDS OF WATER"
 review_stars: 4.5
 short_description: "Pakistan's first smart portable RO Plant"
 short_description2: "App Monitoring, Plant Automation, Full Service Contract, Solar Option, System Customization (process or drinking water type)"
-short_description3: "Contact our sales team for the information"
+short_description3: "*Contact our sales team for the information: +92 (311) 252 2543*"
 
-#full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:
@@ -112,7 +100,7 @@ slides:
 
 
 ###### Product Specifications
-- **PURIFICATION CAPACITY**: 1,500 - 15,000 per day.
+- **PURIFICATION CAPACITY**: 1,500 - 15,000 Gallons per day.
 - **PURIFICATION ABILITY**: TDS upto 30,000 ppm.
 - **CHASSIS**: Upto 40 foot container.
 - **DIMENSION**: Min 43 x 42 x 70 inches.
