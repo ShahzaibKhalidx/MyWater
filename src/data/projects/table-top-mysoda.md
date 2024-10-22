@@ -30,6 +30,9 @@ short_description3: "III. 02 gas tanks are included on delivery and additional t
 
 details_icon:
     items:
+        - label: "7 Stage Purification"
+          icon: /images/services/allstage.png
+
         - label: "Dual Particle Filtration"
           icon: /images/services/allicons-20.png
 
@@ -41,6 +44,9 @@ details_icon:
         
         - label: "Dual Carbon Filteration"
           icon: /images/services/allicons-23.png
+
+        - label: "Carbonation"
+          icon: /images/services/carbon.png
 
         - label: "Mineralization"
           icon: /images/services/allicons-24.png
