@@ -6,24 +6,28 @@
         "portfolio": {
             "categories": [
                 {
-                    "label": "Home",
+                    "label": "For Home",
                     "slug": "home"
                 },
                 {
-                    "label": "Offices",
+                    "label": "For SME's Offices",
                     "slug": "office"
                 },
                 {
-                    "label": "Corporate",
+                    "label": "For Large Corporates",
                     "slug": "corporate"
                 },
                 {
-                    "label": "Restuarants",
+                    "label": "For Restuarants",
                     "slug": "restaurants"
                 }, 
                 {
-                    "label": "Limited Edition",
-                    "slug": "limited"
+                    "label": "Glass Bottles",
+                    "slug": "bottles"
+                }, 
+                {
+                    "label": "Customized RO Plants",
+                    "slug": "sro"
                 }
             ]
         }
@@ -45,58 +49,38 @@
                 "link": "/products",
                 "children": [
                     {
-                        "label": "SHOP ALL",
+                        "label": "Shop All",
                         "link": "/products",
                         "children": 0
                     },
                     {
-                        "label": "TERRA MS-02",
-                        "link": "/products/terra-ms-02",
+                        "label": "For Home",
+                        "link": "/products/",
                         "children": 0
                     },
                     {
-                        "label": "TERRA MS-03",
-                        "link": "/products/terra-ms-03",
+                        "label": "For SME's Offices",
+                        "link": "/products/",
                         "children": 0
                     },
                     {
-                        "label": "SOLACE 02",
-                        "link": "/products/solace-02",
+                        "label": "For Large Corporates",
+                        "link": "/products/",
                         "children": 0
                     },
                     {
-                        "label": "NEO 02",
-                        "link": "/products/neo-02",
+                        "label": "For Restaurants",
+                        "link": "/products/",
                         "children": 0
                     },
                     {
-                        "label": "LIMITED EDITION SERIES",
-                        "link": "/products/limited-edition",
+                        "label": "Glass Bottles",
+                        "link": "/products/",
                         "children": 0
                     },
                     {
-                        "label": "STANDALONE MYSODA",
-                        "link": "/products/standalone-mysoda",
-                        "children": 0
-                    },
-                    {
-                        "label": "TABLE TOP MYSODA",
-                        "link": "/products/table-top-mysoda",
-                        "children": 0
-                    },
-                    {
-                        "label": "SRO's",
-                        "link": "/products/smartRO",
-                        "children": 0
-                    },
-                    {
-                        "label": "SPARKLING WATER BOTTLE",
-                        "link": "/products/sparkling-water-bottle",
-                        "children": 0
-                    },
-                    {
-                        "label": "STILL WATER BOTTLE",
-                        "link": "/products/still-water-bottle",
+                        "label": "Customized RO Plants",
+                        "link": "/products/smart-ro",
                         "children": 0
                     }
                 ]
@@ -107,12 +91,6 @@
                 "link": "/team",
                 "children": 0
             },
-            {
-                "label": "Offers",
-                "link": "/promo",
-                "children": 0
-            },
-            
             {
                 "label": "Careers",
                 "link": "https://app.myhcm.pk/CareerPortal/Careers?q=olBwJs6tOQ9sgxyMavM%2BVQ%3D%3D&lang=null",
@@ -175,7 +153,7 @@
                 "alt": "image"
             }
         ],
-        "copy": "© 2024-25 Copyright MYWATER&trade;<a href='' target='blank' class='onovo-lnk lnk--white'></a>. Pvt Limited."
+        "copy": "© 2024-25 Copyright <a href='https://mywater.pk/' target='blank' class='onovo-lnk lnk--white'>MYWATER&trade;</a>. Pvt Limited."
     },
     "social": [
         {

@@ -1,12 +1,12 @@
 ---
 #preview
-title: TABLE TOP - MYSODA
+title: TABLE TOP MYSODA
 image: /images/products/9.png
 product_img: /images/products/MS3.png
 price: Rs. 60,000
 price_mrc: Rs. 8,000
-category: Corporate
-category_slug: corporate
+category: Restaurants
+category_slug: restaurants
 type: COMPACT | VERSATILE | SMART | PERFECT FOR HOMES, OFFICES, AND RESTAURANTS
 none: "none"
 promo_title: "Free Service"
@@ -17,7 +17,7 @@ three_year: "Not Available"
 five_year: "Not Available"
 noyear: "none"
 buy_link: "https://wa.me/+92111192837"
-order: 6
+order: 8
 
 # Additional details
 tagline: "INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES"

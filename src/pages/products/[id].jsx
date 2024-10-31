@@ -242,7 +242,7 @@ const ProjectDetail = (props) => {
                     {/* Description */}
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     {/* PROMO */}
-                    {postData.contentHtml != "" &&
+                    {/* {postData.contentHtml != "" &&
                       <Card key={postData.id} className="my-3 p-3 rounded promo_offer text-left" style={{ display: `${postData.display}` }}>
                         <Card.Header as="h5">SPECIAL OFFER!</Card.Header>
                         <Card.Body>
@@ -255,7 +255,7 @@ const ProjectDetail = (props) => {
                           </Card.Text>
                         </Card.Body>
                       </Card>
-                    }
+                    } */}
 
                     {/* Buttons */}
                     <div className="buttonGroup">

@@ -15,11 +15,11 @@
                 "desktop": "/images/banner/banner1.png",
                 "mobile": "/images//banner/mob1.png"
             },
-            "title": "TERRA MS-02",
+            "title": "TERRA",
             "text": "Advanced, All-In-One, Smart. Make pure drinking a habit with 8 stages smart purification system",
             "button": {
                 "label": "Know More",
-                "link": "/products/terra-ms-02"
+                "link": "/products/terra"
             }
         },
         {
@@ -27,11 +27,11 @@
                 "desktop": "/images/banner/banner2.png",
                 "mobile": "/images/banner/mob2.png"
             },
-            "title": "NEO 02",
+            "title": "NEO ULTRA",
             "text": "Compact, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
             "button": {
                 "label": "Know More",
-                "link": "/products/neo-02"
+                "link": "/products/neo-ultra"
             }
         }, 
         {
@@ -51,11 +51,35 @@
                 "desktop": "/images/banner/banner4.png",
                 "mobile": "/images/banner/mob4.png"
             },
-            "title": "SOLACE 02",
+            "title": "SOLACE",
             "text": "Universal, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
             "button": {
                 "label": "Know More",
-                "link": "/products/solace-02"
+                "link": "/products/solace"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner11.png",
+                "mobile": "/images/banner/banner11.png"
+            },
+            "title": "SOLACE ULTRA",
+            "text": "Universal, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
+            "button": {
+                "label": "Know More",
+                "link": "/products/solace-ultra"
+            }
+        },
+        {
+            "image": {
+                "desktop": "/images/banner/banner12.png",
+                "mobile": "/images/banner/banner12.png"
+            },
+            "title": "SOLACE PRO",
+            "text": "Universal, Versatile, Smart. Make pure drinking a habit with 8 stages smart purification system.",
+            "button": {
+                "label": "Know More",
+                "link": "/products/solace-pro"
             }
         },
         {
@@ -63,7 +87,7 @@
                 "desktop": "/images/banner/banner9.png",
                 "mobile": "/images/banner/banner9.png"
             },
-            "title": "MYSODA STANDALONE",
+            "title": "STAND ALONE MYSODA",
             "text": "Innovative, Intuitive, Expansive, Perfect for offices and workspaces",
             "button": {
                 "label": "Know More",
@@ -75,7 +99,7 @@
                 "desktop": "/images/banner/banner10.png",
                 "mobile": "/images/banner/banner10.png"
             },
-            "title": "MYSODA TABLETOP",
+            "title": "TABLE TOP MYSODA",
             "text": "Innovative, Intuitive, Expansive, Perfect for offices and workspaces.",
             "button": {
                 "label": "Know More",
@@ -87,11 +111,11 @@
                 "desktop": "/images/banner/banner6.png",
                 "mobile": "/images/banner/banner6.png"
             },
-            "title": "SROs",
+            "title": "SROs Smart Portable RO",
             "text": "Advanced. All-in-one. Smart. Perfect for all kinds of water",
             "button": {
                 "label": "Know More",
-                "link": "/products/smartRO"
+                "link": "/products/smart-ro"
             }
         },
         {
@@ -99,11 +123,11 @@
                 "desktop": "/images/banner/banner7.png",
                 "mobile": "/images/banner/banner7.png"
             },
-            "title": "SPARKLING WATER BOTTLE",
+            "title": "MYBOTTLE SPARKLING",
             "text": "Sparkling water is essentially regular water combined with carbon dioxide",
             "button": {
                 "label": "Know More",
-                "link": "/products/sparkling-water-bottle"
+                "link": "/products/mybottle-sparkling"
             }
         },
         {
@@ -111,11 +135,11 @@
                 "desktop": "/images/banner/banner8.png",
                 "mobile": "/images/banner/banner8.png"
             },
-            "title": "STILL WATER BOTTLE",
+            "title": "MYBOTTLE STILL",
             "text": "Still water, simply is non-carbonated water",
             "button": {
                 "label": "Know More",
-                "link": "/products/still-water-bottle"
+                "link": "/products/mybottle-still"
             }
         }
     ]

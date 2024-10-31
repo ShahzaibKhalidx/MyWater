@@ -1,12 +1,12 @@
 ---
 #preview
-title: STANDALONE - MYSODA
+title: STAND ALONE MYSODA
 image: /images/products/8.png
 product_img: /images/products/MS3.png
 price: Rs. 80,000
 price_mrc: Rs. 10,000
-category: Offices
-category_slug: office
+category: Restaurants
+category_slug: restaurants
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES, OFFICES, AND RESTAURANTS.
 none: "none"
 promo_title: "Free Service"
@@ -17,7 +17,7 @@ three_year: "Not Available"
 five_year: "Not Available"
 noyear: "none"
 buy_link: "https://wa.me/+92111192837"
-order: 5
+order: 7
 
 
 # Additional details
