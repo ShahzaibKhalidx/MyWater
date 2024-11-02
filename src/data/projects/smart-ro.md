@@ -5,8 +5,8 @@ image: /images/products/10.png
 product_img: /images/products/10.png
 # price: Rs. 65,000
 # price_mrc: Rs. 7,000
-category: Restuarants
-category_slug: RO Plants
+category: Smart-Portable-RO-Plant
+category_slug: sro
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR ALL KINDS OF WATER
 none: "none"
 promo_title: "Free Service"

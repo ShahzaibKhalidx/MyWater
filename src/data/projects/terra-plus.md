@@ -5,7 +5,7 @@ image: /images/products/4.png
 product_img: /images/products/MS3.png
 price: Rs. 65,000
 price_mrc: Rs. 7,000
-category: Large Corporates
+category: Large-Corporates
 category_slug: corporate
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
 none: "none"

@@ -5,8 +5,8 @@ image: /images/products/2.png
 product_img: /images/products/neo1.png
 price: Rs. 45,000
 price_mrc: Rs. 4,500
-category: SME's Offices
-category_slug: office
+category: Home
+category_slug: home
 type: COMPACT | VERSATILE | SMART | PERFECT FOR KITCHENS
 promo_title: "Two Months Free Service"
 promo_desc: "OTC: 45,000 | MRC: Rs. 4,500"

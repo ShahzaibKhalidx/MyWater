@@ -5,7 +5,7 @@ image: /images/products/13.png
 product_img: /images/products/solace2.png
 price: Rs. 100,000
 price_mrc: Rs. 25,000
-category: Large Corporates
+category: Large-Corporates
 category_slug: corporate
 type: UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES
 none: "none"
@@ -23,24 +23,12 @@ order: 5
 # Additional details
 tagline: "UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES"
 review_stars: 4.5
-short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
-short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description: "**Sensor Enabled Model**"
+short_description2: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
+short_description3: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
 
 
 #full details
-details:
-    items:
-        - label: "Client:"
-          value: John Smith
-
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: bslthemes.com
 
 details_icon:
     items:
@@ -62,25 +50,6 @@ details_icon:
         - label: "UV Disinfection"
           icon: /images/services/allicons-25.png
 
-gallery: 
-    items:
-        - image: /images/project-2-2-1200x982.jpg
-          alt: "image"
-
-        - image: /images/project-2-1200x988.jpg
-          alt: "image"
-
-        - image: /images/project-4.jpg
-          alt: "image"
-        
-        - image: /images/project-3-1200x750.jpg
-          alt: "image"
-
-        - image: /images/project-1-1080x800.jpg
-          alt: "image"
-        
-        - image: /images/project-8-1080x800.jpg
-          alt: "image"
 
 additional:
     heading: Project Result
@@ -109,6 +78,7 @@ slides:
 
 
 ###### Product Specifications
+- **STORAGE CAPACITY**: 20L.
 - **PURIFICATION CAPACITY**: Upto 150L per day.
 - **TANK CAPACITY**: 8L Cold, 12L Storage.
 - **POWER CONSUMPTION**: 220 Watt.

@@ -5,7 +5,7 @@ image: /images/products/14.png
 product_img: /images/products/solace2.png
 price: Rs. 125,000
 price_mrc: Rs. 30,000
-category: Large Corporates
+category: Large-Corporates
 category_slug: corporate
 type: UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES
 none: "none"
@@ -23,8 +23,9 @@ order: 6
 # Additional details
 tagline: "UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES"
 review_stars: 4.5
-short_description: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
-short_description2: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
+short_description: "**Sensor Enabled Model**"
+short_description2: "1.Monthly Service Fee Includes All Types Of General Servicing And Parts Replacement."
+short_description3: "2.Filter Replacements Are Done On A Periodic Cycle Of 90 Days or 3000 Liters Which Ever Comes First."
 
 
 #full details
@@ -108,6 +109,7 @@ slides:
 ---
 
 ###### Product Specifications
+- **STORAGE CAPACITY**: 35L.
 - **PURIFICATION CAPACITY**: Upto 150L per day.
 - **TANK CAPACITY**: 8L Cold, 12L Storage.
 - **POWER CONSUMPTION**: 220 Watt.

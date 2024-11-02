@@ -3,8 +3,8 @@
 title: LIMITED EDITION SERIES
 image: /images/products/5.png
 product_img: /images/products/limited.
-category: Limited Edition
-category_slug: limited
+category: Home
+category_slug: home
 price: Rs. 60,000
 price_mrc: Rs. 5,500
 type: ADVANCED | ALL-IN-ONE | SMART | PERFECT FOR HOMES AND SMALL OFFICES

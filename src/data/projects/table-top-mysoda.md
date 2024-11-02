@@ -96,9 +96,6 @@ slides:
   - image:
       desktop: "/images/products/slider/tabletop.png"
       mobile: "/images/products/slider/tabletop.png"
-  - image:
-      desktop: "/images/products/slider/tabletop2.png"
-      mobile: "/images/products/slider/tabletop2.png"
 ---
 
 

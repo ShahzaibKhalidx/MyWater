@@ -5,7 +5,7 @@ image: /images/products/11.png
 product_img: /images/products/slider/still-bottle.png
 price: Rs. 65,000
 price_mrc: Rs. 7,000
-category: Glass Bottles
+category: Glass-Bottles
 category_slug: bottles
 type: INNOVATIVE | INTUITIVE | EXPANSIVE | PERFECT FOR OFFICES AND WORK SPACES
 none: "none"

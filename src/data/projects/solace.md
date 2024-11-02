@@ -5,7 +5,7 @@ image: /images/products/1.png
 product_img: /images/products/solace2.png
 price: Rs. 50,000
 price_mrc: Rs. 20,000
-category: Large Corporates
+category: Large-Corporates
 category_slug: corporate
 type: UNIVERSAL | VERSATILE | SMART | PERFECT FOR CORPORATES AND INSTITUTES
 none: "none"
