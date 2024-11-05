@@ -94,9 +94,9 @@ slides:
 
 
 ###### 750 ML
-- **BOTTLE PRICE**: PKR 400.
+- **BOTTLE PRICE**: PKR 700.
 - **REFILL PRICE**: PKR 70.
 
 ###### 500 ML
-- **BOTTLE PRICE**: PKR 350.
+- **BOTTLE PRICE**: PKR 500.
 - **REFILL PRICE**: PKR 54.

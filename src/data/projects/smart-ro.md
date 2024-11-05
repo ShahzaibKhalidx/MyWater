@@ -93,9 +93,6 @@ slides:
   - image:
       desktop: "/images/products/slider/sro.png"
       mobile: "/images/products/slider/sro.png"
-  - image:
-      desktop: "/images/products/slider/sro2.png"
-      mobile: "/images/products/slider/sro2.png"
 ---
 
 
